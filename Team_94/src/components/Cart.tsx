@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Database } from '../lib/database.types';
 import { X } from 'lucide-react';
 

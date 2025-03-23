@@ -32,12 +32,12 @@ export const useUserStore = create<UserState>((set) => ({
   isAuthenticated: false,
   user: null,
   setUser: (user) => set({ user, isAuthenticated: !!user }),
-  login: async (email, password) => {
-    // Dummy login for now
+  login: async (email) => {
+    // For testing, set a dummy user
     set({
       isAuthenticated: true,
       user: {
-        id: '123',
+        id: 'test-user-id',
         email
       }
     });

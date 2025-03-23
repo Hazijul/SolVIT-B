@@ -1,7 +1,9 @@
 import { supabase } from './supabase';
-import type { Database } from './database.types';
 
-type Tables = Database['public']['Tables'];
+interface QueueCount {
+  slot_time: string;
+  count: number;
+}
 
 export async function getShops() {
   const { data, error } = await supabase
@@ -50,11 +52,12 @@ export async function createOrder(
 
   if (orderError) throw orderError;
 
+  // Insert order items
   const orderItems = items.map(item => ({
     order_id: order.id,
     item_id: item.itemId,
     quantity: item.quantity,
-    unit_price: 0 // You'll need to get this from the items table
+    unit_price: 0 // This should come from the items array
   }));
 
   const { error: itemsError } = await supabase
@@ -71,29 +74,35 @@ export async function createQueueToken(
   orderId: string,
   slotTime: Date
 ) {
-  const expiresAt = new Date(slotTime.getTime() + 15 * 60000); // 15 minutes after slot time
+  // Get next token number for today
+  const { data: nextToken } = await supabase
+    .rpc('get_next_token_number', {
+      p_date: slotTime.toISOString().split('T')[0]
+    });
 
-  const { data, error } = await supabase
+  const { data: token, error } = await supabase
     .from('queue_tokens')
     .insert({
       user_id: userId,
+      token_number: nextToken || 1,
       slot_time: slotTime.toISOString(),
-      expires_at: expiresAt.toISOString()
+      status: 'pending',
+      expires_at: new Date(slotTime.getTime() + 15 * 60000).toISOString()
     })
     .select()
     .single();
 
   if (error) throw error;
 
-  // Update the order with the queue token
+  // Update order with token
   const { error: updateError } = await supabase
     .from('orders')
-    .update({ queue_token_id: data.id })
+    .update({ queue_token_id: token.id })
     .eq('id', orderId);
 
   if (updateError) throw updateError;
 
-  return data;
+  return token;
 }
 
 export async function getAvailableSlots(date: Date) {
@@ -105,11 +114,10 @@ export async function getAvailableSlots(date: Date) {
 
   const { data: existingSlots, error } = await supabase
     .from('queue_tokens')
-    .select('slot_time, count(*)')
+    .select('slot_time, count', { count: 'exact' })
     .gte('slot_time', startTime.toISOString())
     .lte('slot_time', endTime.toISOString())
-    .neq('status', 'cancelled')
-    .group_by('slot_time');
+    .neq('status', 'cancelled');
 
   if (error) throw error;
 
@@ -119,8 +127,8 @@ export async function getAvailableSlots(date: Date) {
   const maxSlotsPerTime = 5; // maximum number of concurrent slots
 
   for (let time = startTime; time <= endTime; time.setMinutes(time.getMinutes() + slotDuration)) {
-    const existingCount = existingSlots.find(
-      slot => new Date(slot.slot_time).getTime() === time.getTime()
+    const existingCount = (existingSlots as QueueCount[]).find(
+      (slot: QueueCount) => new Date(slot.slot_time).getTime() === time.getTime()
     )?.count ?? 0;
 
     slots.push({

@@ -13,7 +13,13 @@ interface ItemCardProps {
 export function ItemCard({ item, onAddToCart }: ItemCardProps) {
   const [showModal, setShowModal] = React.useState(false);
 
-  const imageUrl = `https://source.unsplash.com/400x300/?${encodeURIComponent(item.name)}`;
+  const imageUrl = item.image_url;
+  
+  const handleAddToCart = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent modal from opening when clicking add to cart
+    onAddToCart(item);
+    setShowModal(false);
+  };
 
   return (
     <>
@@ -22,7 +28,7 @@ export function ItemCard({ item, onAddToCart }: ItemCardProps) {
         onClick={() => setShowModal(true)}
       >
         <img
-          src={imageUrl}
+          src={imageUrl || undefined}
           alt={item.name}
           className="w-full h-48 object-cover"
         />
@@ -42,10 +48,10 @@ export function ItemCard({ item, onAddToCart }: ItemCardProps) {
 
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg p-6 max-w-md w-full">
+          <div className="bg-white rounded-lg p-6 max-w-md w-full" onClick={e => e.stopPropagation()}>
             <h2 className="text-2xl font-bold mb-4">{item.name}</h2>
             <img
-              src={imageUrl}
+              src={imageUrl || undefined}
               alt={item.name}
               className="w-full h-48 object-cover rounded-lg mb-4"
             />
@@ -66,10 +72,7 @@ export function ItemCard({ item, onAddToCart }: ItemCardProps) {
               </button>
               <button
                 className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 disabled:opacity-50"
-                onClick={() => {
-                  onAddToCart(item);
-                  setShowModal(false);
-                }}
+                onClick={handleAddToCart}
                 disabled={item.stock === 0}
               >
                 Add to Cart

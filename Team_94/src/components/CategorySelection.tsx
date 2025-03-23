@@ -1,6 +1,6 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ShoppingBag, Guitar as Hospital, Building2, Bus } from 'lucide-react';
+import { ShoppingBag, Guitar as Hospital, Building2, Bus, X } from 'lucide-react';
+import React from 'react';
 
 const categories = [
   {
@@ -35,6 +35,15 @@ const categories = [
 
 export function CategorySelection() {
   const navigate = useNavigate();
+  const [showPopup, setShowPopup] = React.useState(false);
+
+  const handleCategoryClick = (categoryId: string) => {
+    if (categoryId === 'retail') {
+      navigate(`/${categoryId}`);
+    } else {
+      setShowPopup(true);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -55,7 +64,7 @@ export function CategorySelection() {
               <div
                 key={category.id}
                 className="relative group bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-transform hover:scale-105"
-                onClick={() => navigate(`/${category.id}`)}
+                onClick={() => handleCategoryClick(category.id)}
               >
                 <div className="h-48 flex items-center justify-center">
                   <div className={`p-4 rounded-full ${category.color} bg-opacity-10`}>
@@ -71,6 +80,32 @@ export function CategorySelection() {
           })}
         </div>
       </div>
+
+      {/* Add popup dialog */}
+      {showPopup && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-6 max-w-sm w-full mx-4">
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-lg font-semibold">Coming Soon</h3>
+              <button
+                onClick={() => setShowPopup(false)}
+                className="text-gray-400 hover:text-gray-500"
+              >
+                <X className="h-6 w-6" />
+              </button>
+            </div>
+            <p className="text-gray-600">
+              This feature is currently under development, or the API is presently offline. The Retail model will be applied to all remaining public services. Please check back later!
+            </p>
+            <button
+              className="mt-4 w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700"
+              onClick={() => setShowPopup(false)}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

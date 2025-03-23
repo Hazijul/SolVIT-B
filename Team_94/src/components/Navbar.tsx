@@ -4,12 +4,18 @@ import { ShoppingCart, Search, ChevronDown } from 'lucide-react';
 const categories = ['Food', 'Toiletries', 'Household Items'];
 
 interface NavbarProps {
-  onCategorySelect: (category: string | null) => void;
-  onSearchChange: (query: string) => void;
   onCartClick: () => void;
+  cartItemCount: number;
+  onCategorySelect: (category: string | null) => void;
+  onSearchChange?: (search: string) => void;
 }
 
-export function Navbar({ onCategorySelect, onSearchChange, onCartClick }: NavbarProps) {
+export function Navbar({ 
+  onCartClick, 
+  cartItemCount,
+  onCategorySelect,
+  onSearchChange = () => {} 
+}: NavbarProps) {
   const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
 
   return (
@@ -39,6 +45,15 @@ export function Navbar({ onCategorySelect, onSearchChange, onCartClick }: Navbar
                   {isDropdownOpen && (
                     <div className="absolute z-10 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
                       <div className="py-1" role="menu">
+                        <button
+                          className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                          onClick={() => {
+                            onCategorySelect(null);
+                            setIsDropdownOpen(false);
+                          }}
+                        >
+                          All Items
+                        </button>
                         {categories.map((category) => (
                           <button
                             key={category}
@@ -77,6 +92,7 @@ export function Navbar({ onCategorySelect, onSearchChange, onCartClick }: Navbar
               onClick={onCartClick}
             >
               <ShoppingCart className="h-6 w-6" />
+              <span className="ml-2">{cartItemCount}</span>
             </button>
           </div>
         </div>
