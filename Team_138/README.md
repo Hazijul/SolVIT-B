@@ -27,6 +27,17 @@ A modern web application for monitoring and improving eco-friendly driving habit
 - **Name**: Shivam Singh
 - **Registration**: 24BCE11052
 
+## Team Members  
+
+| Member No. | Name                 | Registration No.  |
+|------------|----------------------|-------------------|
+| 1          | Shriyash Sahu         | 24BET10001        |
+| 2          | Ritik Agarwal         | 24BCE11502        |
+| 3          | Md Hassan Mujtaba     | 24MIP10015        |
+| 4          | Anshika Shukla        | 23BEY10056        |
+| 5          | Tanya Bharti          | 23BCE11555        |
+
+
 </td>
 </tr>
 </table>
