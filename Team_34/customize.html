@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Your Order - QRuisine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            opacity: 0;
+            animation: fadeIn 0.5s ease-in forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .customize-header {
+            text-align: center;
+            padding: 40px 0;
+            background: #1a1a1a;
+            color: white;
+            margin-bottom: 30px;
+            transform: translateY(-100%);
+            animation: slideDown 0.5s ease-out forwards;
+        }
+
+        @keyframes slideDown {
+            to { transform: translateY(0); }
+        }
+
+        .customize-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            opacity: 0;
+            animation: fadeIn 0.5s ease-in forwards 0.3s;
+        }
+
+        .dish-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .dish-image:hover {
+            transform: scale(1.02);
+        }
+
+        .customize-options {
+            padding: 20px;
+        }
+
+        .ingredient-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .ingredient-item {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            transform: translateX(-20px);
+            opacity: 0;
+            animation: slideIn 0.5s ease forwards;
+        }
+
+        @keyframes slideIn {
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .ingredient-item:hover {
+            background: #f0f0f0;
+            transform: translateX(5px);
+        }
+
+        .ingredient-checkbox {
+            width: 20px;
+            height: 20px;
+            margin-right: 15px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .ingredient-checkbox:checked + span {
+            color: #2e7d32;
+            font-weight: bold;
+        }
+
+        .allergy-section {
+            margin-top: 30px;
+            padding: 20px;
+            background: #fff3e0;
+            border-radius: 8px;
+            border-left: 4px solid #ff9800;
+            transition: all 0.3s ease;
+        }
+
+        .allergy-section:hover {
+            box-shadow: 0 4px 12px rgba(255, 152, 0, 0.2);
+        }
+
+        .allergy-list {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        .allergy-item {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+            animation: fadeIn 0.5s ease forwards;
+        }
+
+        .allergy-icon {
+            color: #ff9800;
+            margin-right: 10px;
+        }
+
+        .custom-allergy-input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 15px;
+            border: 2px solid #ff9800;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .custom-allergy-input:focus {
+            outline: none;
+            border-color: #f57c00;
+            box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.2);
+        }
+
+        .price-section {
+            margin-top: 30px;
+            padding: 20px;
+            background: #e8f5e9;
+            border-radius: 8px;
+            text-align: right;
+            transition: all 0.3s ease;
+        }
+
+        .price-section:hover {
+            box-shadow: 0 4px 12px rgba(46, 125, 50, 0.2);
+        }
+
+        .total-price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2e7d32;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .btn:hover::after {
+            width: 300px;
+            height: 300px;
+        }
+
+        .btn-primary {
+            background: #FFD700;
+            color: black;
+        }
+
+        .btn-secondary {
+            background: #333;
+            color: white;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 768px) {
+            .customize-content {
+                grid-template-columns: 1fr;
+            }
+
+            .dish-image {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="customize-header">
+        <h1>Customize Your Order</h1>
+        <p>Make it exactly how you like it!</p>
+    </div>
+
+    <div class="container">
+        <div class="customize-content">
+            <div class="image-section">
+                <img id="dish-image" class="dish-image" src="" alt="Selected Dish">
+            </div>
+            
+            <div class="customize-options">
+                <h2 id="dish-name">Loading...</h2>
+                <p>Select or deselect ingredients as per your preference</p>
+                
+                <ul class="ingredient-list" id="ingredient-list">
+                    <!-- Ingredients will be populated by JavaScript -->
+                </ul>
+
+                <div class="allergy-section">
+                    <h3><i class="fas fa-exclamation-triangle allergy-icon"></i> Allergy Information</h3>
+                    <ul class="allergy-list" id="allergy-list">
+                        <!-- Allergies will be populated by JavaScript -->
+                    </ul>
+                    <textarea 
+                        class="custom-allergy-input" 
+                        placeholder="Please mention any additional allergies or dietary restrictions here..."
+                        rows="3"
+                        id="allergy-notes"
+                    ></textarea>
+                </div>
+
+                <div class="price-section">
+                    <p>Base Price: <span id="base-price">₹0</span></p>
+                    <p class="total-price">Total: <span id="total-price">₹0</span></p>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn btn-primary" onclick="addToCart()">Add to Cart</button>
+                    <button class="btn btn-secondary" onclick="goBack()">Go Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Menu items data
+        const menuItems = {
+            'burger': {
+                name: 'Gourmet Burger',
+                image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80',
+                basePrice: 299,
+                ingredients: [
+                    { name: 'Angus Beef Patty', price: 100, allergies: ['beef'] },
+                    { name: 'Brioche Bun', price: 40, allergies: ['gluten'] },
+                    { name: 'Aged Cheddar', price: 50, allergies: ['dairy'] },
+                    { name: 'Caramelized Onions', price: 30 },
+                    { name: 'Fresh Lettuce', price: 20 },
+                    { name: 'Tomato', price: 20 },
+                    { name: 'Special Sauce', price: 30, allergies: ['eggs', 'mustard'] }
+                ]
+            },
+            'coffee': {
+                name: 'Artisan Coffee',
+                image: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80',
+                basePrice: 149,
+                ingredients: [
+                    { name: 'Premium Arabica Beans', price: 50 },
+                    { name: 'Milk', price: 30, allergies: ['dairy'] },
+                    { name: 'Sugar', price: 10 },
+                    { name: 'Whipped Cream', price: 40, allergies: ['dairy'] }
+                ]
+            },
+            'hot-chocolate': {
+                name: 'Luxury Hot Chocolate',
+                image: 'https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80',
+                basePrice: 199,
+                ingredients: [
+                    { name: 'Belgian Dark Chocolate', price: 80, allergies: ['dairy'] },
+                    { name: 'Fresh Cream', price: 40, allergies: ['dairy'] },
+                    { name: 'Marshmallows', price: 30, allergies: ['gelatin'] },
+                    { name: 'Whipped Cream', price: 40, allergies: ['dairy'] }
+                ]
+            },
+            'sandwich': {
+                name: 'Artisanal Sandwich',
+                image: 'https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80',
+                basePrice: 249,
+                ingredients: [
+                    { name: 'Sourdough Bread', price: 50, allergies: ['gluten'] },
+                    { name: 'Premium Cold Cuts', price: 80, allergies: ['pork'] },
+                    { name: 'Aged Cheese', price: 60, allergies: ['dairy'] },
+                    { name: 'Fresh Vegetables', price: 40 },
+                    { name: 'House Special Sauce', price: 30, allergies: ['eggs', 'mustard'] }
+                ]
+            }
+        };
+
+        // Get the item ID from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const itemId = urlParams.get('item');
+        const selectedItem = menuItems[itemId];
+
+        // Initialize the page
+        function initializePage() {
+            if (!selectedItem) {
+                alert('Item not found!');
+                goBack();
+                return;
+            }
+
+            // Set item details
+            document.getElementById('dish-name').textContent = selectedItem.name;
+            document.getElementById('dish-image').src = selectedItem.image;
+            document.getElementById('base-price').textContent = `₹${selectedItem.basePrice}`;
+            document.getElementById('total-price').textContent = `₹${calculateTotal()}`;
+
+            // Populate ingredients with animation delay
+            const ingredientList = document.getElementById('ingredient-list');
+            selectedItem.ingredients.forEach((ingredient, index) => {
+                const li = document.createElement('li');
+                li.className = 'ingredient-item';
+                li.style.animationDelay = `${index * 0.1}s`;
+                li.innerHTML = `
+                    <input type="checkbox" class="ingredient-checkbox" checked 
+                           onchange="updatePrice(this, ${ingredient.price})">
+                    <span>${ingredient.name} (+₹${ingredient.price})</span>
+                `;
+                ingredientList.appendChild(li);
+            });
+
+            // Populate allergies
+            const allergyList = document.getElementById('allergy-list');
+            const allergies = new Set();
+            selectedItem.ingredients.forEach(ingredient => {
+                if (ingredient.allergies) {
+                    ingredient.allergies.forEach(allergy => allergies.add(allergy));
+                }
+            });
+            
+            Array.from(allergies).forEach((allergy, index) => {
+                const li = document.createElement('li');
+                li.className = 'allergy-item';
+                li.style.animationDelay = `${index * 0.1}s`;
+                li.innerHTML = `
+                    <i class="fas fa-allergies allergy-icon"></i>
+                    Contains ${allergy}
+                `;
+                allergyList.appendChild(li);
+            });
+        }
+
+        // Calculate total price based on selected ingredients
+        function calculateTotal() {
+            const checkboxes = document.querySelectorAll('.ingredient-checkbox');
+            let total = selectedItem.basePrice;
+            checkboxes.forEach((checkbox, index) => {
+                if (checkbox.checked) {
+                    total += selectedItem.ingredients[index].price;
+                }
+            });
+            return total;
+        }
+
+        // Update price when ingredients are toggled
+        function updatePrice(checkbox, price) {
+            const totalPriceElement = document.getElementById('total-price');
+            totalPriceElement.style.transform = 'scale(1.1)';
+            setTimeout(() => {
+                totalPriceElement.style.transform = 'scale(1)';
+            }, 200);
+            totalPriceElement.textContent = `₹${calculateTotal()}`;
+        }
+
+        // Add to cart function
+        function addToCart() {
+            const allergyNotes = document.getElementById('allergy-notes').value;
+            const selectedIngredients = Array.from(document.querySelectorAll('.ingredient-checkbox'))
+                .map((checkbox, index) => ({
+                    name: selectedItem.ingredients[index].name,
+                    included: checkbox.checked
+                }));
+            
+            const orderDetails = {
+                item: selectedItem.name,
+                image: selectedItem.image,
+                ingredients: selectedIngredients,
+                allergyNotes: allergyNotes,
+                basePrice: selectedItem.basePrice,
+                totalPrice: calculateTotal()
+            };
+            
+            // Redirect to summary page with order details
+            const orderDataParam = encodeURIComponent(JSON.stringify(orderDetails));
+            window.location.href = `summary.html?orderData=${orderDataParam}`;
+        }
+
+        // Go back function
+        function goBack() {
+            window.history.back();
+        }
+
+        // Initialize the page when loaded
+        window.onload = initializePage;
+    </script>
+</body>
+</html> 

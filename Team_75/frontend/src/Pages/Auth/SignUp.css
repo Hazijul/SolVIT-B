@@ -1,0 +1,225 @@
+/* ========================
+   Ultra-Modern Signup Styles
+   ======================== */
+
+   :root {
+    --trust-blue: #2563eb;
+    --action-orange: #f97316;
+    --calm-gray: #f8fafc;
+    --deep-space: #1e293b;
+    --pure-white: #ffffff;
+    --success-green: #22c55e;
+    --error-red: #ef4444;
+    --space-sm: 0.875rem;
+    --space-md: 1.25rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base Structure */
+#login {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--calm-gray);
+    padding: var(--space-xl);
+    position: relative;
+    overflow: hidden;
+}
+
+.login-container {
+    background: var(--pure-white);
+    padding: var(--space-xl);
+    border-radius: 1.5rem;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 480px;
+    position: relative;
+    z-index: 1;
+    transform: translateY(0);
+    transition: var(--transition);
+}
+
+.login-container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Logo & Header */
+.logo-heading {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+    position: relative;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    margin-bottom: var(--space-md);
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.05));
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.section-heading {
+    font-size: 2rem;
+    color: var(--deep-space);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    margin-bottom: var(--space-md);
+    position: relative;
+}
+
+/* Form Elements */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 0.875rem 1.25rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 0.75rem;
+    font-size: 0.95rem;
+    transition: var(--transition);
+    background: var(--pure-white);
+    box-sizing: border-box;
+}
+
+.signup-form input:focus {
+    outline: none;
+    border-color: var(--trust-blue);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.signup-form input::placeholder {
+    color: #94a3b8;
+    opacity: 1;
+}
+
+/* Submit Button */
+.signup-form button {
+    width: 100%;
+    padding: var(--space-sm);
+    background: var(--trust-blue);
+    color: var(--pure-white);
+    border: none;
+    border-radius: 0.75rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.signup-form button:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+/* Signup Link */
+.signup-text {
+    text-align: center;
+    margin-top: var(--space-lg);
+    color: var(--deep-space);
+    font-size: 0.9375rem;
+}
+
+.signup-text a {
+    color: var(--trust-blue);
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+}
+
+.signup-text a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: currentColor;
+    transition: width 0.3s ease;
+}
+
+.signup-text a:hover::after {
+    width: 100%;
+}
+
+/* Error/Success States */
+.signup-form input.error {
+    border-color: var(--error-red);
+    background: #fef2f2;
+}
+
+.signup-form input.success {
+    border-color: var(--success-green);
+    background: #f0fdf4;
+}
+
+/* Loading State for Button */
+.signup-form button.loading {
+    pointer-events: none;
+    opacity: 0.9;
+}
+
+.signup-form button.loading::after {
+    content: "";
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        padding: var(--space-lg);
+        margin: var(--space-md);
+    }
+    
+    .section-heading {
+        font-size: 1.75rem;
+    }
+    
+    .signup-form input {
+        padding: 0.75rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #login {
+        padding: var(--space-md);
+    }
+    
+    .login-container {
+        padding: var(--space-md);
+        border-radius: 1rem;
+    }
+    
+    .logo {
+        height: 64px;
+    }
+    
+    .signup-form button {
+        font-size: 1rem;
+    }
+}

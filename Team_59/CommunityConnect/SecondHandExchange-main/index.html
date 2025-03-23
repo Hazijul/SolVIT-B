@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second-Hand Exchange</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="http://127.0.0.1:8000/"> 
+                
+                Community Connect 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="marketplace.html">Marketplace</a></li>
+                    <li class="nav-item"><a class="nav-link" href="add-listing.html">Add Listing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Second-Hand Exchange</h1>
+            <p class="lead">Discover, Buy, Sell, or Donate Pre-Owned Treasures</p>
+            <div class="search-bar mt-4">
+                <input type="text" class="form-control" placeholder="Search for items..." id="searchInput">
+                <button class="btn btn-teal" onclick="searchItems()"><i class="fas fa-search"></i> Search</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="categories-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Explore Categories</h2>
+            <div class="row">
+                <div class="col-md-4 col-lg-2 mb-4">
+                    <div class="category-card electronics">
+                        <i class="fas fa-mobile-alt category-icon"></i>
+                        <h5>Electronics</h5>
+                        <p>Find phones, laptops, and more.</p>
+                        <a href="marketplace.html?category=electronics" class="btn btn-outline-teal">Shop Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 mb-4">
+                    <div class="category-card clothing">
+                        <i class="fas fa-tshirt category-icon"></i>
+                        <h5>Clothing</h5>
+                        <p>Discover stylish pre-owned apparel.</p>
+                        <a href="marketplace.html?category=clothing" class="btn btn-outline-teal">Shop Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 mb-4">
+                    <div class="category-card furniture">
+                        <i class="fas fa-couch category-icon"></i>
+                        <h5>Furniture</h5>
+                        <p>Upgrade your space affordably.</p>
+                        <a href="marketplace.html?category=furniture" class="btn btn-outline-teal">Shop Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 mb-4">
+                    <div class="category-card books">
+                        <i class="fas fa-book category-icon"></i>
+                        <h5>Books</h5>
+                        <p>Dive into pre-loved stories.</p>
+                        <a href="marketplace.html?category=books" class="btn btn-outline-teal">Shop Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 mb-4">
+                    <div class="category-card food">
+                        <i class="fas fa-utensils category-icon"></i>
+                        <h5>Food</h5>
+                        <p>Share or find homemade goods.</p>
+                        <a href="marketplace.html?category=food" class="btn btn-outline-teal">Shop Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 mb-4">
+                    <div class="category-card other">
+                        <i class="fas fa-box-open category-icon"></i>
+                        <h5>Other</h5>
+                        <p>Explore unique finds.</p>
+                        <a href="marketplace.html?category=other" class="btn btn-outline-teal">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section text-center py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-3">Ready to Start?</h2>
+            <p class="lead mb-4">Join the community and start buying, selling, or donating today!</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="marketplace.html" class="btn btn-teal btn-lg">Start Buying</a>
+                <a href="add-listing.html" class="btn btn-teal btn-lg">Start Selling</a>
+                <a href="add-listing.html" class="btn btn-teal btn-lg">Start Donating</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section text-center py-4">
+        <div class="container">
+            <p>© 2025 Second-Hand Exchange. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="about.html">About</a> | 
+                <a href="contact.html">Contact</a> | 
+                <a href="marketplace.html">Marketplace</a> | 
+                <a href="dashboard.html">Dashboard</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

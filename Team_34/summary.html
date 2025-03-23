@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary - QRuisine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            opacity: 0;
+            animation: fadeIn 0.5s ease-in forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .summary-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            opacity: 0;
+            animation: slideUp 0.5s ease-out forwards 0.3s;
+        }
+
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .summary-header {
+            background: #1a1a1a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .summary-content {
+            padding: 30px;
+        }
+
+        .order-item {
+            display: flex;
+            align-items: start;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            animation: fadeIn 0.5s ease forwards;
+        }
+
+        .item-image {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .item-details {
+            flex: 1;
+        }
+
+        .item-name {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .ingredients-list {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        .ingredients-list li {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .ingredients-list li i {
+            margin-right: 10px;
+            color: #2e7d32;
+        }
+
+        .removed-ingredient {
+            text-decoration: line-through;
+            color: #999;
+        }
+
+        .allergy-notes {
+            margin: 20px 0;
+            padding: 15px;
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            border-radius: 4px;
+        }
+
+        .price-summary {
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            padding: 5px 0;
+        }
+
+        .total-row {
+            font-size: 1.2em;
+            font-weight: bold;
+            border-top: 2px solid #ddd;
+            padding-top: 15px;
+            margin-top: 15px;
+        }
+
+        .payment-button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-top: 30px;
+            background: #FFD700;
+            color: black;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .payment-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .payment-button::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+
+        .payment-button:hover::after {
+            width: 300px;
+            height: 300px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+            }
+
+            .order-item {
+                flex-direction: column;
+            }
+
+            .item-image {
+                width: 100%;
+                height: 200px;
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="summary-card">
+            <div class="summary-header">
+                <h1>Order Summary</h1>
+                <p>Review your order before payment</p>
+            </div>
+            <div class="summary-content">
+                <div id="orderDetails">
+                    <!-- Order details will be populated by JavaScript -->
+                </div>
+                <button class="payment-button" onclick="makePayment()">
+                    Proceed to Payment <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to get URL parameters
+        function getUrlParams() {
+            const params = new URLSearchParams(window.location.search);
+            return {
+                orderData: JSON.parse(decodeURIComponent(params.get('orderData')))
+            };
+        }
+
+        // Function to display order details
+        function displayOrderDetails() {
+            const { orderData } = getUrlParams();
+            const orderDetailsDiv = document.getElementById('orderDetails');
+
+            // Create order item section
+            const orderItem = document.createElement('div');
+            orderItem.className = 'order-item';
+            orderItem.innerHTML = `
+                <img src="${orderData.image}" alt="${orderData.item}" class="item-image">
+                <div class="item-details">
+                    <div class="item-name">${orderData.item}</div>
+                    <ul class="ingredients-list">
+                        ${orderData.ingredients.map(ing => `
+                            <li class="${ing.included ? '' : 'removed-ingredient'}">
+                                <i class="fas ${ing.included ? 'fa-check-circle' : 'fa-times-circle'}"></i>
+                                ${ing.name}
+                            </li>
+                        `).join('')}
+                    </ul>
+                    ${orderData.allergyNotes ? `
+                        <div class="allergy-notes">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <strong>Allergy Notes:</strong><br>
+                            ${orderData.allergyNotes}
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+
+            // Create price summary section
+            const priceSummary = document.createElement('div');
+            priceSummary.className = 'price-summary';
+            priceSummary.innerHTML = `
+                <div class="price-row">
+                    <span>Base Price:</span>
+                    <span>₹${orderData.basePrice}</span>
+                </div>
+                <div class="price-row">
+                    <span>Ingredients:</span>
+                    <span>₹${orderData.totalPrice - orderData.basePrice}</span>
+                </div>
+                <div class="price-row">
+                    <span>GST (5%):</span>
+                    <span>₹${Math.round(orderData.totalPrice * 0.05)}</span>
+                </div>
+                <div class="price-row total-row">
+                    <span>Total Amount:</span>
+                    <span>₹${Math.round(orderData.totalPrice * 1.05)}</span>
+                </div>
+            `;
+
+            orderDetailsDiv.appendChild(orderItem);
+            orderDetailsDiv.appendChild(priceSummary);
+        }
+
+        // Function to handle payment
+        function makePayment() {
+            const { orderData } = getUrlParams();
+            
+            // Show success message
+            const successOverlay = document.createElement('div');
+            successOverlay.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.9);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1000;
+            `;
+
+            const successContent = document.createElement('div');
+            successContent.style.cssText = `
+                background: white;
+                padding: 40px;
+                border-radius: 15px;
+                text-align: center;
+                animation: scaleIn 0.3s ease-out;
+            `;
+
+            successContent.innerHTML = `
+                <div style="width: 80px; height: 80px; background: #4CAF50; border-radius: 50%; margin: 0 auto 20px; display: flex; justify-content: center; align-items: center;">
+                    <i class="fas fa-check" style="color: white; font-size: 40px;"></i>
+                </div>
+                <h2 style="margin: 0 0 10px; color: #333;">Payment Successful!</h2>
+                <p style="margin: 0; color: #666;">Processing your order...</p>
+            `;
+
+            document.body.appendChild(successOverlay);
+            successOverlay.appendChild(successContent);
+
+            // Add animation keyframes
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes scaleIn {
+                    from { transform: scale(0.8); opacity: 0; }
+                    to { transform: scale(1); opacity: 1; }
+                }
+            `;
+            document.head.appendChild(style);
+
+            // Redirect after 2 seconds
+            setTimeout(() => {
+                const orderDataParam = encodeURIComponent(JSON.stringify(orderData));
+                window.location.href = `order-confirmation.html?orderData=${orderDataParam}`;
+            }, 2000);
+        }
+
+        // Initialize the page when loaded
+        window.onload = displayOrderDetails;
+    </script>
+</body>
+</html> 

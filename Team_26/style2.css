@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('img55.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b;
+    line-height: 1.6;
+}
+
+header {
+    background: rgba(30, 30, 30, 0.6); /* Dark grey background with transparency */
+    border: 2px solid rgba(0, 0, 0, 0);
+    backdrop-filter: blur(30px); /* Increased blur for a smoother effect */
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 30%); /* Darker shadow */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fffcfc;
+    border-radius: 8px;
+    text-align: center; /* Center-align content within .about */
+}
+
+.about h2,
+.about h3 {
+    color: #333;
+    margin: 10px 0; /* Optional: Adds margin for better spacing */
+}
+
+.about p, .about ol {
+    margin: 15px 0;
+    text-align: center; /* Center-align paragraphs and ordered list */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(30, 30, 30, 0.6); /* Dark grey background with transparency */
+    border: 2px solid rgba(0, 0, 0, 0);
+    backdrop-filter: blur(30px); /* Increased blur for a smoother effect */
+    box-shadow: 0px 1px 4px rgb(0 0 0 / 30%); /* Darker shadow */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+[submodule "Team_28/Callwise-Backend"]
+	path = Team_28/Callwise-Backend
+	url = https://github.com/Team-Trailblazers-SOLVIT/callwise-backend
+[submodule "Team_28/Callwise-Frontend"]
+	path = Team_28/Callwise-Frontend
+	url = https://github.com/Team-Trailblazers-SOLVIT/Callwise-frontend
+[submodule "Team_28/Echo-Callbot"]
+	path = Team_28/Echo-Callbot
+	url = https://github.com/Architgarg2003/Echo
+[submodule "Team_28/Aura-Bot"]
+	path = Team_28/Aura-Bot
+	url = https://github.com/Team-Trailblazers-SOLVIT/Aura-Bot
+[submodule "Team_28/Stockly-MarketMitra"]
+	path = Team_28/Stockly-MarketMitra
+	url = https://github.com/Harshit-Dhundale/Hackathon

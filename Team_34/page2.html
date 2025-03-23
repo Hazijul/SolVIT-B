@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRuisine</title>
+    <link rel="stylesheet" href="page2.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.80/build/spline-viewer.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <spline-viewer class="spline" url="https://prod.spline.design/K414nMTrjOrDCY2w/scene.splinecode"></spline-viewer>
+    <div class="background">
+        <div class="overlay"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="logo.jpg" alt="QRuisine Logo" class="nav-logo">
+            <h1 class="top">QRuisine</h1>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="translate-wrapper">
+            <select id="language-selector" onchange="changeLanguage(this.value)">
+                <option value="en">English</option>
+                <option value="hi">हिंदी</option>
+                <option value="mr">मराठी</option>
+                <option value="ta">தமிழ்</option>
+            </select>
+        </div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="google_translate_element" style="position: absolute; top: -1000px;"></div>
+
+    <div class="content">
+        <h1>Welcome to "Name"</h1>
+        <p>"Your Menu, Your Way!"</p>
+    </div>
+
+    <section class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-card">
+                <div class="menu-card-inner">
+                    <div class="menu-card-front">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80" alt="Gourmet Burger">
+                        <h3>Gourmet Burger</h3>
+                        <p class="price">₹299</p>
+                    </div>
+                    <div class="menu-card-back">
+                        <h3>Ingredients</h3>
+                        <ul>
+                            <li>Angus Beef Patty</li>
+                            <li>Brioche Bun</li>
+                            <li>Aged Cheddar</li>
+                            <li>Caramelized Onions</li>
+                            <li>Fresh Lettuce & Tomato</li>
+                        </ul>
+                        <button class="customize-btn" onclick="window.location.href='customize.html?item=burger'">Customize <i class="fas fa-sliders-h"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-card-inner">
+                    <div class="menu-card-front">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80" alt="Artisan Coffee">
+                        <h3>Artisan Coffee</h3>
+                        <p class="price">₹149</p>
+                    </div>
+                    <div class="menu-card-back">
+                        <h3>Options</h3>
+                        <ul>
+                            <li>Premium Arabica Beans</li>
+                            <li>Fresh Ground</li>
+                            <li>Multiple Roast Options</li>
+                            <li>Organic Milk Available</li>
+                        </ul>
+                        <button class="customize-btn" onclick="window.location.href='customize.html?item=coffee'">Customize <i class="fas fa-sliders-h"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-card-inner">
+                    <div class="menu-card-front">
+                        <img src="https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80" alt="Hot Chocolate">
+                        <h3>Luxury Hot Chocolate</h3>
+                        <p class="price">₹199</p>
+                    </div>
+                    <div class="menu-card-back">
+                        <h3>Ingredients</h3>
+                        <ul>
+                            <li>Belgian Dark Chocolate</li>
+                            <li>Fresh Cream</li>
+                            <li>Marshmallows</li>
+                            <li>Whipped Cream</li>
+                        </ul>
+                        <button class="customize-btn" onclick="window.location.href='customize.html?item=hot-chocolate'">Customize <i class="fas fa-sliders-h"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-card-inner">
+                    <div class="menu-card-front">
+                        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&h=600&q=80" alt="Sandwich">
+                        <h3>Artisanal Sandwich</h3>
+                        <p class="price">₹249</p>
+                    </div>
+                    <div class="menu-card-back">
+                        <h3>Ingredients</h3>
+                        <ul>
+                            <li>Sourdough Bread</li>
+                            <li>Premium Cold Cuts</li>
+                            <li>Aged Cheese</li>
+                            <li>Fresh Vegetables</li>
+                            <li>House Special Sauce</li>
+                        </ul>
+                        <button class="customize-btn" onclick="window.location.href='customize.html?item=sandwich'">Customize <i class="fas fa-sliders-h"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p> by, QRuisine</p>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,hi,mr,ta',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+
+        function changeLanguage(langCode) {
+            if (langCode === 'en') {
+                window.location.reload();
+                return;
+            }
+
+            // Try to find the Google Translate dropdown
+            var intervalID = setInterval(function() {
+                var select = document.querySelector('.goog-te-combo');
+                if (select) {
+                    // Clear the interval once we find the dropdown
+                    clearInterval(intervalID);
+                    
+                    // Change the language
+                    select.value = langCode;
+                    select.dispatchEvent(new Event('change'));
+                }
+            }, 100);
+
+            // Set a timeout to stop checking after 5 seconds
+            setTimeout(function() {
+                clearInterval(intervalID);
+            }, 5000);
+        }
+
+        // Load Google Translate script
+        function loadGoogleTranslate() {
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+            document.body.appendChild(script);
+        }
+
+        // Load Google Translate when the page is ready
+        window.addEventListener('load', loadGoogleTranslate);
+
+        // Hamburger menu functionality
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            this.classList.toggle('active');
+            document.querySelector('.navbar ul').classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.navbar')) {
+                document.querySelector('.hamburger').classList.remove('active');
+                document.querySelector('.navbar ul').classList.remove('active');
+            }
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.navbar a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.hamburger').classList.remove('active');
+                document.querySelector('.navbar ul').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>

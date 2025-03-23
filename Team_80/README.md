@@ -44,6 +44,10 @@ MongoDB: NoSQL database for storing data
 
 Mongoose: MongoDB object modelling tool for interacting with the database
 
+## API Documentation:
+
+![Mind Map](API.png)
+
 ## Setup Instructions:
 
 ```bash

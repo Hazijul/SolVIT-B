@@ -1,0 +1,129 @@
+.container {
+    min-height: 100vh;
+    background-color: #f1f5f9;
+    padding: 16px;
+  }
+  
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .back-link {
+    display: flex;
+    align-items: center;
+    color: #2563eb;
+    text-decoration: none;
+    margin-right: 16px;
+  }
+  
+  .back-link:hover {
+    color: #1e40af;
+  }
+  
+  .header-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .search-container {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto 24px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9ca3af;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px 12px 10px 40px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-info {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .card-image {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .owner-box,
+  .verification-box {
+    margin-top: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+  }
+  
+  .owner-box {
+    background-color: #d1fae5;
+  }
+  
+  .verification-box {
+    background-color: #bfdbfe;
+  }
+  
+  .verification-input {
+    width: calc(100% - 80px);
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    margin-right: 8px;
+  }
+  
+  .verify-btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .verify-btn:hover {
+    background-color: #1e40af;
+  }
+  

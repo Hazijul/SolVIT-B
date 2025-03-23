@@ -1,0 +1,329 @@
+/* Sign Up Page Styles */
+.sign-up-section {
+    padding: 6rem 2rem 4rem;
+    background: var(--light-background);
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.sign-up-content {
+    padding: 3rem;
+}
+
+.sign-up-content h1 {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    animation: slideInRight 0.6s ease-out;
+}
+
+.sign-up-content p {
+    color: var(--light-text);
+    margin-bottom: 2rem;
+    animation: slideInRight 0.6s ease-out 0.2s backwards;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+    animation: slideInRight 0.6s ease-out 0.4s backwards;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-group i {
+    position: absolute;
+    left: 1rem;
+    color: var(--light-text);
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 3rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.toggle-password {
+    position: absolute;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: var(--light-text);
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Checkbox Style */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-container input {
+    display: none;
+}
+
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--border-color);
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.checkbox-container input:checked + .checkmark {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.checkbox-container input:checked + .checkmark:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    color: white;
+    font-size: 0.8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Button Styles */
+.btn-block {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 2rem 0;
+    animation: slideInRight 0.6s ease-out 0.6s backwards;
+}
+
+.btn-block i {
+    transition: transform 0.3s ease;
+}
+
+.btn-block:hover i {
+    transform: translateX(5px);
+}
+
+/* Social Sign Up */
+.social-sign-up {
+    text-align: center;
+    margin-top: 2rem;
+    animation: slideInRight 0.6s ease-out 0.8s backwards;
+}
+
+.social-sign-up p {
+    color: var(--light-text);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.social-sign-up p::before,
+.social-sign-up p::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    height: 1px;
+    background: var(--border-color);
+}
+
+.social-sign-up p::before {
+    left: 0;
+}
+
+.social-sign-up p::after {
+    right: 0;
+}
+
+.social-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    background: white;
+    color: var(--text-color);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    background: var(--light-background);
+}
+
+.social-btn.google {
+    color: #ea4335;
+}
+
+.social-btn.facebook {
+    color: #1877f2;
+}
+
+.sign-in-link {
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--light-text);
+    animation: slideInRight 0.6s ease-out 1s backwards;
+}
+
+.sign-in-link a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sign-in-link a:hover {
+    text-decoration: underline;
+}
+
+/* Benefits Section */
+.sign-up-benefits {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up-benefits h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    animation: slideInLeft 0.6s ease-out;
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    animation: slideInLeft 0.6s ease-out 0.2s backwards;
+}
+
+.benefit-item i {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.benefit-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.benefit-item p {
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+
+/* Animations */
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .sign-up-wrapper {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .sign-up-benefits {
+        display: none;
+    }
+
+    .sign-up-content {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .sign-up-section {
+        padding: 4rem 1rem 2rem;
+    }
+
+    .sign-up-content {
+        padding: 1.5rem;
+    }
+
+    .sign-up-content h1 {
+        font-size: 2rem;
+    }
+
+    .social-buttons {
+        grid-template-columns: 1fr;
+    }
+} 

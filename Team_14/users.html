@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users - SocialAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="admin-dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .users-container {
+            padding: 2rem;
+        }
+
+        .users-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .search-box {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .search-box input {
+            border: none;
+            outline: none;
+            font-size: 0.875rem;
+            width: 200px;
+        }
+
+        .search-box i {
+            color: #64748b;
+        }
+
+        .users-table {
+            background: #ffffff;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+
+        .users-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .users-table th,
+        .users-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .users-table th {
+            background: #f8fafc;
+            font-weight: 600;
+            color: #1e293b;
+        }
+
+        .users-table td {
+            color: #64748b;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .user-name {
+            font-weight: 500;
+            color: #1e293b;
+        }
+
+        .user-email {
+            font-size: 0.875rem;
+            color: #64748b;
+        }
+
+        .user-role {
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .role-admin {
+            background: #e0f2fe;
+            color: #3b82f6;
+        }
+
+        .role-editor {
+            background: #f0fdf4;
+            color: #10b981;
+        }
+
+        .role-viewer {
+            background: #fef3c7;
+            color: #f59e0b;
+        }
+
+        .user-status {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+
+        .status-active {
+            background: #10b981;
+        }
+
+        .status-inactive {
+            background: #ef4444;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .action-btn {
+            padding: 0.5rem;
+            border: none;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .edit-btn {
+            background: #e0f2fe;
+            color: #3b82f6;
+        }
+
+        .delete-btn {
+            background: #fee2e2;
+            color: #ef4444;
+        }
+
+        .action-btn:hover {
+            opacity: 0.8;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        .page-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 0.375rem;
+            background: #ffffff;
+            color: #64748b;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .page-btn.active {
+            background: #3b82f6;
+            color: #ffffff;
+            border-color: #3b82f6;
+        }
+
+        .page-btn:hover:not(.active) {
+            background: #f8fafc;
+        }
+
+        @media (max-width: 768px) {
+            .users-header {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .search-box {
+                width: 100%;
+            }
+
+            .search-box input {
+                width: 100%;
+            }
+
+            .users-table {
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body class="admin-dashboard">
+    <!-- Sidebar -->
+    <aside class="admin-sidebar">
+        <div class="sidebar-header">
+            <a href="admin-dashboard.html" class="logo">SocialAI</a>
+            <span class="admin-label">Admin Panel</span>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="admin-dashboard.html"><i class="fas fa-chart-line"></i> Dashboard</a></li>
+            <li class="active"><a href="users.html"><i class="fas fa-users"></i> Users</a></li>
+            <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+            <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="admin-main">
+        <!-- Top Bar -->
+        <header class="admin-header">
+            <div class="header-left">
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h1>Users Management</h1>
+            </div>
+            <div class="header-right">
+                <div class="admin-profile">
+                    <img src="admin-avatar.jpg" alt="Admin">
+                    <span>Admin User</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Users Content -->
+        <div class="users-container">
+            <div class="users-header">
+                <h2>All Users</h2>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search users...">
+                </div>
+            </div>
+
+            <div class="users-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>User</th>
+                            <th>Role</th>
+                            <th>Status</th>
+                            <th>Last Active</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="user-info">
+                                    <img src="admin1.jpg" alt="User" class="user-avatar">
+                                    <div>
+                                        <div class="user-name">payal beura</div>
+                                        <div class="user-email">payalbeura@example.com</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="user-role role-admin">Admin</span></td>
+                            <td>
+                                <div class="user-status">
+                                    <span class="status-dot status-active"></span>
+                                    Active
+                                </div>
+                            </td>
+                            <td>2 minutes ago</td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="action-btn edit-btn"><i class="fas fa-edit"></i></button>
+                                    <button class="action-btn delete-btn"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="user-info">
+                                    <img src="admin1.jpg" alt="User" class="user-avatar">
+                                    <div>
+                                        <div class="user-name">samarth</div>
+                                        <div class="user-email">samarth@example.com</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="user-role role-editor">Editor</span></td>
+                            <td>
+                                <div class="user-status">
+                                    <span class="status-dot status-active"></span>
+                                    Active
+                                </div>
+                            </td>
+                            <td>15 minutes ago</td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="action-btn edit-btn"><i class="fas fa-edit"></i></button>
+                                    <button class="action-btn delete-btn"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="user-info">
+                                    <img src="admin1.jpg" alt="User" class="user-avatar">
+                                    <div>
+                                        <div class="user-name">athrav</div>
+                                        <div class="user-email">athrav@example.com</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><span class="user-role role-viewer">Viewer</span></td>
+                            <td>
+                                <div class="user-status">
+                                    <span class="status-dot status-inactive"></span>
+                                    Inactive
+                                </div>
+                            </td>
+                            <td>1 hour ago</td>
+                            <td>
+                                <div class="action-buttons">
+                                    <button class="action-btn edit-btn"><i class="fas fa-edit"></i></button>
+                                    <button class="action-btn delete-btn"><i class="fas fa-trash"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="pagination">
+                <button class="page-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="admin-dashboard.js"></script>
+</body>
+</html> 

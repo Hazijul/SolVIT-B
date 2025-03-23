@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmed - QRuisine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .success-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            animation: fadeOut 0.5s ease-out 2s forwards;
+        }
+
+        .success-checkmark {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #4CAF50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: scaleIn 0.5s ease-out;
+        }
+
+        .success-checkmark i {
+            color: white;
+            font-size: 40px;
+            animation: checkmark 0.3s ease-out 0.2s both;
+        }
+
+        @keyframes fadeOut {
+            to { opacity: 0; visibility: hidden; }
+        }
+
+        @keyframes scaleIn {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+
+        @keyframes checkmark {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            opacity: 0;
+            animation: fadeIn 0.5s ease-out 2.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        .confirmation-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        .confirmation-header {
+            background: #1a1a1a;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .confirmation-header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .confirmation-content {
+            padding: 30px;
+        }
+
+        .receipt {
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .receipt-header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px dashed #ddd;
+        }
+
+        .receipt-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            padding: 5px 0;
+        }
+
+        .receipt-total {
+            font-size: 1.2em;
+            font-weight: bold;
+            border-top: 2px solid #ddd;
+            padding-top: 15px;
+            margin-top: 15px;
+        }
+
+        .feedback-section {
+            margin-bottom: 30px;
+        }
+
+        .rating {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .star {
+            font-size: 30px;
+            color: #ddd;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .star:hover, .star.active {
+            color: #FFD700;
+        }
+
+        .feedback-input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            margin: 10px 0;
+            font-size: 14px;
+            resize: vertical;
+        }
+
+        .share-section {
+            text-align: center;
+            padding: 20px;
+            background: #f0f0f0;
+            border-radius: 10px;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .social-button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .social-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .twitter { background: #1DA1F2; }
+        .facebook { background: #4267B2; }
+        .instagram { background: #E1306C; }
+
+        .submit-feedback {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .submit-feedback:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+            }
+
+            .social-buttons {
+                flex-direction: column;
+            }
+
+            .social-button {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="success-animation">
+        <div class="success-checkmark">
+            <i class="fas fa-check"></i>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="confirmation-card">
+            <div class="confirmation-header">
+                <h1>Thank You for Your Order!</h1>
+                <p>Your order has been successfully placed</p>
+            </div>
+            <div class="confirmation-content">
+                <div class="receipt">
+                    <div class="receipt-header">
+                        <h2>Payment Receipt</h2>
+                        <p>Order ID: <span id="orderId"></span></p>
+                        <p>Date: <span id="orderDate"></span></p>
+                    </div>
+                    <div id="receiptDetails">
+                        <!-- Receipt details will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="feedback-section">
+                    <h2>How was your experience?</h2>
+                    <div class="rating">
+                        <i class="fas fa-star star" onclick="setRating(1)"></i>
+                        <i class="fas fa-star star" onclick="setRating(2)"></i>
+                        <i class="fas fa-star star" onclick="setRating(3)"></i>
+                        <i class="fas fa-star star" onclick="setRating(4)"></i>
+                        <i class="fas fa-star star" onclick="setRating(5)"></i>
+                    </div>
+                    <textarea 
+                        class="feedback-input" 
+                        placeholder="Tell us about your experience..."
+                        rows="4"
+                    ></textarea>
+                    <button class="submit-feedback" onclick="submitFeedback()">
+                        Submit Feedback
+                    </button>
+                </div>
+
+                <div class="share-section">
+                    <h2>Share Your Experience</h2>
+                    <p>Let your friends know about QRuisine!</p>
+                    <div class="social-buttons">
+                        <button class="social-button twitter" onclick="shareOnSocial('twitter')">
+                            <i class="fab fa-twitter"></i> Share on Twitter
+                        </button>
+                        <button class="social-button facebook" onclick="shareOnSocial('facebook')">
+                            <i class="fab fa-facebook-f"></i> Share on Facebook
+                        </button>
+                        <button class="social-button instagram" onclick="shareOnSocial('instagram')">
+                            <i class="fab fa-instagram"></i> Share on Instagram
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Generate random order ID
+        function generateOrderId() {
+            return 'ORD' + Math.random().toString(36).substr(2, 9).toUpperCase();
+        }
+
+        // Format date
+        function formatDate(date) {
+            return new Intl.DateTimeFormat('en-IN', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            }).format(date);
+        }
+
+        // Get order details from URL
+        function getOrderDetails() {
+            const params = new URLSearchParams(window.location.search);
+            return params.get('orderData') ? JSON.parse(decodeURIComponent(params.get('orderData'))) : null;
+        }
+
+        // Populate receipt details
+        function populateReceipt() {
+            const orderData = getOrderDetails();
+            if (!orderData) return;
+
+            document.getElementById('orderId').textContent = generateOrderId();
+            document.getElementById('orderDate').textContent = formatDate(new Date());
+
+            const receiptDetails = document.getElementById('receiptDetails');
+            receiptDetails.innerHTML = `
+                <div class="receipt-row">
+                    <span>Item:</span>
+                    <span>${orderData.item}</span>
+                </div>
+                <div class="receipt-row">
+                    <span>Base Price:</span>
+                    <span>₹${orderData.basePrice}</span>
+                </div>
+                <div class="receipt-row">
+                    <span>Ingredients:</span>
+                    <span>₹${orderData.totalPrice - orderData.basePrice}</span>
+                </div>
+                <div class="receipt-row">
+                    <span>GST (5%):</span>
+                    <span>₹${Math.round(orderData.totalPrice * 0.05)}</span>
+                </div>
+                <div class="receipt-row receipt-total">
+                    <span>Total Amount Paid:</span>
+                    <span>₹${Math.round(orderData.totalPrice * 1.05)}</span>
+                </div>
+            `;
+        }
+
+        // Handle star rating
+        function setRating(rating) {
+            const stars = document.querySelectorAll('.star');
+            stars.forEach((star, index) => {
+                star.classList.toggle('active', index < rating);
+            });
+        }
+
+        // Handle feedback submission
+        function submitFeedback() {
+            const rating = document.querySelectorAll('.star.active').length;
+            const feedback = document.querySelector('.feedback-input').value;
+            
+            // Here you would typically send this to your server
+            console.log('Feedback submitted:', { rating, feedback });
+            
+            alert('Thank you for your feedback!');
+            document.querySelector('.feedback-input').value = '';
+            setRating(0);
+        }
+
+        // Handle social sharing
+        function shareOnSocial(platform) {
+            const text = encodeURIComponent('Just had an amazing experience at QRuisine! 🍔✨ #QRuisine #FoodLover');
+            const url = encodeURIComponent(window.location.origin);
+            
+            let shareUrl;
+            switch(platform) {
+                case 'twitter':
+                    shareUrl = `https://twitter.com/intent/tweet?text=${text}&url=${url}`;
+                    break;
+                case 'facebook':
+                    shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+                    break;
+                case 'instagram':
+                    // Instagram doesn't have a direct sharing URL, so we'll show a message
+                    alert('Open Instagram app and share your experience with #QRuisine');
+                    return;
+            }
+            
+            window.open(shareUrl, '_blank', 'width=600,height=400');
+        }
+
+        // Initialize the page
+        window.onload = populateReceipt;
+    </script>
+</body>
+</html> 

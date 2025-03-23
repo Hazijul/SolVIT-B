@@ -1,0 +1,153 @@
+/* Sell Page Container */
+.sell-container {
+    min-height: 100vh;
+    background: #f1f5f9;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+.sell-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    color: #6b46c1;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.back-button:hover {
+    color: #553c9a;
+}
+
+h1 {
+    flex: 1;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Search Bar */
+.search-bar {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto 20px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* No items message */
+.no-items {
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Item Grid */
+.sell-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Item Card */
+.sell-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s;
+}
+
+.sell-card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Updated Image Styles */
+.sell-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1; /* Keeps images square */
+    object-fit: cover; /* Ensures uniform size */
+    max-height: 250px; /* Prevents overly large images */
+    border-radius: 8px;
+    display: block;
+    background-color: #f8f8f8;
+}
+
+.sell-info {
+    padding: 15px;
+}
+
+.sell-price {
+    background: #e9d5ff;
+    color: #6b46c1;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.sell-seller {
+    background: #f1f5f9;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+/* Contact Section */
+.contact-button, .hide-contact {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.contact-button {
+    background: #6b46c1;
+    color: white;
+}
+
+.contact-button:hover {
+    background: #553c9a;
+}
+
+.hide-contact {
+    background: #ddd;
+}
+
+.contact-info {
+    background: #ecfdf5;
+    padding: 10px;
+    border: 1px solid #a7f3d0;
+    border-radius: 4px;
+}

@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Lost Item</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><a href="/">Lost & Found</a></div>
+        <ul class="nav-links">
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'upload' %}">Upload Item</a></li>
+            <li><a href="{% url 'found' %}">Found Items</a></li>
+            <!-- <li><a href="#">Sign In</a></li> -->
+        </ul>
+    </nav>
+
+    <!-- Upload Section -->
+    <div class="container">
+        <section class="upload-section">
+            <h2>Upload Lost Item</h2>
+            <form class="upload-form" id="uploadForm" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <input type="text" name="object_name" placeholder="Object Name" value="{{ form.object_name.value|default_if_none:'' }}" required>
+                <input type="text" name="founder_name" placeholder="Founder Name" value="{{ form.founder_name.value|default_if_none:'' }}" required>
+                <input type="tel" name="mobile_number" placeholder="Mobile Number" value="{{ form.mobile_number.value|default_if_none:'' }}" required>
+
+                <div class="image-upload-options">
+                    <label>Upload Images:</label>
+                    <input type="file" id="fileInput" name="images" accept="image/*" multiple style="display: none;">
+                    <button type="button" class="btn" id="uploadFileBtn">Choose Files</button>
+                    <button type="button" class="btn" id="captureImageBtn">Capture Image</button>
+                </div>
+                <p class="upload-note">Note: You can upload multiple images using "Choose Files" or capture multiple images using "Capture Image".</p>
+                <input type="hidden" name="capturedImage" id="capturedImage">
+                <div class="image-preview" id="imagePreview">
+                    <div id="previewContainer"></div>
+                </div>
+
+                <div class="modal" id="cameraModal">
+                    <div class="modal-content">
+                        <video id="video" autoplay style="width: 100%; border-radius: 8px;"></video>
+                        <canvas id="canvas" style="display: none;"></canvas>
+                        <button type="button" class="btn" id="snapBtn">Take Photo</button>
+                        <button type="button" class="btn close-btn" id="closeCameraBtn">Close</button>
+                    </div>
+                </div>
+
+                <textarea name="description" placeholder="Description" required>{{ form.description.value|default_if_none:'' }}</textarea>
+                <div class="additional-fields">
+                    <div class="color-options">
+                        {{ form.colors }}
+                    </div>
+                    <input type="text" name="brand_name" placeholder="Brand Name" value="{{ form.brand_name.value|default_if_none:'' }}">
+                    <input type="text" name="where_found" placeholder="Where Found" value="{{ form.where_found.value|default_if_none:'' }}">
+                    <input type="date" name="date_found" placeholder="Date Found" value="{{ form.date_found.value|default_if_none:'' }}">
+                    <div class="time-input">
+                        <input type="text" name="time_found" placeholder="HH:MM" value="00:00" required>
+                        <select name="time_found_ampm">
+                            <option value="AM" {% if form.time_found_ampm.value == 'AM' %}selected{% endif %}>AM</option>
+                            <option value="PM" {% if form.time_found_ampm.value == 'PM' %}selected{% endif %}>PM</option>
+                        </select>
+                    </div>
+                    <input type="text" name="place_of_collection" placeholder="Place of Collection" value="{{ form.place_of_collection.value|default_if_none:'' }}">
+                </div>
+                <button type="submit" class="btn">Upload Item</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>

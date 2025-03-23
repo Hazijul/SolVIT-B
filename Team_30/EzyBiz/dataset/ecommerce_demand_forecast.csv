@@ -1,0 +1,1001 @@
+timestamp,category,product_price,availability,brand,discount_percentage,region,city,page_views,clicks,add_to_cart,purchases,search_count,social_trend_score,competitor_price
+2024-04-05 04:09:00,Fashion,351.21,False,Brand E,25,South,Mumbai,5,199,45,20,62,0.122,455.89
+2024-12-12 19:46:00,Books,408.99,False,Brand D,10,East,Bangalore,130,26,30,1,57,0.086,45.56
+2024-10-21 19:28:00,Health & Beauty,152.08,False,Brand A,25,East,Bangalore,144,199,22,16,66,0.969,491.05
+2024-03-03 01:34:00,Books,141.8,True,Brand C,20,South,Kolkata,476,72,49,7,31,0.783,230.93
+2024-11-05 16:59:00,Books,171.77,True,Brand C,30,East,Chennai,147,114,38,14,97,0.094,261.01
+2024-09-24 17:35:00,Fashion,80.5,True,Brand E,0,Central,Kolkata,152,161,19,19,26,0.076,324.78
+2024-09-05 23:44:00,Books,47.52,True,Brand C,15,East,Mumbai,56,165,36,13,17,0.415,222.89
+2024-09-04 07:06:00,Home & Kitchen,81.87,False,Brand A,0,North,Mumbai,473,147,18,12,61,0.629,253.9
+2024-11-08 00:12:00,Electronics,260.65,False,Brand C,25,East,Delhi,382,116,4,15,30,0.327,145.58
+2024-03-12 11:19:00,Fashion,132.4,True,Brand A,30,West,Kolkata,190,116,33,3,60,0.618,445.36
+2024-07-19 14:37:00,Books,285.87,False,Brand A,10,North,Delhi,83,112,47,5,33,0.115,109.48
+2024-02-09 20:22:00,Books,294.82,False,Brand B,30,West,Mumbai,71,89,25,4,85,0.936,218.04
+2024-12-30 04:34:00,Home & Kitchen,320.69,True,Brand A,5,East,Kolkata,413,84,15,20,4,0.422,318.37
+2024-01-06 07:34:00,Fashion,381.64,False,Brand A,5,North,Delhi,168,87,48,5,45,0.695,288.35
+2024-12-21 01:00:00,Fashion,351.21,False,Brand B,10,North,Chennai,261,45,18,1,25,0.831,464.79
+2024-02-10 21:25:00,Books,75.15,True,Brand D,30,North,Mumbai,465,74,43,5,16,0.754,314.87
+2024-09-11 17:43:00,Home & Kitchen,401.4,False,Brand C,25,South,Kolkata,364,95,26,16,14,0.476,423.74
+2024-01-16 14:08:00,Health & Beauty,130.86,False,Brand A,5,East,Delhi,226,106,16,17,82,0.736,359.02
+2024-05-19 16:22:00,Home & Kitchen,80.36,True,Brand C,30,North,Mumbai,197,141,45,8,92,0.569,251.79
+2024-11-11 23:12:00,Health & Beauty,174.94,True,Brand C,0,West,Mumbai,3,12,3,3,95,0.044,143.94
+2024-07-08 09:07:00,Home & Kitchen,316.85,True,Brand A,25,North,Mumbai,163,20,33,19,20,0.142,17.62
+2024-06-07 10:38:00,Books,467.32,False,Brand C,0,West,Delhi,19,83,27,6,18,0.728,424.77
+2024-12-23 11:55:00,Health & Beauty,177.03,False,Brand B,10,West,Bangalore,341,184,36,12,67,0.494,349.52
+2024-12-06 22:22:00,Health & Beauty,345.66,True,Brand D,5,North,Mumbai,208,167,23,15,9,0.308,278.31
+2024-11-10 19:10:00,Health & Beauty,427.56,True,Brand A,0,North,Mumbai,445,77,0,14,83,0.276,239.32
+2024-11-24 10:08:00,Electronics,169.44,False,Brand E,0,South,Chennai,138,157,38,20,96,0.238,391.11
+2024-09-03 03:36:00,Fashion,167.63,False,Brand B,25,West,Chennai,355,70,48,7,17,0.381,235.91
+2024-09-29 11:31:00,Health & Beauty,20.16,False,Brand D,5,West,Kolkata,79,112,42,19,0,0.32,457.1
+2024-02-15 20:33:00,Books,431.27,True,Brand A,30,West,Kolkata,276,102,48,10,39,0.378,371.35
+2024-11-21 01:00:00,Electronics,218.61,True,Brand C,15,Central,Chennai,6,65,41,9,98,0.861,244.54
+2024-09-17 17:26:00,Fashion,148.16,False,Brand E,15,West,Bangalore,294,145,33,1,98,0.095,63.11
+2024-03-26 14:42:00,Health & Beauty,188.28,False,Brand B,5,Central,Kolkata,262,89,13,13,82,0.737,318.5
+2024-04-14 23:40:00,Electronics,423.36,True,Brand A,5,West,Delhi,192,187,6,11,28,0.799,136.59
+2024-12-12 04:11:00,Electronics,325.92,True,Brand C,20,South,Mumbai,50,114,13,7,54,0.534,173.0
+2024-01-25 08:26:00,Home & Kitchen,452.36,False,Brand C,30,East,Bangalore,13,45,9,11,94,0.514,123.32
+2024-12-15 22:20:00,Fashion,218.08,False,Brand E,5,South,Bangalore,445,143,17,4,83,0.668,458.83
+2024-08-05 14:23:00,Books,148.18,False,Brand D,0,Central,Delhi,189,179,36,1,68,0.572,498.0
+2024-11-25 15:05:00,Health & Beauty,79.35,True,Brand E,25,North,Delhi,211,87,16,3,55,0.832,79.84
+2024-08-13 21:07:00,Health & Beauty,275.58,False,Brand C,30,South,Kolkata,339,18,10,3,66,0.189,14.44
+2024-05-12 22:39:00,Fashion,126.7,True,Brand C,30,North,Delhi,98,122,15,0,33,0.565,341.58
+2024-12-03 21:54:00,Books,467.79,False,Brand B,30,South,Chennai,195,141,7,1,5,0.211,224.89
+2024-03-10 09:44:00,Electronics,209.41,False,Brand D,30,North,Delhi,436,80,34,7,8,0.245,107.81
+2024-02-14 10:41:00,Home & Kitchen,418.34,False,Brand C,30,East,Kolkata,427,105,8,15,76,0.224,459.86
+2024-03-30 21:33:00,Fashion,43.56,True,Brand A,20,Central,Delhi,22,141,13,19,95,0.811,353.45
+2024-02-27 15:28:00,Home & Kitchen,410.24,False,Brand B,30,South,Chennai,319,196,10,3,86,0.675,386.43
+2024-12-23 07:58:00,Fashion,433.5,True,Brand E,15,Central,Bangalore,40,10,25,1,38,0.229,60.36
+2024-10-06 21:25:00,Electronics,167.34,True,Brand C,20,Central,Bangalore,395,93,1,14,36,0.155,357.97
+2024-03-21 09:41:00,Health & Beauty,193.97,True,Brand A,25,North,Delhi,388,104,43,8,61,0.511,385.61
+2024-10-14 05:12:00,Health & Beauty,426.08,False,Brand E,30,North,Delhi,211,85,10,15,56,0.167,419.87
+2024-01-01 13:22:00,Fashion,202.44,False,Brand C,0,Central,Kolkata,395,68,48,4,34,0.235,468.77
+2024-05-14 03:34:00,Health & Beauty,332.89,True,Brand A,10,West,Bangalore,451,142,35,3,33,0.994,413.76
+2024-10-27 15:43:00,Health & Beauty,438.99,False,Brand B,30,East,Bangalore,153,147,27,8,76,0.275,80.49
+2024-06-21 02:03:00,Health & Beauty,57.57,True,Brand B,20,East,Kolkata,436,22,1,3,67,0.878,73.95
+2024-06-11 04:36:00,Fashion,89.33,False,Brand D,20,West,Delhi,410,41,5,10,93,0.292,91.18
+2024-06-15 02:40:00,Fashion,74.9,True,Brand D,15,South,Bangalore,430,8,22,6,85,0.934,441.01
+2024-06-06 15:17:00,Fashion,368.49,True,Brand B,5,West,Chennai,360,57,24,9,95,0.605,142.05
+2024-02-10 19:24:00,Home & Kitchen,98.36,False,Brand E,0,West,Delhi,111,102,21,16,6,0.401,355.18
+2024-01-09 07:50:00,Home & Kitchen,489.02,True,Brand B,25,East,Kolkata,289,150,4,12,97,0.315,476.01
+2024-10-14 09:00:00,Home & Kitchen,313.59,True,Brand B,15,South,Kolkata,63,102,37,4,36,0.396,356.04
+2024-02-13 08:24:00,Fashion,12.03,False,Brand B,20,Central,Bangalore,331,19,17,0,60,0.399,82.47
+2024-08-22 16:24:00,Home & Kitchen,40.85,True,Brand B,5,North,Mumbai,386,8,6,19,73,0.184,464.24
+2024-09-07 01:13:00,Books,270.94,True,Brand B,10,East,Kolkata,379,28,24,1,79,0.202,198.69
+2024-01-02 21:01:00,Electronics,344.68,True,Brand D,0,South,Bangalore,60,86,32,12,16,0.332,148.94
+2024-01-11 00:20:00,Books,326.29,True,Brand D,0,North,Bangalore,173,143,36,10,46,0.06,268.43
+2024-09-19 16:13:00,Electronics,252.53,False,Brand E,0,Central,Kolkata,213,185,25,19,18,0.243,298.58
+2024-03-05 03:39:00,Electronics,54.36,False,Brand B,25,South,Mumbai,227,137,2,16,90,0.436,415.83
+2024-12-28 11:57:00,Health & Beauty,369.94,False,Brand B,0,West,Delhi,18,99,16,10,40,0.145,366.1
+2024-07-15 08:14:00,Home & Kitchen,286.1,False,Brand C,15,West,Bangalore,341,6,9,18,45,0.171,110.0
+2024-03-04 15:07:00,Home & Kitchen,472.12,False,Brand D,25,South,Kolkata,169,34,49,18,33,0.694,97.12
+2024-02-13 08:33:00,Home & Kitchen,63.25,False,Brand C,30,South,Mumbai,494,187,11,4,33,0.522,465.55
+2024-07-02 08:58:00,Books,91.34,False,Brand E,25,Central,Bangalore,20,165,23,20,68,0.895,347.7
+2024-05-20 15:35:00,Home & Kitchen,479.03,True,Brand E,10,West,Mumbai,207,53,21,7,90,0.662,76.34
+2024-10-28 09:52:00,Home & Kitchen,77.09,True,Brand B,15,North,Chennai,309,199,41,4,63,0.175,91.66
+2024-12-06 23:22:00,Fashion,26.67,False,Brand E,0,North,Bangalore,426,89,10,12,84,0.781,197.92
+2024-10-30 04:01:00,Books,331.59,True,Brand B,25,Central,Mumbai,436,86,6,16,89,0.633,117.48
+2024-02-11 12:05:00,Home & Kitchen,329.71,False,Brand C,20,Central,Kolkata,324,120,15,11,83,0.359,39.09
+2024-03-28 12:37:00,Books,236.25,False,Brand A,30,West,Mumbai,75,109,46,18,40,0.195,237.42
+2024-03-27 20:40:00,Books,42.49,True,Brand C,5,South,Kolkata,43,191,17,6,89,0.534,141.38
+2024-06-20 07:19:00,Fashion,360.24,True,Brand D,25,Central,Kolkata,411,125,34,7,86,0.84,53.69
+2024-05-10 00:23:00,Fashion,412.27,False,Brand B,20,South,Mumbai,406,136,20,11,22,0.988,251.0
+2024-10-18 17:41:00,Fashion,34.07,True,Brand D,25,West,Kolkata,150,106,48,16,1,0.97,92.36
+2024-06-22 23:47:00,Home & Kitchen,167.08,False,Brand B,30,Central,Bangalore,29,189,4,11,83,0.115,42.55
+2024-12-18 17:22:00,Home & Kitchen,177.98,False,Brand E,20,South,Kolkata,491,183,29,19,4,0.481,486.97
+2024-11-03 13:28:00,Fashion,80.86,False,Brand B,10,Central,Delhi,373,48,32,9,90,0.776,169.62
+2024-11-20 03:38:00,Electronics,367.8,True,Brand D,15,East,Delhi,64,41,28,2,35,0.88,322.58
+2024-01-24 00:55:00,Health & Beauty,333.78,False,Brand D,20,North,Bangalore,295,101,24,8,22,0.893,19.68
+2024-03-17 16:06:00,Home & Kitchen,302.36,True,Brand D,10,Central,Mumbai,470,32,19,2,76,0.514,252.16
+2024-10-28 22:31:00,Fashion,264.35,False,Brand A,20,Central,Bangalore,417,9,1,6,2,0.563,162.54
+2024-11-15 00:19:00,Home & Kitchen,297.04,False,Brand E,25,North,Chennai,377,50,44,9,50,0.508,246.66
+2024-06-10 06:05:00,Health & Beauty,172.56,True,Brand B,25,East,Mumbai,215,196,0,18,70,0.501,166.73
+2024-08-22 03:55:00,Health & Beauty,413.28,False,Brand E,20,North,Bangalore,77,57,44,15,35,0.527,482.44
+2024-09-01 08:33:00,Electronics,435.16,True,Brand A,15,Central,Kolkata,193,49,5,9,26,0.219,378.45
+2024-01-29 15:29:00,Health & Beauty,115.68,True,Brand C,20,North,Chennai,336,76,17,11,32,0.487,222.44
+2024-06-24 10:39:00,Books,390.24,False,Brand E,25,South,Bangalore,481,97,39,8,70,0.82,308.63
+2024-01-02 20:26:00,Electronics,34.52,True,Brand C,0,West,Bangalore,77,152,48,4,20,0.143,84.32
+2024-02-21 13:50:00,Home & Kitchen,253.76,False,Brand A,25,Central,Chennai,27,200,39,18,95,0.992,433.23
+2024-05-01 15:39:00,Books,442.74,True,Brand A,20,West,Chennai,342,89,36,3,17,0.957,25.79
+2024-08-10 23:43:00,Home & Kitchen,498.07,False,Brand B,15,East,Chennai,142,64,48,13,52,0.082,158.74
+2024-01-08 11:56:00,Books,386.38,True,Brand C,30,West,Chennai,63,125,14,7,35,0.604,379.29
+2024-10-19 09:44:00,Fashion,201.4,False,Brand A,20,East,Chennai,388,132,23,3,19,0.427,454.23
+2024-09-15 20:12:00,Health & Beauty,312.01,False,Brand D,10,East,Bangalore,396,152,37,12,5,0.913,83.52
+2024-01-02 22:53:00,Books,388.89,False,Brand D,0,North,Chennai,413,80,47,20,49,0.177,319.81
+2024-12-17 02:13:00,Home & Kitchen,336.89,False,Brand A,20,Central,Bangalore,188,13,13,8,79,0.173,163.47
+2024-11-08 18:00:00,Fashion,52.52,False,Brand D,5,North,Chennai,284,28,3,7,37,0.427,22.43
+2024-02-29 21:14:00,Fashion,106.4,False,Brand C,10,North,Chennai,149,65,34,10,27,0.4,190.51
+2024-02-15 06:53:00,Health & Beauty,85.34,True,Brand A,0,Central,Chennai,33,66,33,13,56,0.535,170.97
+2024-01-23 00:53:00,Books,368.78,True,Brand A,30,West,Mumbai,112,4,1,9,65,0.252,154.2
+2024-12-07 22:21:00,Electronics,232.08,True,Brand D,25,East,Chennai,443,163,44,16,46,0.196,27.89
+2024-03-09 18:40:00,Electronics,16.54,False,Brand A,10,North,Delhi,366,96,21,13,91,0.12,31.59
+2024-02-29 12:38:00,Electronics,367.3,True,Brand D,20,East,Mumbai,457,68,6,19,38,0.834,358.48
+2024-11-23 10:38:00,Health & Beauty,132.38,False,Brand C,10,Central,Bangalore,472,144,26,3,57,0.717,143.33
+2024-01-04 15:26:00,Electronics,320.27,True,Brand E,15,Central,Bangalore,0,125,45,0,90,0.395,268.23
+2024-09-11 07:23:00,Books,469.84,False,Brand C,0,West,Chennai,125,152,21,0,76,0.727,264.81
+2024-05-04 11:47:00,Electronics,66.76,True,Brand A,10,South,Mumbai,337,53,27,2,70,0.133,319.5
+2024-10-30 23:51:00,Home & Kitchen,406.77,False,Brand A,5,North,Bangalore,50,9,26,9,7,0.966,477.75
+2024-02-10 22:11:00,Fashion,113.0,False,Brand B,10,Central,Delhi,440,58,28,6,70,0.302,173.87
+2024-08-27 12:20:00,Fashion,317.5,True,Brand E,25,North,Kolkata,322,12,10,17,29,0.194,452.86
+2024-05-17 12:55:00,Fashion,323.4,False,Brand D,30,West,Mumbai,122,105,41,13,1,0.366,322.13
+2024-01-19 10:41:00,Health & Beauty,317.8,True,Brand E,10,South,Delhi,270,125,38,20,72,0.081,455.43
+2024-07-21 11:03:00,Books,210.51,False,Brand C,0,North,Bangalore,167,70,9,7,100,0.785,464.04
+2024-08-14 08:37:00,Books,132.31,True,Brand C,10,South,Chennai,72,159,11,13,28,0.844,474.27
+2024-10-29 05:43:00,Home & Kitchen,316.38,False,Brand A,15,South,Mumbai,475,48,17,10,53,0.334,346.08
+2024-12-14 03:52:00,Health & Beauty,414.81,True,Brand A,20,Central,Bangalore,440,57,5,1,42,0.281,160.71
+2024-01-30 06:02:00,Health & Beauty,384.08,True,Brand C,0,East,Delhi,50,79,6,13,28,0.166,157.22
+2024-10-26 17:28:00,Health & Beauty,306.46,True,Brand E,25,East,Kolkata,153,171,39,11,38,0.455,205.99
+2024-07-02 02:24:00,Fashion,57.8,False,Brand D,15,North,Kolkata,116,81,17,12,82,0.541,440.83
+2024-03-26 11:56:00,Electronics,377.15,True,Brand E,5,South,Delhi,84,130,5,0,59,0.189,270.21
+2024-04-09 03:28:00,Electronics,376.14,True,Brand D,30,North,Kolkata,489,80,42,9,52,0.484,173.2
+2024-09-11 08:48:00,Electronics,312.68,True,Brand B,5,West,Delhi,203,132,22,6,26,0.793,296.18
+2024-08-03 13:00:00,Books,310.98,False,Brand A,20,South,Mumbai,180,64,42,5,54,0.066,15.92
+2024-07-26 02:44:00,Fashion,407.11,False,Brand B,20,Central,Chennai,413,60,44,7,59,0.241,134.05
+2024-01-14 06:10:00,Health & Beauty,175.04,True,Brand D,30,Central,Kolkata,143,23,47,7,97,0.049,324.05
+2024-09-03 14:23:00,Home & Kitchen,20.01,False,Brand C,0,Central,Mumbai,276,51,14,16,42,0.26,178.9
+2024-06-21 22:01:00,Fashion,178.1,False,Brand C,25,Central,Kolkata,164,136,35,0,97,0.379,288.98
+2024-08-15 01:44:00,Health & Beauty,388.67,True,Brand E,15,Central,Mumbai,249,154,39,3,62,0.033,158.64
+2024-01-10 08:40:00,Electronics,237.81,True,Brand B,25,East,Bangalore,267,132,0,4,47,0.89,373.28
+2024-12-29 12:29:00,Books,477.62,True,Brand B,20,West,Mumbai,26,170,36,7,18,0.729,346.17
+2024-02-10 16:31:00,Books,419.43,True,Brand A,15,Central,Kolkata,139,57,26,14,42,0.126,428.93
+2024-09-07 00:29:00,Books,248.13,True,Brand B,5,North,Kolkata,240,185,25,2,16,0.064,334.44
+2024-01-10 02:10:00,Books,483.78,True,Brand E,20,East,Chennai,158,73,9,19,36,0.347,241.21
+2024-09-25 01:12:00,Fashion,289.07,False,Brand E,15,South,Bangalore,378,71,26,18,55,0.46,391.98
+2024-11-09 11:02:00,Electronics,261.38,False,Brand C,5,North,Bangalore,24,100,46,15,71,0.846,358.99
+2024-07-02 15:30:00,Fashion,174.64,True,Brand E,10,West,Bangalore,60,177,43,16,19,0.25,114.92
+2024-08-10 11:36:00,Books,355.79,False,Brand D,20,West,Kolkata,37,58,42,19,87,0.276,210.47
+2024-01-11 10:53:00,Fashion,241.96,True,Brand B,25,East,Delhi,468,133,10,10,2,0.78,428.61
+2024-11-30 12:13:00,Electronics,59.69,False,Brand E,15,North,Kolkata,413,78,9,13,32,0.066,163.13
+2024-07-21 08:42:00,Books,280.65,False,Brand C,0,Central,Delhi,278,55,41,5,49,0.624,156.58
+2024-07-03 16:19:00,Books,398.95,False,Brand E,15,North,Bangalore,329,153,36,2,6,0.46,491.96
+2024-11-02 18:27:00,Health & Beauty,405.08,True,Brand A,25,Central,Kolkata,200,91,33,4,25,0.734,24.01
+2024-11-23 21:38:00,Health & Beauty,394.16,True,Brand C,20,North,Kolkata,25,123,30,18,15,0.113,436.23
+2024-12-09 03:32:00,Health & Beauty,222.61,False,Brand B,15,North,Chennai,375,175,21,10,54,0.719,135.11
+2024-07-31 21:59:00,Home & Kitchen,35.33,False,Brand D,0,Central,Mumbai,104,16,30,12,69,0.902,315.13
+2024-03-07 05:10:00,Fashion,472.56,True,Brand A,20,East,Chennai,96,31,25,13,38,0.064,289.35
+2024-03-03 11:54:00,Fashion,322.96,True,Brand B,30,South,Delhi,178,146,18,5,19,0.012,87.43
+2024-09-01 22:00:00,Home & Kitchen,430.11,False,Brand A,20,West,Kolkata,246,156,5,10,38,0.45,149.79
+2024-06-18 07:00:00,Electronics,272.19,False,Brand C,5,North,Bangalore,409,41,3,20,22,0.862,205.19
+2024-04-03 11:15:00,Home & Kitchen,330.9,True,Brand E,15,South,Bangalore,209,70,42,11,19,0.796,176.7
+2024-03-04 11:24:00,Books,396.81,False,Brand A,30,North,Mumbai,163,185,2,11,87,0.23,298.35
+2024-02-22 16:28:00,Fashion,463.1,True,Brand B,10,East,Mumbai,240,50,12,8,31,0.717,94.49
+2024-11-09 01:22:00,Electronics,427.22,True,Brand C,10,North,Kolkata,56,60,4,5,6,0.029,368.35
+2024-12-01 15:37:00,Books,92.06,False,Brand A,15,Central,Mumbai,8,75,16,10,17,0.86,344.65
+2024-12-17 00:30:00,Home & Kitchen,308.59,True,Brand C,15,East,Kolkata,391,129,10,5,2,0.294,15.91
+2024-02-22 02:00:00,Home & Kitchen,154.53,False,Brand C,15,Central,Delhi,359,71,6,7,54,0.351,243.04
+2024-01-08 12:22:00,Home & Kitchen,184.22,True,Brand E,15,Central,Delhi,383,10,39,15,87,0.766,460.44
+2024-11-26 01:33:00,Home & Kitchen,499.1,False,Brand D,10,Central,Delhi,64,92,42,17,79,0.257,226.81
+2024-03-16 08:12:00,Home & Kitchen,229.08,False,Brand A,20,East,Mumbai,214,17,6,9,7,0.944,277.04
+2024-10-09 23:17:00,Health & Beauty,33.5,False,Brand C,20,Central,Delhi,477,52,45,18,68,0.954,430.76
+2024-06-05 03:14:00,Health & Beauty,370.21,True,Brand B,10,West,Mumbai,95,187,36,13,70,0.289,349.97
+2024-03-04 05:46:00,Health & Beauty,174.71,True,Brand E,5,South,Bangalore,331,181,48,12,17,0.931,98.57
+2024-07-17 02:48:00,Health & Beauty,44.98,True,Brand D,15,East,Kolkata,72,193,25,4,3,0.201,361.7
+2024-01-14 10:34:00,Books,218.17,False,Brand A,5,North,Mumbai,489,174,1,0,52,0.213,324.79
+2024-08-07 15:46:00,Home & Kitchen,14.43,True,Brand B,0,West,Delhi,221,0,9,5,7,0.677,450.8
+2024-11-27 03:42:00,Books,316.75,True,Brand B,20,East,Delhi,32,15,37,6,94,0.838,184.26
+2024-04-27 23:11:00,Fashion,200.19,False,Brand D,15,West,Delhi,337,152,12,20,99,0.456,486.98
+2024-12-22 01:48:00,Home & Kitchen,68.02,True,Brand A,15,North,Bangalore,378,28,46,20,84,0.095,326.39
+2024-09-19 09:13:00,Health & Beauty,73.22,False,Brand E,15,South,Chennai,67,117,0,17,5,0.544,99.6
+2024-05-07 23:35:00,Fashion,293.4,False,Brand A,10,North,Kolkata,25,84,21,14,16,0.718,222.05
+2024-08-08 18:02:00,Electronics,109.11,False,Brand B,30,West,Kolkata,47,89,23,6,11,0.174,257.59
+2024-12-17 13:58:00,Health & Beauty,194.74,False,Brand A,15,North,Delhi,77,127,28,11,72,0.774,313.02
+2024-08-21 20:56:00,Fashion,251.15,False,Brand E,30,North,Bangalore,459,20,36,19,28,0.546,447.55
+2024-06-10 06:55:00,Home & Kitchen,447.93,False,Brand E,20,Central,Chennai,9,62,17,0,70,0.246,301.62
+2024-04-07 04:08:00,Books,449.05,False,Brand E,10,Central,Bangalore,199,169,6,14,88,0.81,61.08
+2024-05-17 09:19:00,Fashion,180.71,True,Brand B,5,East,Kolkata,201,178,17,16,74,0.801,376.93
+2024-10-12 18:33:00,Fashion,291.86,True,Brand D,15,North,Bangalore,115,156,37,10,42,0.499,137.47
+2024-07-11 23:58:00,Books,478.32,True,Brand D,20,West,Delhi,74,119,46,9,50,0.73,187.82
+2024-12-02 23:52:00,Electronics,472.47,True,Brand D,5,South,Kolkata,293,72,49,3,58,0.705,104.49
+2024-05-09 22:59:00,Health & Beauty,390.51,True,Brand C,10,East,Bangalore,379,107,45,1,14,0.525,105.96
+2024-10-10 06:33:00,Electronics,482.89,True,Brand E,5,East,Bangalore,430,103,12,8,60,0.687,462.56
+2024-04-25 14:47:00,Electronics,382.52,False,Brand E,5,West,Chennai,147,57,43,3,24,0.795,416.35
+2024-11-19 08:01:00,Books,10.66,True,Brand D,20,South,Delhi,442,123,39,14,92,0.172,33.39
+2024-05-20 09:12:00,Fashion,310.44,False,Brand E,30,Central,Chennai,336,95,11,7,86,0.95,313.48
+2024-12-17 06:40:00,Health & Beauty,378.09,False,Brand A,5,East,Chennai,73,2,20,0,15,0.116,223.97
+2024-08-27 18:22:00,Health & Beauty,240.38,False,Brand A,5,North,Delhi,19,148,25,16,73,0.825,154.9
+2024-08-24 13:38:00,Electronics,252.28,True,Brand E,30,North,Bangalore,331,174,5,13,37,0.186,126.85
+2024-04-29 13:36:00,Health & Beauty,416.85,False,Brand D,15,East,Mumbai,168,4,30,6,2,0.598,111.7
+2024-01-21 23:56:00,Electronics,264.01,False,Brand B,15,West,Mumbai,318,74,10,16,15,0.681,439.03
+2024-06-18 06:13:00,Electronics,25.63,False,Brand B,15,Central,Delhi,280,158,11,17,12,0.074,99.87
+2024-09-19 14:15:00,Electronics,443.77,True,Brand B,25,East,Mumbai,103,164,22,7,96,0.722,483.29
+2024-08-08 13:29:00,Books,120.79,False,Brand D,10,North,Bangalore,274,197,21,10,15,0.231,312.9
+2024-10-29 00:21:00,Fashion,198.73,False,Brand C,10,Central,Mumbai,340,147,14,8,62,0.879,108.89
+2024-02-05 05:06:00,Health & Beauty,250.47,True,Brand C,25,East,Chennai,450,128,10,17,58,0.229,252.79
+2024-08-12 10:58:00,Home & Kitchen,223.73,True,Brand C,30,North,Mumbai,368,61,39,6,80,0.593,476.4
+2024-03-29 20:46:00,Fashion,171.47,False,Brand D,10,North,Mumbai,294,68,3,15,84,0.853,203.46
+2024-01-05 18:07:00,Fashion,385.65,False,Brand B,0,North,Kolkata,135,188,13,13,61,0.259,499.86
+2024-07-20 20:30:00,Fashion,393.99,False,Brand B,25,Central,Delhi,491,115,40,0,91,0.467,274.67
+2024-03-16 05:05:00,Home & Kitchen,497.49,False,Brand D,10,South,Delhi,110,189,7,6,62,0.485,348.67
+2024-11-01 09:39:00,Fashion,175.09,False,Brand E,20,East,Mumbai,413,179,13,12,81,0.837,259.06
+2024-06-07 10:30:00,Books,63.83,False,Brand C,0,West,Kolkata,61,154,48,15,4,0.939,210.77
+2024-02-20 10:50:00,Fashion,231.01,False,Brand A,25,North,Delhi,233,89,49,3,72,0.198,464.2
+2024-04-09 07:00:00,Home & Kitchen,393.16,True,Brand C,30,North,Kolkata,139,151,15,9,8,0.175,277.96
+2024-07-01 02:53:00,Books,213.92,True,Brand A,5,West,Chennai,390,171,19,15,46,0.081,70.19
+2024-09-05 20:48:00,Fashion,88.27,False,Brand D,5,Central,Kolkata,69,54,14,11,30,0.952,165.48
+2024-11-28 23:31:00,Books,389.61,True,Brand B,10,North,Chennai,212,187,47,3,8,0.362,239.97
+2024-07-07 20:20:00,Health & Beauty,254.14,False,Brand E,10,East,Kolkata,299,192,50,5,1,0.417,231.51
+2024-09-30 20:39:00,Home & Kitchen,405.74,False,Brand B,15,East,Kolkata,357,80,41,20,76,0.983,80.75
+2024-07-22 12:58:00,Fashion,109.79,True,Brand A,15,North,Chennai,310,46,5,9,61,0.147,434.5
+2024-08-08 05:18:00,Home & Kitchen,314.96,True,Brand C,0,West,Bangalore,330,122,30,4,71,0.87,491.55
+2024-03-19 19:00:00,Books,394.48,False,Brand D,10,West,Mumbai,66,130,30,10,20,0.495,126.3
+2024-04-06 16:41:00,Fashion,232.95,False,Brand A,10,Central,Chennai,438,15,50,10,15,0.996,320.64
+2024-04-14 13:31:00,Home & Kitchen,243.27,True,Brand B,20,North,Mumbai,389,128,32,16,65,0.436,339.28
+2024-05-20 16:07:00,Electronics,282.17,False,Brand C,20,West,Mumbai,290,78,48,2,88,0.634,325.84
+2024-07-27 09:37:00,Electronics,208.45,False,Brand E,25,West,Kolkata,452,130,35,11,38,0.577,425.93
+2024-10-01 21:48:00,Electronics,241.04,False,Brand C,25,West,Bangalore,491,0,6,19,52,0.401,472.52
+2024-07-08 18:08:00,Electronics,434.82,True,Brand D,5,East,Chennai,334,186,30,2,15,0.262,402.79
+2024-01-14 00:28:00,Health & Beauty,113.41,True,Brand D,25,West,Chennai,234,168,29,7,59,0.53,118.41
+2024-10-11 12:14:00,Books,346.52,False,Brand C,5,West,Delhi,41,42,10,8,91,0.259,293.7
+2024-07-28 08:19:00,Electronics,139.41,False,Brand B,30,East,Mumbai,76,119,47,19,22,0.805,432.31
+2024-06-23 14:53:00,Books,167.09,False,Brand A,15,West,Mumbai,465,154,27,15,83,0.444,96.28
+2024-12-28 21:00:00,Books,461.81,True,Brand A,5,Central,Mumbai,380,176,26,3,97,0.828,339.24
+2024-08-12 20:34:00,Fashion,264.37,True,Brand E,25,West,Chennai,227,66,26,18,22,0.575,239.35
+2024-11-20 03:16:00,Health & Beauty,445.1,False,Brand A,30,West,Delhi,313,149,24,1,21,0.828,291.01
+2024-06-24 19:17:00,Home & Kitchen,131.33,False,Brand B,30,North,Chennai,133,102,16,6,37,0.81,104.26
+2024-11-24 22:16:00,Health & Beauty,282.21,False,Brand D,25,South,Chennai,227,10,43,19,52,0.607,230.1
+2024-08-29 15:18:00,Home & Kitchen,123.7,True,Brand A,30,South,Chennai,261,45,37,20,87,0.041,305.3
+2024-06-16 22:07:00,Books,221.71,False,Brand C,5,East,Chennai,57,81,44,20,2,0.454,365.91
+2024-09-16 21:56:00,Home & Kitchen,468.51,True,Brand C,20,Central,Bangalore,186,63,48,20,52,0.266,30.22
+2024-06-05 15:27:00,Books,345.17,True,Brand E,10,West,Delhi,389,117,22,10,53,0.761,232.93
+2024-06-20 09:58:00,Health & Beauty,99.09,False,Brand C,10,West,Chennai,178,199,35,5,59,0.881,262.08
+2024-04-19 16:15:00,Electronics,214.87,False,Brand B,10,Central,Bangalore,270,114,35,4,85,0.425,472.17
+2024-02-27 10:23:00,Fashion,341.78,False,Brand D,15,Central,Delhi,30,92,21,20,92,0.236,465.93
+2024-08-16 23:59:00,Fashion,396.55,True,Brand D,30,North,Kolkata,149,162,27,2,68,0.509,155.48
+2024-05-27 14:00:00,Health & Beauty,381.2,False,Brand E,30,South,Chennai,276,104,11,0,4,0.752,349.93
+2024-12-24 18:55:00,Electronics,188.85,True,Brand B,25,South,Mumbai,45,189,49,17,39,0.025,309.85
+2024-03-03 20:59:00,Fashion,278.66,False,Brand B,20,East,Kolkata,43,12,5,7,64,0.792,162.16
+2024-07-26 14:39:00,Books,157.35,False,Brand E,0,West,Mumbai,389,89,42,14,53,0.466,46.08
+2024-01-04 07:31:00,Fashion,352.79,True,Brand E,20,North,Mumbai,272,15,18,17,2,0.121,256.61
+2024-10-11 06:24:00,Books,201.18,True,Brand C,15,West,Delhi,307,98,22,5,29,0.255,31.19
+2024-07-12 22:45:00,Home & Kitchen,291.51,False,Brand D,5,South,Delhi,161,157,43,10,37,0.99,23.16
+2024-12-12 08:51:00,Electronics,263.15,False,Brand C,25,West,Kolkata,83,18,13,2,68,0.64,364.09
+2024-09-03 22:40:00,Fashion,438.36,True,Brand C,15,Central,Kolkata,258,199,0,7,70,0.498,39.45
+2024-07-20 08:43:00,Books,343.2,True,Brand D,5,East,Mumbai,312,9,20,12,86,0.627,474.89
+2024-05-31 18:47:00,Home & Kitchen,449.83,False,Brand C,20,Central,Kolkata,123,51,10,11,10,0.7,183.35
+2024-12-24 06:56:00,Fashion,470.18,True,Brand A,25,South,Bangalore,24,85,28,9,91,0.197,11.64
+2024-01-22 04:15:00,Books,107.29,True,Brand B,25,South,Chennai,359,135,9,15,91,0.053,360.27
+2024-12-08 15:12:00,Home & Kitchen,369.08,True,Brand A,10,East,Kolkata,389,143,25,7,81,0.312,21.29
+2024-02-24 01:39:00,Health & Beauty,435.44,True,Brand E,5,South,Kolkata,422,157,6,2,63,0.956,233.43
+2024-09-12 05:34:00,Books,424.6,True,Brand C,10,North,Bangalore,135,147,46,9,50,0.2,75.26
+2024-05-28 23:52:00,Fashion,486.08,True,Brand B,10,East,Delhi,311,107,47,17,37,0.416,76.67
+2024-06-12 12:05:00,Electronics,105.21,False,Brand C,25,South,Mumbai,327,131,34,10,71,0.057,367.2
+2024-11-30 09:18:00,Health & Beauty,459.11,True,Brand B,10,West,Bangalore,180,180,18,5,75,0.127,180.61
+2024-01-12 04:40:00,Health & Beauty,13.9,True,Brand A,25,South,Kolkata,77,74,5,0,41,0.716,157.88
+2024-05-30 22:31:00,Books,494.91,False,Brand A,15,East,Kolkata,37,81,18,2,29,0.295,78.64
+2024-06-21 05:59:00,Fashion,462.05,False,Brand A,15,North,Mumbai,426,110,8,0,9,0.201,295.62
+2024-02-27 01:17:00,Books,425.35,True,Brand E,10,West,Delhi,244,176,45,17,60,0.385,423.11
+2024-12-21 01:13:00,Fashion,450.04,True,Brand E,30,Central,Mumbai,31,107,10,1,24,0.563,160.04
+2024-08-08 05:27:00,Fashion,60.54,True,Brand A,5,West,Mumbai,273,138,31,18,68,0.135,60.42
+2024-05-16 17:26:00,Books,399.23,False,Brand E,25,East,Kolkata,165,117,43,18,70,0.583,270.81
+2024-09-11 21:02:00,Home & Kitchen,202.88,False,Brand C,10,North,Kolkata,176,100,35,17,43,0.382,20.53
+2024-07-11 22:16:00,Books,305.28,True,Brand E,30,West,Chennai,323,104,2,17,29,0.833,427.71
+2024-11-05 07:19:00,Books,103.58,True,Brand B,30,South,Chennai,81,79,39,9,90,0.284,288.62
+2024-01-09 01:05:00,Electronics,387.92,True,Brand A,15,West,Delhi,179,160,50,5,35,0.046,196.51
+2024-08-03 23:10:00,Fashion,198.53,True,Brand A,30,East,Delhi,397,134,47,15,38,0.734,467.68
+2024-11-04 08:53:00,Fashion,151.91,False,Brand D,5,East,Chennai,334,122,19,8,20,0.663,292.22
+2024-07-28 23:35:00,Electronics,125.4,False,Brand E,25,West,Bangalore,57,153,47,7,86,0.567,172.09
+2024-07-01 00:33:00,Books,122.17,False,Brand A,20,East,Delhi,31,3,49,3,67,0.002,259.6
+2024-03-03 21:01:00,Books,262.95,False,Brand E,30,South,Mumbai,4,110,32,2,64,0.29,440.27
+2024-07-24 19:28:00,Fashion,392.87,False,Brand A,10,Central,Chennai,79,25,29,1,26,0.94,76.63
+2024-03-12 02:55:00,Fashion,166.15,True,Brand C,30,South,Kolkata,358,126,11,7,65,0.88,352.29
+2024-06-11 09:00:00,Books,295.14,False,Brand B,30,North,Kolkata,237,161,3,11,8,0.914,124.53
+2024-12-10 12:34:00,Electronics,484.64,True,Brand E,30,North,Kolkata,443,22,28,7,48,0.523,42.8
+2024-03-21 13:34:00,Fashion,420.45,False,Brand B,30,East,Bangalore,421,20,46,3,90,0.543,336.83
+2024-10-15 15:05:00,Health & Beauty,358.84,False,Brand E,20,West,Chennai,273,79,19,7,64,0.358,79.15
+2024-10-08 20:15:00,Books,378.6,False,Brand E,0,South,Bangalore,77,24,27,9,54,0.434,169.5
+2024-09-11 07:51:00,Health & Beauty,310.83,True,Brand E,10,South,Delhi,468,38,23,10,79,0.916,67.5
+2024-10-02 07:13:00,Health & Beauty,11.49,True,Brand A,0,Central,Chennai,384,15,1,15,21,0.141,21.96
+2024-08-09 09:38:00,Electronics,110.43,False,Brand C,0,South,Bangalore,175,111,49,19,100,0.157,295.15
+2024-04-13 12:39:00,Fashion,362.63,True,Brand C,10,South,Bangalore,297,62,46,3,16,0.202,213.96
+2024-10-26 21:42:00,Home & Kitchen,136.03,True,Brand C,5,West,Kolkata,385,39,3,7,93,0.192,386.01
+2024-11-05 07:34:00,Health & Beauty,258.09,True,Brand C,25,South,Bangalore,393,1,14,7,2,0.149,259.61
+2024-11-16 13:29:00,Fashion,43.2,True,Brand A,20,North,Chennai,42,106,2,6,46,0.481,309.15
+2024-02-04 01:38:00,Health & Beauty,460.75,True,Brand B,15,South,Chennai,63,40,7,6,23,0.136,479.42
+2024-10-17 11:26:00,Fashion,337.52,False,Brand E,15,South,Mumbai,365,45,26,3,64,0.399,364.4
+2024-01-07 14:03:00,Home & Kitchen,113.49,True,Brand D,15,Central,Kolkata,230,80,10,19,11,0.29,323.5
+2024-02-07 04:42:00,Home & Kitchen,97.08,True,Brand D,5,South,Delhi,325,98,46,12,75,0.98,412.86
+2024-12-18 02:32:00,Home & Kitchen,151.87,False,Brand C,5,North,Bangalore,461,98,47,5,64,0.349,125.01
+2024-11-17 05:14:00,Fashion,198.27,False,Brand E,5,Central,Mumbai,74,190,9,16,9,0.821,410.27
+2024-09-07 18:28:00,Books,318.62,False,Brand B,0,North,Kolkata,317,50,8,18,14,0.501,469.71
+2024-08-19 18:53:00,Books,413.53,True,Brand B,5,South,Bangalore,287,125,38,19,37,0.239,136.25
+2024-02-03 19:52:00,Fashion,480.01,False,Brand C,5,Central,Bangalore,18,170,15,13,60,0.933,14.8
+2024-06-08 02:21:00,Health & Beauty,58.72,False,Brand A,10,Central,Delhi,379,63,20,3,24,0.359,102.72
+2024-03-23 22:57:00,Health & Beauty,270.79,True,Brand B,0,East,Kolkata,298,107,12,8,2,0.238,219.47
+2024-07-22 06:40:00,Electronics,122.2,True,Brand B,10,West,Kolkata,459,194,2,1,64,0.59,362.99
+2024-04-12 01:31:00,Home & Kitchen,291.1,False,Brand D,0,West,Delhi,430,82,43,14,78,0.125,166.21
+2024-05-12 09:34:00,Electronics,340.8,True,Brand B,15,South,Chennai,305,159,50,3,26,0.031,276.35
+2024-03-08 04:05:00,Fashion,327.7,True,Brand C,0,North,Delhi,240,193,40,18,18,0.808,377.37
+2024-10-28 17:38:00,Electronics,377.52,True,Brand D,15,Central,Bangalore,93,142,4,3,18,0.499,462.2
+2024-04-25 17:58:00,Health & Beauty,458.93,True,Brand A,25,South,Kolkata,152,41,1,2,72,0.284,351.46
+2024-07-12 14:34:00,Health & Beauty,357.4,False,Brand B,0,West,Bangalore,472,171,2,10,11,0.742,263.91
+2024-01-03 14:09:00,Health & Beauty,449.16,True,Brand E,10,West,Delhi,91,136,26,3,12,0.43,29.81
+2024-10-07 09:52:00,Books,54.75,True,Brand B,0,South,Delhi,357,149,23,9,27,0.467,195.28
+2024-10-18 03:01:00,Fashion,379.26,False,Brand E,0,South,Mumbai,49,93,37,14,95,0.854,473.66
+2024-08-15 17:06:00,Health & Beauty,29.27,True,Brand D,30,Central,Bangalore,219,197,24,17,55,0.281,116.86
+2024-01-27 04:44:00,Electronics,417.75,True,Brand B,0,North,Kolkata,247,187,31,12,40,0.887,320.55
+2024-10-21 06:10:00,Home & Kitchen,183.03,False,Brand B,0,Central,Mumbai,24,186,17,10,51,0.271,442.22
+2024-10-24 15:11:00,Electronics,111.6,True,Brand E,25,North,Mumbai,192,72,40,11,74,0.399,170.26
+2024-05-26 19:57:00,Fashion,128.87,True,Brand D,10,West,Kolkata,65,9,29,10,21,0.631,39.0
+2024-04-17 05:15:00,Books,321.99,False,Brand E,30,East,Mumbai,356,123,10,2,92,0.167,48.15
+2024-01-05 07:31:00,Electronics,445.13,False,Brand A,30,South,Mumbai,468,87,3,18,68,0.184,107.2
+2024-10-28 02:25:00,Fashion,351.83,False,Brand D,25,North,Kolkata,336,107,23,7,72,0.88,321.61
+2024-09-29 21:17:00,Electronics,482.56,True,Brand D,15,North,Chennai,344,20,10,16,100,0.497,358.32
+2024-05-21 00:29:00,Home & Kitchen,218.23,False,Brand C,10,West,Kolkata,376,165,20,18,26,0.053,173.0
+2024-01-24 16:57:00,Books,304.97,False,Brand D,10,North,Bangalore,473,75,7,11,71,0.334,56.65
+2024-11-10 12:17:00,Electronics,72.84,False,Brand C,5,South,Delhi,447,100,23,5,11,0.485,11.71
+2024-05-06 09:28:00,Books,282.9,False,Brand C,10,East,Bangalore,393,26,2,10,45,0.521,459.47
+2024-11-22 00:34:00,Fashion,223.76,True,Brand B,10,South,Kolkata,273,142,3,1,51,0.444,278.3
+2024-10-10 21:39:00,Health & Beauty,475.3,False,Brand C,0,North,Kolkata,6,138,14,5,95,0.843,417.09
+2024-09-23 15:46:00,Books,100.76,True,Brand E,30,East,Delhi,422,76,39,16,37,0.578,386.83
+2024-06-04 12:52:00,Books,61.19,False,Brand E,25,South,Mumbai,302,33,8,16,36,0.559,419.68
+2024-10-11 11:02:00,Fashion,259.74,False,Brand E,20,West,Delhi,324,167,38,14,75,0.361,112.98
+2024-04-16 03:46:00,Electronics,333.23,True,Brand D,10,West,Delhi,126,150,24,0,19,0.489,400.97
+2024-11-19 17:58:00,Fashion,415.22,False,Brand C,30,Central,Mumbai,272,39,19,12,17,0.51,168.8
+2024-12-29 04:45:00,Fashion,153.58,True,Brand B,10,Central,Bangalore,121,97,45,15,47,0.463,70.75
+2024-03-08 20:33:00,Fashion,364.41,False,Brand C,15,West,Delhi,158,25,41,5,85,0.607,205.18
+2024-02-09 09:02:00,Books,190.44,True,Brand A,0,Central,Mumbai,35,142,17,3,94,0.693,141.96
+2024-10-16 18:37:00,Books,242.97,True,Brand D,5,North,Kolkata,87,0,5,16,6,0.01,196.18
+2024-07-01 20:37:00,Books,74.65,False,Brand C,15,East,Chennai,248,10,22,12,97,0.808,202.09
+2024-11-08 10:56:00,Home & Kitchen,33.79,True,Brand D,15,North,Kolkata,61,184,6,0,96,0.511,164.01
+2024-03-14 09:29:00,Health & Beauty,475.44,True,Brand D,30,East,Delhi,307,40,15,16,19,0.541,238.68
+2024-04-25 20:04:00,Books,109.14,True,Brand D,5,South,Bangalore,330,175,6,6,74,0.964,473.0
+2024-10-16 18:10:00,Electronics,425.53,False,Brand D,0,North,Chennai,329,14,23,0,68,0.231,448.65
+2024-11-28 17:19:00,Health & Beauty,398.23,False,Brand D,20,Central,Delhi,232,187,19,8,45,0.232,165.11
+2024-02-10 09:54:00,Home & Kitchen,47.92,True,Brand E,15,West,Chennai,37,180,5,11,52,0.022,160.89
+2024-06-01 07:52:00,Fashion,387.07,False,Brand A,10,Central,Kolkata,392,195,3,0,74,0.662,212.29
+2024-04-24 20:37:00,Fashion,238.43,True,Brand D,30,Central,Mumbai,45,155,32,6,13,0.44,156.22
+2024-01-20 08:54:00,Health & Beauty,241.52,False,Brand A,15,North,Chennai,465,184,45,9,5,0.219,201.64
+2024-02-08 15:19:00,Electronics,274.3,False,Brand A,15,West,Bangalore,40,0,48,5,33,0.953,480.55
+2024-07-11 06:56:00,Health & Beauty,62.2,False,Brand E,20,South,Kolkata,26,98,31,19,67,0.436,498.63
+2024-02-27 11:08:00,Health & Beauty,331.76,True,Brand D,5,East,Chennai,320,130,19,17,44,0.355,61.08
+2024-09-05 22:23:00,Health & Beauty,368.99,True,Brand E,20,North,Kolkata,173,131,47,15,13,0.907,185.21
+2024-06-15 12:23:00,Fashion,52.0,True,Brand A,10,South,Chennai,104,138,2,3,18,0.235,20.65
+2024-03-09 19:55:00,Home & Kitchen,263.99,True,Brand D,20,South,Delhi,234,105,28,20,15,0.199,383.14
+2024-11-21 20:42:00,Fashion,56.23,True,Brand E,10,South,Bangalore,147,146,49,3,56,0.976,399.65
+2024-02-28 00:02:00,Fashion,51.08,True,Brand E,10,East,Bangalore,374,50,27,5,42,0.437,315.56
+2024-07-27 08:34:00,Electronics,76.62,False,Brand E,30,East,Chennai,437,54,37,9,53,0.271,173.53
+2024-09-06 21:33:00,Books,446.34,True,Brand C,25,South,Kolkata,168,158,50,11,38,0.889,219.96
+2024-05-15 19:46:00,Fashion,185.57,False,Brand D,5,East,Chennai,472,20,25,8,67,0.973,283.3
+2024-07-07 08:08:00,Health & Beauty,461.23,False,Brand E,0,South,Mumbai,50,101,22,15,45,0.743,414.76
+2024-02-14 07:26:00,Books,200.24,True,Brand A,5,West,Delhi,368,77,34,6,31,0.803,147.74
+2024-10-23 19:07:00,Fashion,19.02,False,Brand C,25,East,Mumbai,87,91,3,4,17,0.151,171.87
+2024-09-02 08:07:00,Home & Kitchen,217.81,True,Brand E,15,South,Mumbai,316,199,6,18,16,0.741,37.41
+2024-03-01 09:17:00,Health & Beauty,162.18,True,Brand C,0,East,Bangalore,409,47,48,2,100,0.519,25.15
+2024-06-29 09:44:00,Home & Kitchen,457.7,True,Brand E,0,Central,Kolkata,216,132,13,11,5,0.613,293.45
+2024-10-22 23:31:00,Fashion,357.9,False,Brand C,20,South,Mumbai,311,94,39,9,92,0.6,454.58
+2024-08-17 08:31:00,Electronics,68.47,False,Brand C,5,West,Bangalore,125,91,45,2,88,0.411,10.05
+2024-03-16 11:54:00,Health & Beauty,416.29,True,Brand A,0,East,Chennai,214,53,36,18,78,0.473,142.3
+2024-05-28 08:04:00,Home & Kitchen,311.66,False,Brand B,25,North,Chennai,393,50,50,9,85,0.429,342.67
+2024-05-17 11:50:00,Home & Kitchen,157.82,False,Brand A,0,East,Mumbai,42,75,49,15,55,0.12,406.61
+2024-04-12 19:57:00,Books,329.48,True,Brand E,25,East,Delhi,195,144,13,19,61,0.556,158.63
+2024-04-11 03:12:00,Home & Kitchen,235.0,True,Brand B,25,East,Chennai,13,129,15,17,93,0.432,295.34
+2024-01-27 06:07:00,Electronics,314.39,True,Brand B,10,Central,Chennai,325,146,27,14,91,0.205,224.39
+2024-01-29 16:56:00,Electronics,282.99,True,Brand D,30,Central,Kolkata,75,160,6,6,12,0.822,461.43
+2024-10-03 16:01:00,Books,117.99,False,Brand D,25,West,Kolkata,447,47,29,6,38,0.221,362.86
+2024-01-11 00:23:00,Home & Kitchen,355.07,False,Brand D,0,East,Chennai,435,53,39,11,90,0.138,321.51
+2024-02-04 15:50:00,Fashion,408.51,True,Brand D,15,East,Chennai,262,177,21,17,56,0.011,146.48
+2024-11-20 04:59:00,Home & Kitchen,117.71,True,Brand D,25,North,Bangalore,350,127,9,1,40,0.638,208.04
+2024-12-09 12:53:00,Electronics,17.52,True,Brand B,10,Central,Kolkata,425,69,16,18,69,0.357,177.85
+2024-04-26 14:05:00,Health & Beauty,154.82,False,Brand E,15,South,Kolkata,94,161,39,8,46,0.877,188.58
+2024-04-11 21:33:00,Fashion,75.4,True,Brand D,0,West,Kolkata,474,101,12,12,35,0.189,499.55
+2024-07-29 20:27:00,Home & Kitchen,432.49,True,Brand B,30,South,Mumbai,300,121,4,19,66,0.504,49.29
+2024-03-14 18:13:00,Electronics,338.29,True,Brand B,30,East,Mumbai,381,164,19,8,92,0.958,411.27
+2024-10-01 23:13:00,Home & Kitchen,80.26,True,Brand A,15,North,Bangalore,380,197,26,11,92,0.092,108.32
+2024-10-30 15:51:00,Books,460.24,True,Brand A,20,Central,Delhi,201,67,6,3,18,0.625,130.96
+2024-05-24 14:23:00,Books,294.38,False,Brand A,25,South,Mumbai,185,154,45,9,66,0.553,402.56
+2024-11-04 17:43:00,Books,285.65,True,Brand D,0,East,Mumbai,472,177,0,20,71,0.646,460.34
+2024-10-03 15:23:00,Electronics,425.81,False,Brand E,25,North,Chennai,228,188,33,5,13,0.557,493.16
+2024-03-02 09:13:00,Electronics,149.66,True,Brand B,0,East,Bangalore,135,199,9,1,51,0.306,146.19
+2024-11-24 05:30:00,Health & Beauty,425.76,True,Brand B,15,East,Chennai,275,136,48,6,51,0.83,342.16
+2024-11-24 13:45:00,Electronics,361.83,False,Brand A,15,South,Mumbai,349,155,43,5,93,0.649,329.94
+2024-05-20 11:35:00,Electronics,97.09,False,Brand D,25,East,Kolkata,262,136,12,14,62,0.797,78.72
+2024-12-23 16:46:00,Books,35.74,False,Brand D,30,South,Delhi,58,180,18,14,37,0.4,108.48
+2024-02-02 04:00:00,Home & Kitchen,468.77,True,Brand A,10,Central,Mumbai,474,165,29,14,33,0.628,182.88
+2024-09-01 14:38:00,Fashion,82.28,False,Brand D,0,East,Chennai,346,86,23,11,68,0.164,401.36
+2024-04-02 08:57:00,Fashion,37.83,True,Brand D,25,East,Bangalore,267,24,35,10,40,0.129,142.17
+2024-08-03 03:16:00,Home & Kitchen,293.16,True,Brand A,25,South,Bangalore,435,0,19,1,74,0.591,365.68
+2024-09-06 19:42:00,Fashion,376.16,True,Brand A,5,West,Bangalore,374,78,34,13,53,0.503,87.12
+2024-02-12 20:43:00,Fashion,415.93,True,Brand C,25,Central,Mumbai,225,127,1,13,80,0.628,19.48
+2024-12-23 14:45:00,Electronics,143.36,True,Brand B,30,South,Bangalore,468,122,42,6,29,0.403,352.48
+2024-06-30 18:45:00,Health & Beauty,497.58,False,Brand B,20,West,Kolkata,454,133,3,8,96,0.352,58.35
+2024-04-18 08:15:00,Home & Kitchen,271.33,True,Brand B,25,South,Mumbai,192,25,38,20,3,0.538,323.17
+2024-04-20 11:27:00,Health & Beauty,181.35,False,Brand C,15,Central,Mumbai,113,102,1,13,82,0.166,257.71
+2024-06-14 07:31:00,Health & Beauty,371.85,False,Brand D,5,North,Bangalore,209,179,27,20,20,0.655,113.1
+2024-06-30 00:00:00,Books,358.59,True,Brand A,10,South,Kolkata,491,113,46,12,63,0.097,89.19
+2024-03-30 18:32:00,Home & Kitchen,219.52,True,Brand D,5,North,Chennai,421,73,41,2,44,0.774,63.37
+2024-09-07 22:18:00,Fashion,103.92,True,Brand B,10,East,Chennai,404,137,31,12,4,0.545,135.43
+2024-07-06 06:47:00,Electronics,453.04,True,Brand C,30,West,Delhi,3,72,10,2,23,0.239,190.39
+2024-04-05 22:02:00,Home & Kitchen,198.39,False,Brand E,30,East,Mumbai,82,142,50,7,77,0.308,79.76
+2024-04-27 07:01:00,Books,90.83,False,Brand D,10,Central,Delhi,288,67,27,2,37,0.153,265.42
+2024-08-30 09:21:00,Fashion,376.54,True,Brand A,20,South,Kolkata,61,193,39,11,44,0.857,148.42
+2024-04-22 17:52:00,Home & Kitchen,206.0,True,Brand A,0,East,Kolkata,160,104,38,7,10,0.457,486.5
+2024-02-05 19:46:00,Fashion,84.05,True,Brand A,10,Central,Chennai,1,172,17,11,11,0.616,414.73
+2024-07-09 06:43:00,Health & Beauty,47.67,False,Brand E,30,East,Mumbai,231,43,44,7,80,0.222,114.76
+2024-10-27 20:06:00,Electronics,432.99,False,Brand D,10,South,Kolkata,90,131,21,11,19,0.336,335.49
+2024-04-27 15:07:00,Health & Beauty,34.05,True,Brand C,15,West,Kolkata,369,73,9,4,64,0.038,393.57
+2024-03-22 13:24:00,Health & Beauty,458.64,True,Brand D,20,East,Delhi,255,25,38,19,88,0.393,355.47
+2024-10-02 18:04:00,Fashion,425.56,False,Brand A,5,West,Kolkata,233,43,36,4,90,0.855,33.13
+2024-12-27 02:57:00,Fashion,424.7,False,Brand D,20,East,Delhi,336,179,18,13,99,0.136,17.39
+2024-06-12 13:20:00,Fashion,121.04,False,Brand D,10,East,Mumbai,454,107,34,15,57,0.216,374.92
+2024-07-14 05:51:00,Books,133.08,True,Brand B,0,Central,Delhi,459,72,11,1,13,0.745,92.37
+2024-05-29 03:34:00,Fashion,418.55,False,Brand B,25,East,Kolkata,60,47,16,10,44,0.293,402.64
+2024-01-01 12:37:00,Health & Beauty,397.79,False,Brand B,5,West,Delhi,455,17,9,3,52,0.342,133.33
+2024-04-29 08:40:00,Books,133.91,False,Brand D,0,Central,Delhi,374,6,25,15,21,0.074,24.21
+2024-03-21 00:23:00,Health & Beauty,27.67,False,Brand B,15,Central,Bangalore,29,179,39,13,88,0.6,257.55
+2024-04-19 09:40:00,Fashion,186.23,False,Brand D,10,East,Bangalore,273,130,2,9,76,0.216,229.42
+2024-05-05 20:15:00,Books,174.53,True,Brand E,5,South,Bangalore,284,31,27,8,21,0.478,143.36
+2024-03-09 03:52:00,Books,59.57,True,Brand E,15,South,Delhi,164,121,37,11,38,0.276,300.41
+2024-05-03 05:14:00,Health & Beauty,56.12,False,Brand E,10,East,Chennai,416,160,38,7,93,0.355,18.28
+2024-10-17 14:09:00,Fashion,103.8,False,Brand D,10,West,Delhi,297,159,33,4,15,0.074,458.14
+2024-11-09 03:28:00,Home & Kitchen,455.55,False,Brand A,5,West,Chennai,487,57,48,16,36,0.086,390.17
+2024-06-15 04:25:00,Home & Kitchen,200.93,False,Brand D,30,Central,Bangalore,117,135,7,20,35,0.347,142.08
+2024-01-01 23:03:00,Electronics,364.69,True,Brand B,10,West,Kolkata,416,44,27,4,10,0.984,211.52
+2024-07-24 22:07:00,Electronics,133.66,True,Brand B,25,West,Chennai,26,191,24,17,53,0.237,125.63
+2024-01-12 21:28:00,Fashion,423.28,False,Brand D,10,Central,Kolkata,431,163,44,15,12,0.184,349.55
+2024-09-14 02:34:00,Electronics,444.57,True,Brand A,15,North,Mumbai,113,168,40,0,17,0.496,314.17
+2024-11-13 01:29:00,Health & Beauty,446.63,False,Brand B,15,South,Kolkata,477,105,26,7,16,0.579,364.3
+2024-04-29 19:07:00,Electronics,333.78,True,Brand C,15,East,Chennai,198,108,18,4,27,0.883,60.44
+2024-11-27 03:27:00,Health & Beauty,441.71,False,Brand D,0,South,Kolkata,55,28,3,5,87,0.287,27.67
+2024-08-10 08:57:00,Health & Beauty,208.69,True,Brand C,15,South,Chennai,392,76,28,5,84,0.768,414.21
+2024-01-05 18:50:00,Electronics,90.96,True,Brand A,0,South,Chennai,285,7,21,16,7,0.193,311.38
+2024-07-24 20:08:00,Books,269.7,True,Brand E,20,East,Kolkata,419,37,4,20,62,0.439,106.78
+2024-04-05 07:03:00,Books,121.86,False,Brand E,20,West,Mumbai,259,104,5,7,90,0.903,291.09
+2024-07-08 13:04:00,Fashion,473.51,False,Brand D,0,North,Chennai,44,198,16,13,36,0.842,268.15
+2024-07-29 23:35:00,Fashion,240.38,True,Brand C,25,Central,Delhi,15,43,45,9,62,0.231,291.51
+2024-12-21 08:38:00,Health & Beauty,228.42,True,Brand D,0,Central,Kolkata,291,171,12,16,39,0.937,420.64
+2024-11-11 09:48:00,Books,180.72,True,Brand E,10,South,Delhi,246,139,12,12,64,0.686,420.39
+2024-01-24 10:26:00,Fashion,425.41,True,Brand B,0,East,Delhi,100,131,49,11,21,0.424,134.18
+2024-01-12 07:14:00,Electronics,224.2,True,Brand D,20,West,Chennai,92,116,25,5,17,0.75,275.7
+2024-01-03 16:29:00,Electronics,273.95,True,Brand D,20,South,Mumbai,321,155,1,14,89,0.884,402.14
+2024-07-07 00:04:00,Home & Kitchen,264.88,True,Brand A,30,South,Mumbai,392,20,7,13,88,0.243,262.6
+2024-07-07 11:44:00,Electronics,131.45,False,Brand A,20,Central,Bangalore,125,62,18,20,5,0.217,208.64
+2024-08-25 16:54:00,Fashion,495.1,True,Brand C,25,West,Delhi,279,15,28,19,54,0.534,255.48
+2024-06-30 07:43:00,Health & Beauty,352.38,False,Brand B,0,North,Bangalore,113,105,35,2,85,0.082,116.1
+2024-01-06 17:23:00,Health & Beauty,362.18,True,Brand D,20,Central,Mumbai,415,198,39,5,99,0.113,18.05
+2024-03-12 00:20:00,Books,215.84,True,Brand B,15,South,Mumbai,101,95,19,8,61,0.231,34.23
+2024-10-28 22:20:00,Home & Kitchen,492.64,True,Brand D,5,North,Mumbai,360,164,39,5,12,0.926,397.46
+2024-10-23 10:23:00,Health & Beauty,25.83,True,Brand B,20,West,Bangalore,3,107,38,9,42,0.954,127.02
+2024-06-15 00:48:00,Books,449.02,False,Brand E,25,West,Chennai,362,198,34,6,35,0.158,15.08
+2024-08-12 05:32:00,Fashion,478.33,False,Brand E,0,North,Bangalore,426,8,38,17,29,0.54,299.91
+2024-05-11 23:34:00,Books,132.78,False,Brand C,25,Central,Bangalore,41,61,41,4,3,0.767,253.84
+2024-09-30 23:12:00,Books,174.77,True,Brand B,15,North,Chennai,414,17,16,6,92,0.422,329.65
+2024-04-24 16:41:00,Health & Beauty,328.92,True,Brand B,20,Central,Kolkata,482,143,6,11,21,0.588,492.14
+2024-07-08 02:14:00,Health & Beauty,427.23,True,Brand C,15,Central,Bangalore,190,112,20,12,99,0.551,31.91
+2024-05-28 01:22:00,Books,470.81,False,Brand C,10,North,Delhi,204,94,48,18,100,0.104,488.4
+2024-10-31 21:33:00,Home & Kitchen,295.67,True,Brand E,0,Central,Mumbai,303,33,49,17,65,0.112,134.98
+2024-10-16 08:31:00,Electronics,41.35,False,Brand D,15,East,Kolkata,399,2,8,2,92,0.657,234.2
+2024-04-24 00:43:00,Electronics,288.79,False,Brand C,20,Central,Chennai,82,68,11,20,66,0.024,387.35
+2024-10-22 17:08:00,Health & Beauty,234.89,True,Brand D,0,East,Kolkata,444,165,4,8,42,0.648,298.45
+2024-07-17 16:15:00,Electronics,48.52,False,Brand E,0,East,Chennai,105,68,33,12,36,0.3,42.35
+2024-08-27 11:00:00,Home & Kitchen,291.44,False,Brand E,15,South,Delhi,403,191,45,15,19,0.752,38.72
+2024-05-07 04:22:00,Books,112.07,True,Brand B,10,Central,Delhi,215,102,0,14,100,0.788,405.37
+2024-12-03 10:28:00,Health & Beauty,259.26,False,Brand C,0,North,Bangalore,484,53,8,0,16,0.504,325.88
+2024-06-24 06:33:00,Electronics,31.02,False,Brand A,20,Central,Chennai,456,167,22,19,66,0.524,307.48
+2024-07-13 07:21:00,Electronics,81.3,True,Brand A,10,Central,Mumbai,47,77,28,0,69,0.369,145.44
+2024-11-12 08:00:00,Electronics,253.44,False,Brand B,15,East,Mumbai,446,101,18,5,48,0.719,436.3
+2024-03-26 02:27:00,Books,363.84,True,Brand C,15,East,Kolkata,275,36,35,5,92,0.261,192.33
+2024-12-15 18:43:00,Health & Beauty,219.95,False,Brand C,0,West,Bangalore,255,81,21,16,35,0.69,382.79
+2024-11-19 08:14:00,Fashion,487.14,True,Brand E,25,South,Kolkata,165,166,47,8,35,0.205,294.89
+2024-03-22 19:01:00,Home & Kitchen,314.71,True,Brand A,15,South,Chennai,314,63,37,19,95,0.374,213.09
+2024-07-10 18:47:00,Health & Beauty,243.78,False,Brand C,30,East,Kolkata,439,114,17,9,88,0.82,149.26
+2024-06-27 22:13:00,Health & Beauty,49.74,False,Brand D,25,Central,Delhi,173,23,41,8,6,0.875,197.03
+2024-01-13 04:13:00,Books,461.43,False,Brand C,25,North,Kolkata,210,43,9,5,54,0.68,16.78
+2024-09-01 04:44:00,Health & Beauty,12.04,True,Brand D,15,West,Chennai,137,90,11,6,84,0.509,298.12
+2024-05-27 09:26:00,Home & Kitchen,76.15,True,Brand B,0,Central,Mumbai,168,101,11,10,61,0.18,468.19
+2024-02-19 14:07:00,Fashion,251.44,True,Brand A,5,South,Chennai,470,60,2,15,35,0.865,254.84
+2024-04-30 10:41:00,Home & Kitchen,74.11,False,Brand A,5,East,Chennai,46,77,40,1,28,0.489,472.22
+2024-07-31 16:30:00,Books,158.24,False,Brand E,30,North,Mumbai,186,44,3,18,79,0.237,281.98
+2024-03-31 14:06:00,Electronics,78.11,True,Brand D,5,East,Delhi,124,174,30,15,100,0.487,209.5
+2024-11-29 20:33:00,Electronics,21.11,False,Brand B,25,West,Kolkata,366,178,16,13,48,0.047,229.8
+2024-04-20 05:42:00,Health & Beauty,183.56,False,Brand A,10,Central,Mumbai,19,52,22,12,60,0.601,257.3
+2024-07-11 16:15:00,Home & Kitchen,299.21,True,Brand E,30,East,Bangalore,417,57,24,15,27,0.319,398.24
+2024-10-10 03:15:00,Books,270.07,True,Brand E,5,North,Bangalore,182,86,14,19,34,0.648,105.08
+2024-01-11 09:51:00,Fashion,184.07,True,Brand D,30,South,Kolkata,165,77,34,16,38,0.485,132.44
+2024-09-22 16:39:00,Home & Kitchen,205.43,True,Brand A,25,Central,Mumbai,107,43,18,10,85,0.52,102.98
+2024-12-21 15:38:00,Books,266.66,True,Brand A,25,East,Kolkata,431,98,0,2,98,0.087,142.31
+2024-09-27 20:40:00,Electronics,421.73,False,Brand C,25,West,Mumbai,193,172,3,2,100,0.138,441.74
+2024-04-24 17:45:00,Health & Beauty,396.37,True,Brand E,15,Central,Kolkata,471,192,16,13,19,0.881,324.77
+2024-08-07 19:12:00,Electronics,154.83,True,Brand D,20,North,Bangalore,297,88,14,20,70,0.067,468.35
+2024-05-14 21:39:00,Home & Kitchen,295.69,False,Brand B,15,North,Delhi,487,138,36,12,1,0.953,385.86
+2024-08-12 09:09:00,Books,133.03,False,Brand B,0,North,Chennai,67,21,7,19,69,0.339,133.39
+2024-05-18 06:43:00,Fashion,211.61,False,Brand A,20,South,Kolkata,282,128,28,5,91,0.892,252.59
+2024-09-23 17:42:00,Electronics,410.0,False,Brand E,25,North,Delhi,172,39,17,4,4,0.827,68.46
+2024-10-12 23:49:00,Books,139.35,True,Brand C,10,East,Mumbai,233,3,29,12,0,0.067,408.79
+2024-04-07 09:46:00,Health & Beauty,218.13,True,Brand E,30,Central,Delhi,176,199,35,12,100,0.389,303.24
+2024-09-19 13:38:00,Fashion,137.93,True,Brand C,10,North,Mumbai,405,164,31,9,42,0.436,146.65
+2024-08-29 23:30:00,Electronics,329.43,False,Brand E,25,South,Bangalore,278,26,25,3,71,0.921,489.26
+2024-06-10 10:47:00,Electronics,104.55,True,Brand B,20,North,Delhi,97,81,30,19,76,0.337,325.46
+2024-08-08 06:57:00,Electronics,134.9,True,Brand D,0,West,Delhi,194,165,20,17,35,0.931,275.09
+2024-01-28 18:10:00,Fashion,298.2,True,Brand A,0,South,Delhi,433,145,19,0,8,0.241,153.54
+2024-11-16 04:52:00,Fashion,32.41,True,Brand B,15,Central,Kolkata,178,169,4,17,61,0.804,344.33
+2024-08-27 23:37:00,Home & Kitchen,368.85,False,Brand E,25,West,Bangalore,339,185,48,4,41,0.873,300.79
+2024-09-11 17:28:00,Fashion,374.78,True,Brand D,25,East,Mumbai,19,135,30,18,60,0.415,284.65
+2024-12-24 14:47:00,Fashion,292.11,False,Brand A,20,South,Delhi,483,195,32,18,10,0.76,41.45
+2024-09-19 10:52:00,Home & Kitchen,111.02,True,Brand D,25,West,Bangalore,172,112,48,19,51,0.224,235.52
+2024-06-02 15:51:00,Books,188.19,False,Brand E,20,West,Kolkata,444,43,22,10,72,0.993,445.61
+2024-11-25 11:19:00,Home & Kitchen,475.33,True,Brand B,0,South,Bangalore,38,92,0,2,23,0.457,410.22
+2024-08-20 07:32:00,Health & Beauty,338.98,False,Brand B,30,East,Mumbai,206,156,22,15,84,0.501,146.35
+2024-05-26 11:40:00,Health & Beauty,214.03,False,Brand D,30,North,Delhi,169,133,6,1,45,0.086,177.13
+2024-03-05 17:57:00,Home & Kitchen,480.19,True,Brand A,20,East,Kolkata,135,193,8,1,42,0.008,232.19
+2024-02-01 08:06:00,Books,410.45,False,Brand C,0,East,Bangalore,443,55,8,6,18,0.6,443.62
+2024-08-04 07:37:00,Fashion,290.85,False,Brand A,5,East,Chennai,479,81,4,3,19,0.817,202.32
+2024-08-06 10:01:00,Home & Kitchen,167.16,True,Brand B,5,North,Chennai,221,102,24,6,25,0.065,338.86
+2024-11-13 00:12:00,Home & Kitchen,17.85,True,Brand D,20,South,Kolkata,459,96,46,13,75,0.128,278.35
+2024-04-07 18:43:00,Health & Beauty,90.19,True,Brand E,25,Central,Mumbai,28,128,2,6,80,0.824,162.07
+2024-04-28 13:52:00,Home & Kitchen,56.99,True,Brand C,15,North,Mumbai,227,168,33,12,82,0.646,225.79
+2024-07-28 00:52:00,Health & Beauty,437.09,True,Brand E,20,East,Mumbai,429,57,43,1,58,0.11,206.53
+2024-06-02 02:25:00,Health & Beauty,78.33,True,Brand A,30,East,Bangalore,289,52,27,7,49,0.777,260.28
+2024-06-03 04:12:00,Books,124.66,False,Brand D,5,West,Bangalore,137,17,20,6,54,0.256,395.74
+2024-07-18 00:07:00,Books,268.32,False,Brand A,30,Central,Delhi,50,126,43,11,38,0.599,96.4
+2024-08-02 08:59:00,Fashion,187.96,True,Brand B,20,West,Delhi,308,38,34,19,94,0.661,411.65
+2024-12-14 17:30:00,Home & Kitchen,174.65,True,Brand E,30,Central,Chennai,16,124,42,8,27,0.063,173.55
+2024-11-03 07:52:00,Health & Beauty,385.98,False,Brand C,5,West,Bangalore,133,8,9,3,75,0.482,469.67
+2024-04-22 01:22:00,Home & Kitchen,195.1,False,Brand E,10,West,Delhi,477,20,39,17,67,0.522,377.35
+2024-01-27 14:56:00,Fashion,156.25,True,Brand E,15,West,Bangalore,133,174,20,20,3,0.6,273.41
+2024-11-11 15:29:00,Fashion,244.48,False,Brand D,15,South,Delhi,496,158,46,13,54,0.103,469.99
+2024-07-10 04:14:00,Electronics,139.8,False,Brand A,15,South,Kolkata,2,47,46,13,72,0.889,234.73
+2024-12-04 04:59:00,Electronics,457.18,False,Brand E,0,West,Kolkata,34,136,30,1,76,0.662,446.63
+2024-10-13 17:32:00,Health & Beauty,155.69,False,Brand A,30,Central,Bangalore,277,21,11,15,48,0.503,96.86
+2024-09-14 13:42:00,Home & Kitchen,284.64,True,Brand A,10,North,Bangalore,311,47,41,14,85,0.203,120.51
+2024-10-03 01:45:00,Fashion,489.68,True,Brand A,30,Central,Bangalore,134,178,50,18,87,0.1,417.9
+2024-05-20 20:55:00,Fashion,454.45,True,Brand B,5,South,Bangalore,365,111,45,12,41,0.084,408.39
+2024-01-19 07:44:00,Electronics,281.87,True,Brand E,5,Central,Kolkata,218,93,13,16,79,0.239,389.11
+2024-05-01 08:44:00,Fashion,398.93,True,Brand A,30,Central,Mumbai,449,81,22,15,16,0.308,172.31
+2024-09-08 05:23:00,Health & Beauty,117.9,True,Brand C,5,West,Chennai,81,91,26,12,6,0.81,283.26
+2024-12-05 06:05:00,Books,66.79,False,Brand E,10,West,Kolkata,245,30,13,9,56,0.441,263.16
+2024-04-17 23:25:00,Books,154.71,False,Brand C,20,South,Kolkata,274,109,45,16,49,0.544,472.61
+2024-01-14 22:49:00,Fashion,293.1,True,Brand C,25,East,Kolkata,441,197,36,2,97,0.044,358.11
+2024-08-11 10:53:00,Health & Beauty,470.63,False,Brand D,30,North,Chennai,320,132,34,11,100,0.317,124.72
+2024-09-30 12:41:00,Fashion,229.41,False,Brand D,25,South,Bangalore,485,53,42,5,80,0.488,137.1
+2024-01-14 10:45:00,Books,432.24,True,Brand B,25,East,Bangalore,492,111,14,18,30,0.649,384.34
+2024-08-14 17:15:00,Health & Beauty,44.28,False,Brand D,5,East,Bangalore,106,193,34,13,4,0.324,147.21
+2024-10-21 18:25:00,Home & Kitchen,459.2,False,Brand E,10,North,Chennai,150,27,49,7,24,0.783,103.14
+2024-12-03 01:49:00,Fashion,111.89,True,Brand C,30,South,Mumbai,189,20,27,5,4,0.539,266.03
+2024-01-26 20:48:00,Fashion,344.08,True,Brand C,30,North,Bangalore,401,32,2,16,59,0.125,51.89
+2024-07-20 09:35:00,Electronics,484.01,False,Brand A,25,North,Kolkata,231,30,15,12,49,0.688,63.78
+2024-11-24 11:29:00,Books,477.53,True,Brand B,10,South,Delhi,156,14,34,16,39,0.496,351.8
+2024-05-31 15:30:00,Health & Beauty,304.83,False,Brand B,20,East,Mumbai,491,83,47,5,19,0.644,63.69
+2024-11-08 18:31:00,Electronics,140.67,False,Brand A,5,South,Chennai,472,33,40,15,35,0.032,462.91
+2024-11-26 06:59:00,Fashion,468.05,True,Brand D,25,East,Mumbai,499,19,6,9,22,0.503,208.62
+2024-10-25 14:00:00,Health & Beauty,263.2,False,Brand C,10,East,Mumbai,29,195,44,7,58,0.978,451.82
+2024-03-30 19:57:00,Health & Beauty,272.23,True,Brand B,10,West,Delhi,40,6,39,17,100,0.668,124.4
+2024-06-14 11:44:00,Fashion,184.38,False,Brand A,30,South,Delhi,169,21,48,9,34,0.488,21.53
+2024-01-09 22:32:00,Health & Beauty,321.04,False,Brand A,25,South,Bangalore,130,47,35,18,92,0.241,188.58
+2024-09-07 17:39:00,Electronics,484.26,True,Brand B,0,South,Mumbai,106,35,7,15,51,0.921,323.73
+2024-04-21 17:33:00,Home & Kitchen,134.81,True,Brand A,25,Central,Mumbai,296,0,28,18,43,0.91,424.41
+2024-10-09 21:20:00,Books,384.63,False,Brand A,10,East,Delhi,260,18,42,14,70,0.897,317.04
+2024-10-06 08:55:00,Electronics,43.43,True,Brand D,10,North,Kolkata,329,162,46,10,96,0.371,405.96
+2024-07-24 15:13:00,Health & Beauty,23.65,False,Brand A,0,South,Kolkata,343,69,4,1,82,0.145,371.01
+2024-03-28 00:54:00,Home & Kitchen,85.4,True,Brand E,25,East,Chennai,206,153,29,16,60,0.73,222.94
+2024-10-22 19:45:00,Home & Kitchen,83.9,False,Brand A,30,North,Mumbai,256,124,10,14,70,0.127,172.45
+2024-09-03 04:49:00,Books,390.95,True,Brand A,20,East,Delhi,188,12,2,7,80,0.77,393.8
+2024-05-09 20:19:00,Fashion,226.58,False,Brand B,10,South,Chennai,41,99,43,19,100,0.939,462.02
+2024-01-31 05:59:00,Electronics,455.6,False,Brand B,10,North,Kolkata,299,170,19,2,52,0.28,51.53
+2024-09-18 17:50:00,Health & Beauty,325.3,True,Brand B,5,East,Chennai,484,5,38,3,33,0.24,372.46
+2024-11-28 23:04:00,Electronics,275.07,True,Brand C,5,Central,Mumbai,187,166,17,4,45,0.314,22.81
+2024-06-20 19:31:00,Books,374.35,False,Brand A,15,North,Mumbai,393,14,48,12,83,0.688,417.46
+2024-06-02 11:36:00,Books,338.81,True,Brand A,20,South,Bangalore,286,46,25,11,26,0.92,299.47
+2024-08-12 13:53:00,Electronics,454.6,True,Brand E,10,West,Bangalore,52,163,7,2,83,0.053,231.87
+2024-08-09 11:38:00,Health & Beauty,273.12,True,Brand E,25,West,Delhi,234,181,21,18,29,0.36,454.92
+2024-11-08 18:42:00,Books,419.44,True,Brand D,30,Central,Mumbai,326,157,0,14,85,0.748,93.37
+2024-12-26 02:45:00,Home & Kitchen,292.66,True,Brand E,10,East,Chennai,103,195,3,4,30,0.655,378.46
+2024-05-06 05:15:00,Health & Beauty,187.87,True,Brand C,5,West,Kolkata,303,117,42,9,93,0.792,165.52
+2024-08-12 22:38:00,Home & Kitchen,329.08,True,Brand C,10,East,Bangalore,166,85,3,1,67,0.733,478.66
+2024-02-06 19:47:00,Home & Kitchen,429.58,True,Brand A,5,East,Kolkata,316,39,32,15,61,0.282,40.61
+2024-02-05 10:15:00,Health & Beauty,319.39,True,Brand A,10,Central,Bangalore,455,52,34,4,56,0.372,437.27
+2024-09-03 17:43:00,Electronics,342.89,True,Brand D,0,North,Bangalore,491,131,38,3,52,0.984,363.52
+2024-09-30 11:07:00,Home & Kitchen,177.33,True,Brand D,30,West,Mumbai,445,54,31,5,75,0.348,67.86
+2024-05-24 08:13:00,Health & Beauty,441.96,False,Brand E,15,South,Delhi,480,88,15,5,38,0.358,116.92
+2024-07-22 22:03:00,Health & Beauty,264.03,True,Brand B,5,Central,Mumbai,308,53,31,4,75,0.35,466.18
+2024-07-16 03:17:00,Electronics,476.19,True,Brand C,20,North,Delhi,142,24,46,10,25,0.848,480.3
+2024-03-01 16:21:00,Health & Beauty,413.56,True,Brand E,5,South,Kolkata,142,62,15,7,22,0.73,274.22
+2024-07-25 13:50:00,Health & Beauty,115.06,True,Brand A,5,East,Chennai,455,192,10,0,69,0.02,207.7
+2024-07-16 00:58:00,Home & Kitchen,89.6,False,Brand E,20,South,Mumbai,352,49,20,2,4,0.604,49.55
+2024-02-15 10:28:00,Home & Kitchen,320.75,True,Brand D,20,East,Kolkata,195,107,25,2,9,0.228,181.5
+2024-11-26 22:02:00,Fashion,347.07,False,Brand B,20,Central,Delhi,144,197,16,16,67,0.162,484.89
+2024-01-16 03:40:00,Health & Beauty,329.55,False,Brand C,0,South,Delhi,209,128,36,20,24,0.908,159.54
+2024-10-12 01:16:00,Health & Beauty,265.46,False,Brand D,30,North,Kolkata,270,62,42,15,91,0.523,390.79
+2024-01-04 07:58:00,Health & Beauty,292.9,True,Brand B,0,West,Bangalore,456,60,43,3,78,0.912,96.05
+2024-09-18 17:55:00,Books,371.13,False,Brand B,5,West,Mumbai,346,79,10,4,38,0.701,487.98
+2024-08-04 01:34:00,Electronics,403.89,True,Brand A,20,Central,Delhi,340,183,46,3,42,0.741,68.67
+2024-03-12 17:04:00,Electronics,408.44,False,Brand C,20,East,Mumbai,247,73,32,4,76,0.51,135.63
+2024-03-19 01:07:00,Home & Kitchen,258.34,False,Brand E,15,North,Mumbai,230,156,24,7,53,0.073,368.82
+2024-09-16 06:35:00,Home & Kitchen,439.11,True,Brand D,0,Central,Mumbai,238,30,28,1,72,0.058,485.92
+2024-09-08 05:50:00,Electronics,231.91,False,Brand B,5,North,Mumbai,29,25,1,11,63,0.311,250.84
+2024-07-17 10:31:00,Electronics,351.1,False,Brand B,10,West,Kolkata,467,177,11,11,66,0.191,484.0
+2024-10-14 19:40:00,Health & Beauty,106.74,True,Brand D,10,Central,Chennai,124,154,38,3,80,0.433,62.17
+2024-01-18 22:28:00,Electronics,130.88,False,Brand D,10,East,Bangalore,338,142,8,15,93,0.805,439.18
+2024-02-03 17:14:00,Home & Kitchen,150.77,False,Brand E,25,West,Mumbai,74,95,25,1,64,0.612,262.65
+2024-12-02 03:06:00,Fashion,282.72,False,Brand E,15,South,Chennai,281,185,17,9,28,0.138,469.51
+2024-11-23 09:21:00,Books,407.74,True,Brand B,15,East,Delhi,474,38,43,13,89,0.782,197.85
+2024-02-16 10:13:00,Books,481.0,True,Brand E,5,Central,Delhi,192,16,38,4,87,0.645,226.6
+2024-01-18 06:18:00,Electronics,468.88,False,Brand C,5,Central,Mumbai,295,10,31,7,75,0.184,323.09
+2024-06-24 14:20:00,Home & Kitchen,400.91,True,Brand E,30,East,Delhi,305,2,28,12,5,0.709,334.78
+2024-02-28 01:11:00,Electronics,292.88,False,Brand C,20,North,Bangalore,306,86,22,1,42,0.57,273.81
+2024-07-20 23:37:00,Health & Beauty,200.26,False,Brand B,30,Central,Bangalore,106,80,26,13,66,0.99,302.56
+2024-11-03 10:55:00,Fashion,470.11,False,Brand D,30,West,Mumbai,300,65,18,16,31,0.981,40.82
+2024-11-27 14:48:00,Books,28.85,True,Brand D,20,South,Bangalore,175,127,42,17,50,0.748,447.07
+2024-09-18 23:37:00,Home & Kitchen,298.08,False,Brand A,25,South,Mumbai,141,168,29,19,21,0.887,199.52
+2024-10-07 15:39:00,Electronics,191.12,False,Brand C,30,East,Mumbai,235,90,49,14,69,0.994,344.55
+2024-11-15 12:14:00,Books,414.4,True,Brand A,5,North,Delhi,216,182,0,20,74,0.936,17.2
+2024-07-08 06:35:00,Home & Kitchen,179.07,True,Brand C,10,West,Kolkata,87,156,6,18,30,0.567,497.69
+2024-03-26 12:43:00,Health & Beauty,169.65,True,Brand D,30,Central,Kolkata,139,33,10,4,31,0.003,480.72
+2024-02-06 07:03:00,Fashion,162.63,False,Brand A,15,East,Chennai,238,149,10,3,75,0.799,77.37
+2024-05-17 18:51:00,Health & Beauty,393.35,False,Brand A,20,North,Kolkata,43,26,22,1,54,0.823,416.29
+2024-12-08 21:56:00,Books,322.24,True,Brand C,25,East,Bangalore,455,188,23,10,12,0.039,57.45
+2024-04-10 23:55:00,Books,187.53,False,Brand D,30,East,Bangalore,53,5,44,11,67,0.707,204.25
+2024-05-11 13:35:00,Books,270.39,False,Brand D,0,South,Chennai,259,109,26,18,97,0.495,174.49
+2024-05-11 00:17:00,Fashion,422.14,False,Brand B,5,West,Mumbai,29,187,4,9,90,0.305,53.63
+2024-03-06 04:28:00,Health & Beauty,257.86,True,Brand E,5,Central,Bangalore,319,46,32,14,58,0.619,310.47
+2024-06-01 18:33:00,Home & Kitchen,123.87,True,Brand C,5,West,Chennai,297,31,37,6,7,0.476,92.64
+2024-10-04 03:21:00,Fashion,487.5,False,Brand B,0,West,Bangalore,459,108,18,5,70,0.091,210.62
+2024-12-25 10:14:00,Home & Kitchen,382.01,True,Brand E,15,East,Kolkata,364,118,45,9,28,0.7,229.26
+2024-08-27 19:21:00,Electronics,94.7,False,Brand B,25,South,Chennai,48,164,41,10,75,0.849,481.88
+2024-09-17 22:16:00,Health & Beauty,70.16,False,Brand C,20,East,Chennai,92,24,20,14,13,0.738,133.02
+2024-07-13 05:05:00,Electronics,420.43,True,Brand A,20,West,Delhi,480,82,32,0,58,0.833,82.35
+2024-07-24 07:54:00,Home & Kitchen,31.05,True,Brand A,10,North,Mumbai,179,136,1,10,46,0.735,55.28
+2024-12-02 11:15:00,Books,153.76,False,Brand C,30,East,Bangalore,399,116,50,3,69,0.856,438.4
+2024-06-05 22:16:00,Home & Kitchen,244.15,False,Brand A,5,Central,Delhi,16,9,30,17,27,0.255,101.23
+2024-06-22 17:45:00,Books,422.89,True,Brand D,20,West,Bangalore,191,126,19,3,44,0.476,245.34
+2024-03-03 11:23:00,Electronics,367.3,True,Brand E,20,East,Delhi,221,6,22,14,6,0.105,18.39
+2024-05-20 09:38:00,Books,285.87,False,Brand A,0,North,Bangalore,106,74,40,9,9,0.554,104.83
+2024-03-16 02:17:00,Health & Beauty,160.25,True,Brand E,10,Central,Bangalore,218,8,48,20,59,0.12,151.79
+2024-05-07 09:12:00,Books,311.33,True,Brand C,10,South,Chennai,449,7,50,12,97,0.612,304.1
+2024-07-25 05:03:00,Electronics,109.94,True,Brand E,25,South,Mumbai,337,108,20,6,56,0.511,125.68
+2024-04-23 05:12:00,Books,378.98,True,Brand B,0,West,Bangalore,472,22,22,0,43,0.57,366.44
+2024-12-21 16:22:00,Health & Beauty,212.31,True,Brand E,10,Central,Bangalore,202,118,14,16,63,0.283,197.26
+2024-05-08 04:38:00,Books,248.73,False,Brand E,0,Central,Kolkata,211,188,29,20,75,0.639,269.35
+2024-10-29 23:26:00,Electronics,295.41,False,Brand C,10,North,Delhi,368,135,34,5,26,0.874,191.92
+2024-03-03 08:58:00,Health & Beauty,114.63,False,Brand C,0,South,Kolkata,217,31,6,2,52,0.256,390.77
+2024-04-26 01:43:00,Books,75.03,False,Brand A,30,North,Delhi,63,134,24,1,9,0.038,435.63
+2024-06-23 13:59:00,Electronics,310.07,True,Brand A,25,West,Kolkata,219,3,16,6,92,0.408,133.61
+2024-10-28 12:12:00,Fashion,183.53,True,Brand D,15,West,Mumbai,406,184,21,6,48,0.216,132.67
+2024-05-08 09:15:00,Books,246.46,False,Brand B,10,Central,Mumbai,316,125,19,1,24,0.054,91.38
+2024-07-01 10:23:00,Books,89.47,True,Brand E,5,Central,Delhi,239,95,45,17,38,0.494,273.99
+2024-10-26 18:10:00,Fashion,44.96,False,Brand A,15,East,Chennai,409,55,18,19,59,0.977,320.64
+2024-11-06 05:51:00,Fashion,295.74,True,Brand D,15,Central,Chennai,15,192,7,13,47,0.006,146.05
+2024-02-26 19:33:00,Health & Beauty,43.82,False,Brand B,10,East,Chennai,480,129,34,20,94,0.563,345.78
+2024-10-24 00:46:00,Books,226.43,True,Brand B,30,Central,Bangalore,41,177,41,8,67,0.744,327.68
+2024-09-18 17:10:00,Books,58.04,False,Brand B,25,South,Chennai,380,46,37,10,11,0.268,283.94
+2024-09-28 18:18:00,Electronics,11.93,True,Brand E,0,West,Bangalore,120,82,19,12,57,0.035,280.73
+2024-01-15 20:28:00,Health & Beauty,317.95,False,Brand E,5,West,Kolkata,57,135,4,11,36,0.189,279.02
+2024-05-20 05:07:00,Books,469.25,False,Brand A,25,West,Chennai,369,151,35,0,32,0.306,204.91
+2024-11-29 04:14:00,Books,440.63,True,Brand E,20,East,Mumbai,21,159,44,15,65,0.127,118.27
+2024-09-05 14:13:00,Books,133.61,True,Brand B,30,South,Kolkata,70,25,43,17,28,0.933,451.24
+2024-09-23 20:28:00,Fashion,44.35,False,Brand D,20,Central,Mumbai,60,36,24,14,30,0.724,88.88
+2024-12-26 19:26:00,Books,132.78,True,Brand A,15,Central,Bangalore,146,155,25,16,98,0.727,219.25
+2024-03-17 23:48:00,Books,105.28,False,Brand B,10,South,Chennai,9,69,43,10,12,0.709,260.05
+2024-10-29 11:33:00,Fashion,346.83,True,Brand E,20,North,Delhi,221,130,25,1,88,0.429,234.5
+2024-11-25 18:35:00,Health & Beauty,131.4,False,Brand E,0,East,Chennai,458,170,3,18,56,0.213,484.8
+2024-05-21 14:45:00,Home & Kitchen,303.31,False,Brand D,20,East,Delhi,431,155,19,10,85,0.957,186.67
+2024-04-26 16:17:00,Home & Kitchen,495.71,True,Brand A,20,West,Chennai,153,74,4,10,45,0.487,160.42
+2024-12-26 13:00:00,Books,184.64,False,Brand E,20,South,Delhi,199,53,46,6,22,0.295,326.88
+2024-10-22 12:15:00,Home & Kitchen,357.17,True,Brand B,30,South,Delhi,448,93,44,20,14,0.682,263.6
+2024-12-14 22:04:00,Home & Kitchen,432.09,False,Brand A,15,South,Bangalore,362,47,3,4,1,0.35,146.31
+2024-04-15 04:37:00,Health & Beauty,63.54,True,Brand D,30,East,Kolkata,307,102,16,1,2,0.562,318.49
+2024-07-05 11:59:00,Health & Beauty,17.29,True,Brand B,0,West,Chennai,284,183,0,10,50,0.29,110.29
+2024-05-10 23:31:00,Books,469.87,False,Brand A,10,West,Mumbai,208,19,40,9,35,0.051,353.13
+2024-05-05 23:32:00,Home & Kitchen,399.21,False,Brand B,25,North,Delhi,204,110,0,14,79,0.137,310.26
+2024-03-13 15:29:00,Electronics,383.39,True,Brand E,10,Central,Delhi,360,71,40,1,76,0.878,472.61
+2024-07-28 18:05:00,Health & Beauty,94.41,True,Brand E,0,South,Mumbai,208,88,41,13,5,0.928,185.3
+2024-11-15 22:30:00,Books,449.79,False,Brand A,25,South,Kolkata,221,18,27,5,3,0.652,427.07
+2024-12-18 04:52:00,Books,155.57,True,Brand E,30,North,Mumbai,156,30,28,2,64,0.793,410.39
+2024-07-21 21:33:00,Electronics,147.62,True,Brand A,0,North,Mumbai,18,191,46,3,71,0.294,128.52
+2024-12-08 15:24:00,Fashion,424.57,True,Brand A,5,North,Bangalore,135,174,49,1,92,0.049,41.62
+2024-05-02 05:05:00,Books,266.88,True,Brand E,25,South,Delhi,360,97,13,6,56,0.788,13.64
+2024-03-21 09:47:00,Home & Kitchen,411.32,True,Brand A,0,Central,Chennai,435,168,32,20,32,0.804,416.75
+2024-11-25 16:01:00,Health & Beauty,113.82,False,Brand B,20,West,Chennai,269,189,13,4,12,0.456,22.6
+2024-04-04 15:52:00,Electronics,11.69,True,Brand B,20,North,Delhi,208,77,22,20,7,0.602,452.9
+2024-07-14 09:48:00,Health & Beauty,255.97,True,Brand A,0,West,Kolkata,355,105,30,19,14,0.983,353.2
+2024-06-20 04:58:00,Books,180.36,True,Brand B,10,East,Chennai,109,17,2,19,84,0.685,368.11
+2024-12-28 09:20:00,Home & Kitchen,258.61,False,Brand C,5,South,Mumbai,104,131,44,12,2,0.847,155.38
+2024-03-31 15:21:00,Books,242.25,True,Brand A,15,West,Mumbai,37,91,50,18,61,0.618,245.41
+2024-08-25 15:18:00,Electronics,492.84,True,Brand D,15,East,Kolkata,274,59,49,10,14,0.607,68.76
+2024-12-13 22:52:00,Home & Kitchen,407.46,False,Brand E,0,North,Delhi,383,123,45,5,29,0.024,334.47
+2024-11-02 00:57:00,Fashion,70.89,False,Brand B,15,East,Bangalore,209,139,28,5,51,0.103,331.43
+2024-01-21 07:41:00,Electronics,93.7,False,Brand A,30,Central,Delhi,234,17,44,19,16,0.761,468.98
+2024-01-18 10:25:00,Health & Beauty,222.64,False,Brand C,25,East,Mumbai,208,13,45,3,42,0.461,354.6
+2024-02-24 11:05:00,Health & Beauty,364.19,False,Brand A,20,North,Mumbai,500,5,37,18,97,0.725,43.21
+2024-04-16 13:35:00,Home & Kitchen,462.67,True,Brand B,15,West,Chennai,383,103,35,5,79,0.438,57.99
+2024-07-08 03:13:00,Books,148.17,False,Brand E,25,East,Mumbai,30,96,6,5,52,0.579,79.63
+2024-10-14 14:46:00,Home & Kitchen,352.29,True,Brand B,5,West,Bangalore,450,200,1,0,56,0.601,422.34
+2024-01-14 17:44:00,Electronics,456.79,True,Brand C,5,North,Mumbai,194,143,42,4,34,0.903,114.5
+2024-12-22 13:26:00,Books,293.11,True,Brand A,30,West,Bangalore,372,79,20,2,42,0.043,183.46
+2024-08-14 07:33:00,Fashion,90.79,True,Brand D,10,East,Bangalore,220,20,35,5,33,0.834,247.27
+2024-03-02 11:45:00,Books,134.95,True,Brand B,10,South,Kolkata,75,95,8,4,93,0.64,202.61
+2024-12-19 09:03:00,Electronics,320.53,False,Brand B,30,West,Chennai,248,199,8,2,99,0.208,397.23
+2024-11-05 00:40:00,Books,294.56,False,Brand D,30,West,Mumbai,486,43,23,13,32,0.685,268.64
+2024-11-23 20:57:00,Books,142.58,False,Brand E,15,West,Mumbai,373,136,23,18,62,0.026,495.27
+2024-12-16 06:03:00,Home & Kitchen,156.15,False,Brand A,30,South,Chennai,350,121,46,1,39,0.759,234.22
+2024-06-14 19:19:00,Fashion,465.39,True,Brand D,15,Central,Delhi,251,0,42,10,98,0.808,465.28
+2024-06-08 03:29:00,Electronics,302.39,False,Brand A,0,South,Mumbai,433,177,26,4,5,0.174,140.25
+2024-03-26 11:57:00,Fashion,462.9,False,Brand A,30,West,Kolkata,120,97,15,20,44,0.079,363.6
+2024-11-20 10:58:00,Fashion,76.51,True,Brand D,30,North,Mumbai,387,183,9,8,97,0.741,247.3
+2024-07-21 13:03:00,Home & Kitchen,497.33,True,Brand C,20,North,Bangalore,330,70,17,11,93,0.369,463.2
+2024-05-11 23:02:00,Health & Beauty,191.09,False,Brand C,0,Central,Mumbai,297,49,36,7,75,0.521,142.54
+2024-10-29 13:49:00,Books,67.35,True,Brand E,20,West,Bangalore,374,130,20,20,8,0.762,407.25
+2024-03-27 03:40:00,Health & Beauty,376.03,False,Brand E,15,North,Mumbai,215,4,21,8,57,0.841,494.66
+2024-06-05 06:08:00,Health & Beauty,249.14,True,Brand C,30,South,Delhi,478,146,38,6,4,0.995,266.6
+2024-11-17 10:53:00,Fashion,15.73,False,Brand C,5,Central,Kolkata,188,176,47,13,74,0.878,416.9
+2024-06-27 19:17:00,Health & Beauty,211.75,True,Brand B,15,East,Mumbai,56,21,25,16,81,0.034,143.0
+2024-08-28 07:56:00,Electronics,425.36,True,Brand A,30,North,Kolkata,104,131,44,13,56,0.888,89.41
+2024-06-23 20:29:00,Health & Beauty,47.16,True,Brand C,10,East,Bangalore,459,112,36,2,65,0.464,263.01
+2024-03-01 13:12:00,Electronics,160.55,True,Brand D,25,West,Delhi,490,133,25,1,30,0.641,466.25
+2024-05-31 15:37:00,Books,273.32,True,Brand E,0,West,Mumbai,468,182,11,20,100,0.046,144.17
+2024-11-30 00:15:00,Home & Kitchen,10.2,True,Brand A,0,North,Delhi,376,131,23,13,37,0.89,10.62
+2024-11-02 11:24:00,Health & Beauty,400.74,False,Brand A,0,South,Bangalore,90,189,40,13,36,0.545,335.98
+2024-06-09 14:43:00,Books,257.18,True,Brand A,30,East,Bangalore,307,34,17,12,95,0.55,406.52
+2024-04-05 23:01:00,Electronics,308.1,True,Brand D,25,South,Kolkata,134,134,12,10,45,0.882,80.53
+2024-05-15 22:27:00,Fashion,184.67,False,Brand B,10,South,Mumbai,481,15,38,10,39,0.284,151.9
+2024-04-20 14:45:00,Health & Beauty,471.29,True,Brand D,0,Central,Bangalore,282,9,18,14,23,0.849,167.77
+2024-07-23 22:54:00,Electronics,81.75,True,Brand D,25,West,Chennai,324,34,42,12,71,0.037,83.18
+2024-03-17 21:13:00,Books,495.24,True,Brand E,15,West,Chennai,134,23,16,11,1,0.571,253.87
+2024-02-20 08:35:00,Fashion,128.03,False,Brand D,30,Central,Chennai,274,111,18,13,37,0.447,409.09
+2024-04-20 20:44:00,Home & Kitchen,356.4,True,Brand E,10,North,Chennai,146,150,36,4,86,0.346,314.31
+2024-08-20 02:53:00,Fashion,435.33,False,Brand A,30,Central,Bangalore,469,25,47,8,83,0.032,477.15
+2024-08-14 11:15:00,Fashion,233.75,False,Brand C,15,West,Delhi,42,159,39,5,29,0.967,269.99
+2024-11-04 03:20:00,Fashion,202.31,False,Brand E,20,South,Kolkata,471,56,41,17,77,0.179,154.05
+2024-09-02 13:15:00,Home & Kitchen,494.92,True,Brand C,25,Central,Mumbai,30,34,29,11,44,0.7,118.57
+2024-11-29 10:25:00,Home & Kitchen,139.11,False,Brand B,15,North,Delhi,314,93,12,20,42,0.428,150.19
+2024-05-02 08:12:00,Home & Kitchen,226.99,True,Brand B,15,East,Kolkata,65,22,23,0,86,0.526,326.63
+2024-12-04 06:37:00,Electronics,389.08,False,Brand A,10,North,Delhi,474,80,31,20,59,0.9,133.36
+2024-09-24 15:28:00,Electronics,472.0,False,Brand D,0,North,Bangalore,310,96,8,10,23,0.478,101.08
+2024-06-01 06:59:00,Health & Beauty,479.45,False,Brand A,10,West,Kolkata,382,59,28,16,84,0.431,449.44
+2024-08-12 02:27:00,Books,207.8,False,Brand B,15,Central,Bangalore,488,35,35,18,83,0.255,134.79
+2024-07-22 19:17:00,Electronics,364.74,True,Brand A,5,East,Mumbai,27,132,48,12,67,0.015,362.85
+2024-07-12 02:34:00,Books,419.09,False,Brand E,10,South,Delhi,426,37,17,2,20,0.59,390.69
+2024-07-15 13:32:00,Health & Beauty,343.83,True,Brand D,25,East,Chennai,405,190,27,14,92,0.558,441.05
+2024-05-10 03:40:00,Home & Kitchen,316.47,False,Brand C,30,North,Mumbai,372,1,6,16,3,0.876,398.73
+2024-07-21 04:45:00,Fashion,209.79,False,Brand D,25,West,Kolkata,394,37,26,5,83,0.444,144.43
+2024-06-13 07:00:00,Home & Kitchen,274.09,False,Brand D,0,South,Kolkata,283,123,38,15,37,0.902,123.68
+2024-03-20 22:01:00,Books,224.35,False,Brand C,0,West,Bangalore,266,194,43,19,56,0.094,159.9
+2024-06-15 10:21:00,Books,315.9,False,Brand A,15,South,Kolkata,141,147,32,14,12,0.415,280.33
+2024-09-20 19:25:00,Books,480.38,True,Brand B,15,West,Chennai,39,183,26,17,47,0.007,422.84
+2024-11-30 22:02:00,Health & Beauty,384.44,True,Brand C,25,South,Delhi,314,1,18,7,77,0.446,215.19
+2024-07-05 07:33:00,Books,120.81,False,Brand B,10,South,Bangalore,100,181,7,9,23,0.187,384.8
+2024-02-03 06:39:00,Electronics,173.78,True,Brand C,10,North,Chennai,426,155,40,5,42,0.681,355.95
+2024-08-19 23:33:00,Electronics,82.94,False,Brand B,25,East,Kolkata,195,138,32,14,53,0.595,192.18
+2024-12-03 03:19:00,Electronics,259.67,True,Brand B,10,West,Chennai,444,16,4,6,41,0.712,376.09
+2024-09-30 17:52:00,Electronics,449.57,False,Brand E,20,North,Bangalore,259,166,40,0,21,0.008,320.74
+2024-08-30 23:09:00,Fashion,126.57,True,Brand B,20,East,Chennai,491,22,14,1,16,0.466,198.96
+2024-09-22 00:39:00,Home & Kitchen,466.71,True,Brand B,25,Central,Bangalore,60,5,39,11,51,0.123,138.41
+2024-08-08 04:50:00,Books,115.0,False,Brand E,30,East,Kolkata,266,165,30,15,28,0.827,114.0
+2024-07-06 14:43:00,Health & Beauty,278.99,True,Brand B,5,North,Bangalore,235,183,22,17,0,0.943,248.49
+2024-06-25 17:01:00,Fashion,252.1,False,Brand D,10,South,Mumbai,84,6,7,1,96,0.072,455.62
+2024-10-21 11:45:00,Home & Kitchen,453.8,False,Brand A,20,East,Bangalore,472,75,50,4,13,0.423,62.64
+2024-12-28 13:21:00,Fashion,165.64,False,Brand D,5,North,Kolkata,11,134,2,7,28,0.48,388.4
+2024-06-29 12:11:00,Health & Beauty,386.91,False,Brand A,5,West,Bangalore,333,128,10,14,56,0.808,220.67
+2024-11-20 02:37:00,Home & Kitchen,228.4,False,Brand E,20,South,Mumbai,377,20,35,1,42,0.17,137.66
+2024-03-04 12:14:00,Fashion,168.23,False,Brand A,5,East,Bangalore,286,149,36,19,48,0.956,306.81
+2024-10-03 22:05:00,Fashion,36.43,False,Brand A,30,North,Kolkata,431,11,0,14,47,0.007,11.31
+2024-04-07 22:28:00,Electronics,205.39,True,Brand A,10,South,Kolkata,434,18,40,2,25,0.708,411.61
+2024-06-18 18:40:00,Home & Kitchen,335.7,False,Brand E,15,Central,Kolkata,269,147,49,13,22,0.172,74.59
+2024-04-06 03:40:00,Home & Kitchen,285.2,True,Brand D,30,East,Bangalore,355,118,4,16,93,0.801,183.15
+2024-01-29 20:51:00,Fashion,72.81,True,Brand B,20,South,Chennai,233,143,23,1,73,0.146,432.37
+2024-12-11 05:20:00,Health & Beauty,367.05,False,Brand A,0,East,Mumbai,157,138,0,4,47,0.298,11.08
+2024-01-05 17:23:00,Home & Kitchen,160.51,True,Brand D,20,East,Bangalore,97,107,43,11,39,0.287,169.39
+2024-04-17 20:49:00,Home & Kitchen,131.9,True,Brand B,25,South,Mumbai,332,97,30,6,46,0.737,115.27
+2024-01-18 17:13:00,Books,472.38,False,Brand B,15,East,Kolkata,113,124,40,13,92,0.344,203.94
+2024-11-07 11:36:00,Electronics,103.48,False,Brand D,5,South,Bangalore,275,3,37,15,17,0.831,384.21
+2024-05-16 04:15:00,Fashion,383.61,True,Brand D,0,East,Delhi,311,35,34,2,82,0.529,77.26
+2024-09-03 21:28:00,Electronics,389.95,False,Brand A,5,South,Kolkata,426,84,37,5,23,0.575,57.28
+2024-09-02 15:11:00,Health & Beauty,80.33,False,Brand B,0,South,Delhi,481,6,5,14,20,0.748,264.98
+2024-03-27 03:52:00,Books,323.36,True,Brand B,15,North,Chennai,497,100,30,1,47,0.34,361.72
+2024-07-24 19:22:00,Home & Kitchen,334.67,False,Brand E,10,Central,Kolkata,2,41,20,14,75,0.885,315.97
+2024-07-01 00:55:00,Fashion,139.04,True,Brand C,10,West,Mumbai,176,35,24,10,62,0.627,272.42
+2024-12-03 19:50:00,Electronics,478.88,True,Brand D,5,West,Mumbai,210,126,40,4,95,0.087,106.24
+2024-03-31 20:57:00,Books,23.14,True,Brand A,15,East,Bangalore,50,49,10,4,47,0.703,447.37
+2024-10-25 20:41:00,Books,195.57,False,Brand C,15,West,Delhi,307,90,26,5,23,0.402,276.88
+2024-08-09 09:14:00,Health & Beauty,376.71,True,Brand C,25,North,Bangalore,499,22,18,20,94,0.294,200.5
+2024-06-18 06:23:00,Electronics,311.8,False,Brand B,5,North,Mumbai,126,25,4,9,81,0.478,39.2
+2024-03-24 15:26:00,Fashion,427.03,True,Brand E,30,West,Mumbai,164,121,20,15,77,0.36,146.26
+2024-08-29 17:54:00,Books,416.83,True,Brand A,15,Central,Mumbai,101,46,5,12,81,0.325,373.17
+2024-11-10 01:29:00,Fashion,245.27,False,Brand B,0,South,Delhi,312,75,17,14,19,0.046,252.24
+2024-05-25 17:12:00,Health & Beauty,403.5,False,Brand B,15,South,Mumbai,156,31,16,9,77,0.806,379.12
+2024-03-30 14:19:00,Books,343.14,False,Brand A,25,North,Chennai,252,62,3,17,42,0.95,62.89
+2024-04-18 23:13:00,Books,74.32,False,Brand D,25,East,Delhi,81,97,38,16,2,0.456,409.65
+2024-10-10 13:06:00,Books,249.62,False,Brand C,25,South,Mumbai,462,85,27,1,40,0.032,290.02
+2024-08-25 07:20:00,Books,422.9,True,Brand E,25,North,Chennai,480,182,36,14,77,0.37,496.57
+2024-11-21 10:02:00,Health & Beauty,228.74,False,Brand E,5,East,Delhi,133,126,16,16,94,0.785,345.7
+2024-04-25 03:50:00,Home & Kitchen,334.11,True,Brand B,15,West,Mumbai,75,49,3,17,89,0.477,74.03
+2024-10-10 15:30:00,Electronics,348.93,False,Brand A,0,East,Delhi,148,143,6,5,5,0.375,144.97
+2024-04-04 12:02:00,Home & Kitchen,324.13,True,Brand E,5,West,Kolkata,110,183,20,5,88,0.523,474.07
+2024-08-06 10:49:00,Fashion,187.85,True,Brand E,10,South,Bangalore,10,75,35,12,96,0.343,336.37
+2024-05-26 18:38:00,Fashion,93.91,True,Brand E,5,East,Chennai,102,10,45,0,7,0.42,190.79
+2024-12-05 05:04:00,Fashion,453.89,False,Brand E,25,East,Chennai,214,130,40,3,74,0.939,87.05
+2024-08-21 19:48:00,Books,297.95,True,Brand A,5,Central,Bangalore,382,188,15,15,13,0.862,460.82
+2024-06-08 05:22:00,Fashion,91.22,True,Brand D,30,North,Chennai,274,6,16,6,90,0.647,437.62
+2024-10-08 22:49:00,Electronics,413.94,True,Brand C,0,West,Mumbai,293,187,40,13,58,0.388,31.22
+2024-04-09 13:09:00,Home & Kitchen,387.67,True,Brand A,5,West,Chennai,313,41,20,1,40,0.467,328.19
+2024-03-26 16:11:00,Health & Beauty,342.73,False,Brand E,20,West,Kolkata,304,9,13,2,8,0.184,496.45
+2024-08-08 16:48:00,Health & Beauty,162.04,True,Brand E,10,West,Mumbai,313,42,11,13,51,0.146,97.1
+2024-02-01 21:05:00,Home & Kitchen,328.64,False,Brand B,15,South,Bangalore,324,103,4,11,92,0.751,473.94
+2024-02-19 10:32:00,Home & Kitchen,350.95,True,Brand B,25,East,Chennai,326,76,25,3,47,0.529,270.06
+2024-09-27 06:32:00,Fashion,397.39,True,Brand C,0,West,Mumbai,162,157,24,15,79,0.638,363.19
+2024-08-11 05:20:00,Fashion,175.28,False,Brand A,5,Central,Mumbai,131,118,38,8,39,0.52,169.12
+2024-11-28 21:26:00,Health & Beauty,305.34,False,Brand B,25,South,Mumbai,430,159,30,7,39,0.257,91.48
+2024-08-24 17:40:00,Electronics,481.76,False,Brand B,10,South,Mumbai,97,107,49,13,19,0.696,87.78
+2024-08-04 11:24:00,Fashion,175.64,False,Brand A,5,South,Delhi,77,42,48,14,20,0.971,46.33
+2024-08-11 19:27:00,Home & Kitchen,43.29,True,Brand B,30,West,Kolkata,181,120,14,7,75,0.216,249.42
+2024-11-04 06:32:00,Fashion,61.77,True,Brand E,5,Central,Mumbai,255,94,6,8,84,0.667,175.88
+2024-02-09 12:05:00,Health & Beauty,233.37,False,Brand B,15,South,Mumbai,115,125,6,2,92,0.021,315.86
+2024-10-15 18:18:00,Books,342.82,False,Brand D,20,North,Delhi,8,169,23,9,10,0.675,427.07
+2024-05-19 19:54:00,Health & Beauty,484.45,True,Brand D,30,North,Delhi,320,122,30,16,59,0.264,61.36
+2024-11-10 15:10:00,Books,132.38,True,Brand D,10,North,Bangalore,262,59,17,12,38,0.09,294.21
+2024-03-13 07:20:00,Books,163.75,True,Brand C,0,East,Bangalore,447,198,28,8,87,0.193,213.82
+2024-05-26 22:50:00,Health & Beauty,280.59,True,Brand B,10,West,Delhi,371,85,35,0,69,0.773,249.7
+2024-01-27 04:53:00,Fashion,57.09,False,Brand D,25,East,Delhi,482,94,33,1,34,0.023,346.2
+2024-09-13 18:54:00,Health & Beauty,272.64,True,Brand B,0,Central,Mumbai,313,179,44,15,97,0.799,137.75
+2024-06-01 05:51:00,Fashion,30.99,True,Brand D,30,West,Chennai,298,194,36,5,59,0.66,102.18
+2024-09-21 22:39:00,Fashion,226.17,False,Brand C,10,North,Kolkata,67,118,29,16,22,0.943,408.52
+2024-03-09 12:16:00,Health & Beauty,98.9,False,Brand D,10,East,Kolkata,396,60,35,16,48,0.806,499.9
+2024-07-26 06:29:00,Health & Beauty,74.68,False,Brand D,10,West,Delhi,479,116,49,7,69,0.822,303.03
+2024-04-08 11:43:00,Books,99.6,True,Brand E,20,South,Kolkata,434,143,49,17,24,0.895,251.47
+2024-09-03 07:51:00,Books,23.48,True,Brand B,20,South,Delhi,311,157,44,11,29,0.892,34.81
+2024-05-22 18:33:00,Home & Kitchen,185.59,True,Brand C,20,South,Chennai,170,44,43,5,71,0.6,480.92
+2024-05-02 05:07:00,Health & Beauty,497.81,True,Brand C,5,East,Delhi,187,58,8,13,100,0.996,231.46
+2024-12-04 01:53:00,Health & Beauty,116.08,True,Brand D,20,East,Bangalore,178,186,36,7,75,0.322,262.6
+2024-06-21 17:47:00,Electronics,381.49,True,Brand A,0,East,Kolkata,176,189,16,1,66,0.826,304.59
+2024-07-12 17:15:00,Books,290.98,True,Brand C,5,South,Delhi,397,41,21,14,85,0.581,463.6
+2024-06-09 19:25:00,Home & Kitchen,191.87,False,Brand D,0,East,Bangalore,459,199,43,3,83,0.629,81.63
+2024-09-03 10:06:00,Books,195.09,True,Brand B,25,East,Mumbai,222,181,42,10,64,0.411,62.26
+2024-05-17 18:10:00,Home & Kitchen,121.01,False,Brand B,30,North,Mumbai,25,116,4,11,79,0.946,220.35
+2024-10-17 13:36:00,Fashion,315.52,True,Brand A,10,North,Delhi,496,115,10,16,31,0.482,443.04
+2024-11-12 15:07:00,Books,435.14,True,Brand B,30,Central,Mumbai,244,44,31,14,12,0.602,108.22
+2024-09-22 10:22:00,Electronics,449.11,False,Brand D,30,Central,Chennai,497,37,11,6,21,0.211,106.29
+2024-01-03 14:59:00,Fashion,429.01,True,Brand C,0,Central,Delhi,260,115,0,3,17,0.678,463.95
+2024-07-24 19:34:00,Home & Kitchen,329.02,False,Brand C,30,West,Chennai,104,67,45,14,77,0.92,272.4
+2024-08-15 00:34:00,Fashion,494.16,True,Brand B,15,Central,Chennai,316,88,26,20,27,0.899,347.57
+2024-02-19 17:59:00,Electronics,293.34,True,Brand A,25,Central,Kolkata,157,52,5,10,97,0.094,54.85
+2024-09-29 02:22:00,Electronics,409.45,False,Brand E,0,East,Kolkata,374,54,12,15,67,0.389,370.57
+2024-09-22 00:36:00,Electronics,377.69,True,Brand D,25,West,Chennai,51,17,41,1,13,0.806,453.57
+2024-05-13 08:01:00,Electronics,427.97,True,Brand A,30,North,Chennai,251,141,17,18,74,0.681,398.69
+2024-12-11 02:13:00,Electronics,372.22,False,Brand E,5,West,Mumbai,379,63,48,5,83,0.543,215.69
+2024-01-30 23:35:00,Health & Beauty,112.55,True,Brand A,5,Central,Kolkata,22,64,41,11,98,0.702,453.14
+2024-10-26 23:15:00,Health & Beauty,156.4,False,Brand D,5,West,Chennai,387,73,2,20,13,0.219,154.0
+2024-01-25 04:26:00,Health & Beauty,167.4,False,Brand A,25,North,Kolkata,129,92,39,13,84,0.102,476.64
+2024-04-20 04:00:00,Fashion,466.02,True,Brand C,30,South,Mumbai,228,78,20,13,74,0.24,15.59
+2024-09-17 07:25:00,Home & Kitchen,409.34,True,Brand E,5,Central,Bangalore,107,118,4,0,100,0.533,152.31
+2024-02-09 21:19:00,Home & Kitchen,21.23,True,Brand E,10,North,Delhi,318,147,4,16,86,0.884,464.07
+2024-10-04 01:06:00,Health & Beauty,203.65,False,Brand C,25,North,Chennai,365,18,44,7,39,0.046,108.11
+2024-11-14 23:23:00,Books,139.02,False,Brand D,20,East,Delhi,440,17,4,16,72,0.851,364.94
+2024-12-28 18:43:00,Fashion,325.33,False,Brand D,5,West,Bangalore,497,153,26,19,27,0.893,366.11
+2024-07-28 21:20:00,Electronics,235.26,True,Brand C,25,West,Mumbai,277,149,17,20,92,0.932,434.87
+2024-04-22 10:27:00,Fashion,103.05,False,Brand B,15,South,Bangalore,407,150,50,15,65,0.475,452.68
+2024-02-19 18:40:00,Home & Kitchen,369.84,False,Brand C,30,Central,Kolkata,237,130,32,19,59,0.109,89.78
+2024-08-16 04:50:00,Fashion,472.86,False,Brand D,15,Central,Kolkata,338,122,24,2,8,0.041,419.25
+2024-04-30 03:12:00,Health & Beauty,258.73,False,Brand C,15,North,Chennai,115,117,3,17,36,0.481,97.29
+2024-01-22 00:54:00,Books,498.0,True,Brand C,20,East,Delhi,312,51,21,14,20,0.723,376.86
+2024-08-14 00:30:00,Electronics,48.32,False,Brand E,15,North,Bangalore,242,20,39,16,35,0.855,195.14
+2024-01-31 05:11:00,Fashion,300.12,False,Brand E,15,Central,Delhi,185,193,13,9,77,0.305,98.9
+2024-06-17 14:34:00,Fashion,54.57,True,Brand A,5,Central,Kolkata,422,190,2,12,8,0.887,32.06
+2024-10-24 15:18:00,Health & Beauty,121.88,False,Brand B,0,Central,Bangalore,110,42,6,12,28,0.387,310.35
+2024-03-27 02:08:00,Health & Beauty,345.06,False,Brand B,0,East,Bangalore,425,114,17,8,83,0.293,122.21
+2024-01-07 02:36:00,Health & Beauty,410.33,False,Brand D,25,North,Chennai,466,26,50,20,87,0.775,297.09
+2024-08-27 16:26:00,Home & Kitchen,459.04,True,Brand A,10,Central,Bangalore,293,48,26,15,73,0.67,472.05
+2024-06-26 06:28:00,Fashion,199.94,False,Brand B,20,East,Bangalore,137,174,24,20,65,0.707,251.64
+2024-12-11 22:31:00,Home & Kitchen,172.86,True,Brand C,10,North,Bangalore,116,183,6,8,98,0.893,246.0
+2024-08-08 01:39:00,Home & Kitchen,493.63,True,Brand E,5,North,Delhi,180,57,16,16,70,0.214,92.96
+2024-04-25 09:12:00,Electronics,88.84,True,Brand E,10,North,Delhi,273,182,21,19,44,0.11,343.16
+2024-07-12 23:02:00,Fashion,489.98,False,Brand D,20,South,Bangalore,345,88,40,4,63,0.931,34.44
+2024-09-05 12:18:00,Electronics,421.86,True,Brand E,25,Central,Chennai,273,58,19,6,89,0.612,347.65
+2024-04-07 04:25:00,Health & Beauty,282.55,True,Brand D,25,Central,Chennai,493,52,43,3,68,0.059,254.34
+2024-01-22 12:11:00,Home & Kitchen,56.6,False,Brand E,15,Central,Kolkata,416,133,26,17,36,0.277,386.13
+2024-07-26 03:40:00,Home & Kitchen,257.44,False,Brand A,0,East,Kolkata,25,53,36,14,57,0.24,489.26
+2024-11-20 11:49:00,Health & Beauty,267.46,False,Brand D,30,South,Bangalore,175,41,2,2,41,0.665,239.99
+2024-01-13 20:39:00,Electronics,153.14,True,Brand A,5,East,Bangalore,124,50,5,14,1,0.414,330.25
+2024-04-16 18:50:00,Books,379.56,False,Brand C,20,South,Mumbai,118,198,42,3,96,0.665,454.27
+2024-07-20 22:49:00,Books,70.05,False,Brand A,10,Central,Kolkata,406,185,30,10,47,0.324,61.28
+2024-04-24 19:03:00,Electronics,489.57,False,Brand B,0,East,Kolkata,402,47,15,1,94,0.301,290.24
+2024-01-25 05:51:00,Fashion,33.43,True,Brand B,20,South,Bangalore,12,41,46,7,37,0.197,421.59
+2024-05-11 21:30:00,Books,168.98,False,Brand C,20,South,Delhi,498,187,10,9,60,0.533,370.25
+2024-06-22 16:48:00,Home & Kitchen,130.7,True,Brand C,20,West,Mumbai,444,149,37,7,4,0.132,222.08
+2024-09-12 06:32:00,Home & Kitchen,198.68,False,Brand A,15,West,Chennai,263,114,26,1,82,0.189,474.93
+2024-06-06 13:35:00,Books,492.57,True,Brand C,25,South,Chennai,68,6,19,0,4,0.329,216.88
+2024-04-10 18:13:00,Fashion,352.6,True,Brand E,15,North,Bangalore,349,36,14,4,21,0.2,414.77
+2024-11-11 18:14:00,Electronics,476.25,False,Brand C,20,Central,Kolkata,399,111,35,15,33,0.097,404.3
+2024-03-24 00:20:00,Home & Kitchen,490.94,True,Brand E,20,South,Mumbai,201,150,17,18,3,0.171,468.0
+2024-03-25 16:35:00,Fashion,125.06,True,Brand D,10,South,Kolkata,36,79,26,5,98,0.553,19.14
+2024-11-03 01:31:00,Health & Beauty,274.41,True,Brand B,30,East,Delhi,277,158,2,8,38,0.667,267.64
+2024-09-16 09:54:00,Fashion,137.88,True,Brand A,10,East,Bangalore,160,44,25,18,51,0.167,420.55
+2024-02-26 00:39:00,Fashion,332.83,False,Brand C,25,West,Bangalore,45,77,34,14,63,0.141,95.01
+2024-04-25 01:21:00,Electronics,352.95,False,Brand E,15,South,Bangalore,407,105,4,8,99,0.833,295.57
+2024-04-28 06:48:00,Books,46.67,True,Brand E,20,South,Mumbai,116,24,22,8,68,0.288,424.43
+2024-08-19 03:53:00,Fashion,114.18,True,Brand C,30,South,Mumbai,456,57,41,19,52,0.265,153.05
+2024-04-27 17:36:00,Health & Beauty,121.36,False,Brand D,30,North,Delhi,336,142,41,1,61,0.379,76.24
+2024-06-03 17:56:00,Fashion,273.03,True,Brand D,25,South,Bangalore,347,73,8,10,46,0.005,474.81
+2024-10-25 17:19:00,Home & Kitchen,436.77,False,Brand D,15,West,Delhi,134,92,45,18,60,0.001,69.04
+2024-12-13 11:30:00,Books,408.8,True,Brand B,20,North,Chennai,125,149,44,17,29,0.452,116.1
+2024-08-01 03:41:00,Home & Kitchen,57.35,False,Brand D,25,West,Mumbai,265,193,28,13,78,0.473,388.68
+2024-06-22 00:06:00,Health & Beauty,154.32,True,Brand A,0,East,Mumbai,370,199,32,19,44,0.254,85.63
+2024-09-04 00:29:00,Home & Kitchen,192.67,False,Brand D,15,South,Bangalore,300,109,19,6,28,0.07,453.03
+2024-08-15 19:03:00,Health & Beauty,402.02,True,Brand D,25,East,Mumbai,356,170,50,16,19,0.352,395.57
+2024-07-27 17:52:00,Electronics,174.01,False,Brand B,30,East,Kolkata,157,139,49,2,28,0.903,411.69
+2024-11-08 02:00:00,Electronics,412.69,False,Brand D,15,Central,Mumbai,318,196,49,13,31,0.542,84.05
+2024-02-29 15:25:00,Books,102.13,False,Brand D,25,Central,Bangalore,423,6,48,8,66,0.134,313.84
+2024-05-15 04:03:00,Health & Beauty,191.33,False,Brand E,0,North,Chennai,222,159,25,13,35,0.736,364.27
+2024-07-15 11:31:00,Fashion,411.56,False,Brand C,15,South,Kolkata,242,144,5,19,27,0.369,371.3
+2024-04-06 16:51:00,Fashion,48.64,False,Brand A,25,West,Chennai,492,89,8,17,17,0.512,172.13
+2024-02-17 02:46:00,Electronics,190.91,True,Brand D,20,South,Chennai,362,166,19,12,95,0.685,17.97
+2024-09-17 17:15:00,Health & Beauty,473.34,True,Brand A,5,West,Chennai,159,199,28,19,12,0.429,385.31
+2024-12-06 03:49:00,Home & Kitchen,467.95,True,Brand E,0,South,Chennai,35,21,18,16,56,0.555,160.72
+2024-06-22 16:42:00,Health & Beauty,86.86,False,Brand A,5,Central,Kolkata,493,12,28,2,49,0.658,369.43
+2024-07-09 04:54:00,Home & Kitchen,485.26,True,Brand B,0,Central,Mumbai,466,131,14,12,32,0.755,327.62
+2024-10-13 11:14:00,Fashion,164.42,False,Brand D,5,East,Bangalore,104,172,45,5,93,0.189,165.12
+2024-05-15 11:46:00,Books,262.62,True,Brand A,5,East,Mumbai,291,84,34,13,24,0.745,154.57
+2024-03-26 00:02:00,Fashion,211.1,True,Brand E,0,West,Delhi,384,71,24,9,64,0.222,184.34
+2024-10-10 22:54:00,Electronics,32.32,False,Brand C,25,Central,Kolkata,214,99,32,15,20,0.995,230.43
+2024-05-22 07:12:00,Books,438.58,False,Brand D,0,North,Kolkata,207,90,27,4,1,0.908,284.89
+2024-06-17 22:50:00,Electronics,141.56,False,Brand A,20,Central,Chennai,226,109,23,1,64,0.627,432.51
+2024-07-24 22:03:00,Books,97.59,True,Brand D,25,West,Delhi,414,174,8,10,47,0.724,497.47
+2024-11-15 16:16:00,Home & Kitchen,42.71,False,Brand E,0,South,Bangalore,176,78,21,11,43,0.771,254.08
+2024-07-17 03:38:00,Books,165.42,False,Brand C,25,North,Kolkata,347,103,12,0,16,0.563,422.36
+2024-10-05 05:54:00,Home & Kitchen,418.01,True,Brand E,10,Central,Mumbai,338,108,49,8,89,0.63,72.42
+2024-09-19 12:39:00,Electronics,54.6,True,Brand E,25,South,Kolkata,13,76,6,3,30,0.179,21.99
+2024-05-29 15:10:00,Fashion,314.64,True,Brand A,30,East,Bangalore,174,183,35,11,6,0.476,200.33
+2024-06-14 12:15:00,Health & Beauty,62.23,False,Brand B,25,West,Delhi,14,144,8,9,87,0.673,350.9
+2024-05-01 14:05:00,Books,366.57,True,Brand B,30,West,Mumbai,474,118,26,15,56,0.507,493.07
+2024-12-18 10:47:00,Home & Kitchen,279.71,True,Brand A,25,East,Delhi,146,55,27,18,77,0.991,67.32
+2024-07-30 13:42:00,Books,48.86,True,Brand C,30,West,Bangalore,296,113,1,3,89,0.942,233.97
+2024-08-30 13:53:00,Home & Kitchen,172.45,False,Brand B,10,West,Mumbai,296,124,0,11,56,0.914,260.14
+2024-05-08 19:58:00,Health & Beauty,227.24,True,Brand C,10,North,Delhi,227,80,45,7,25,0.474,401.65
+2024-02-10 18:50:00,Home & Kitchen,177.39,True,Brand B,0,North,Delhi,229,101,9,15,90,0.429,461.38
+2024-12-01 04:35:00,Books,63.28,False,Brand A,30,North,Kolkata,343,106,7,9,50,0.504,344.03
+2024-07-21 21:02:00,Fashion,494.27,True,Brand C,10,South,Mumbai,150,195,9,16,82,0.825,215.06
+2024-04-04 16:12:00,Electronics,244.0,False,Brand C,5,North,Chennai,255,37,4,18,69,0.187,10.49
+2024-07-07 21:25:00,Electronics,124.28,True,Brand D,30,North,Chennai,184,162,6,13,15,0.245,272.09
+2024-11-11 19:20:00,Health & Beauty,180.63,True,Brand B,10,Central,Delhi,153,167,45,5,42,0.778,165.89
+2024-07-18 07:09:00,Fashion,215.71,True,Brand C,5,North,Bangalore,411,146,17,4,13,0.589,346.88
+2024-02-25 22:07:00,Books,356.56,True,Brand A,0,Central,Bangalore,182,113,49,16,67,0.585,105.88
+2024-01-08 23:21:00,Health & Beauty,398.32,True,Brand B,20,South,Bangalore,11,180,10,19,48,0.076,135.65
+2024-11-25 09:18:00,Electronics,421.1,False,Brand E,5,West,Bangalore,180,52,27,15,63,0.15,227.06
+2024-08-17 00:23:00,Home & Kitchen,307.65,True,Brand D,10,West,Delhi,322,141,8,16,99,0.875,153.21
+2024-11-27 17:38:00,Home & Kitchen,435.21,False,Brand A,30,North,Mumbai,365,37,2,11,27,0.334,157.01
+2024-09-22 16:42:00,Home & Kitchen,263.97,False,Brand E,20,Central,Delhi,97,163,33,17,64,0.397,287.16
+2024-05-26 11:16:00,Fashion,341.82,False,Brand B,15,North,Bangalore,254,67,4,0,78,0.193,152.73
+2024-07-12 03:17:00,Books,145.8,True,Brand C,25,West,Mumbai,464,49,46,16,69,0.166,427.33
+2024-05-18 13:04:00,Health & Beauty,493.0,False,Brand A,5,West,Mumbai,180,55,16,14,98,0.211,415.07
+2024-02-23 13:50:00,Electronics,258.15,True,Brand E,20,South,Bangalore,319,179,7,10,91,0.523,383.91
+2024-04-10 02:31:00,Electronics,129.07,True,Brand D,10,East,Bangalore,329,54,11,7,74,0.143,491.9
+2024-02-15 22:46:00,Books,468.91,False,Brand D,0,North,Bangalore,368,135,41,1,48,0.217,82.35
+2024-10-05 09:55:00,Health & Beauty,138.91,False,Brand E,20,West,Bangalore,245,36,15,18,22,0.987,192.23
+2024-11-24 16:35:00,Home & Kitchen,171.09,True,Brand B,15,West,Kolkata,344,77,15,11,2,0.535,93.45
+2024-10-31 05:09:00,Home & Kitchen,12.99,False,Brand A,30,South,Mumbai,73,104,49,11,72,0.234,385.98
+2024-07-18 07:39:00,Electronics,115.74,True,Brand E,30,Central,Mumbai,165,9,40,2,28,0.551,486.32
+2024-08-30 08:03:00,Electronics,436.08,False,Brand C,15,South,Chennai,86,171,5,10,12,0.002,232.6
+2024-04-28 22:55:00,Home & Kitchen,346.81,False,Brand A,20,East,Delhi,182,102,2,5,80,0.337,108.71
+2024-11-24 12:03:00,Electronics,232.44,True,Brand E,15,South,Kolkata,248,89,38,16,18,0.554,351.09
+2024-09-01 13:50:00,Fashion,429.69,True,Brand B,25,West,Bangalore,429,61,10,20,14,0.817,105.26
+2024-11-13 15:38:00,Books,336.13,False,Brand B,20,East,Bangalore,34,92,24,13,90,0.608,217.95
+2024-06-08 05:51:00,Fashion,481.36,False,Brand C,0,Central,Kolkata,72,56,3,4,45,0.083,341.57
+2024-10-23 18:22:00,Electronics,341.62,False,Brand A,30,Central,Chennai,383,74,28,9,6,0.879,132.22
+2024-09-12 19:59:00,Home & Kitchen,363.69,False,Brand E,10,Central,Delhi,92,156,7,12,99,0.583,125.8
+2024-02-09 14:24:00,Fashion,175.75,True,Brand D,0,Central,Bangalore,460,126,47,18,18,0.207,486.6
+2024-06-25 02:14:00,Health & Beauty,411.33,False,Brand E,15,South,Chennai,76,59,31,6,40,0.395,17.05
+2024-03-01 02:09:00,Home & Kitchen,382.47,False,Brand D,25,Central,Bangalore,275,98,7,13,83,0.76,244.51
+2024-01-05 19:04:00,Electronics,171.39,True,Brand D,10,North,Bangalore,209,134,27,6,4,0.619,451.01
+2024-07-01 06:00:00,Home & Kitchen,357.73,False,Brand E,20,East,Bangalore,271,176,21,18,84,0.196,383.18
+2024-07-24 13:23:00,Books,444.99,True,Brand B,25,Central,Mumbai,306,104,40,13,6,0.315,201.4
+2024-09-18 09:10:00,Health & Beauty,229.02,True,Brand B,0,South,Kolkata,10,77,30,5,0,0.162,49.7
+2024-05-26 02:46:00,Electronics,227.21,False,Brand E,25,North,Kolkata,220,43,16,2,100,0.676,329.58
+2024-12-29 03:09:00,Health & Beauty,288.26,True,Brand D,25,North,Kolkata,52,15,37,18,24,0.731,298.52
+2024-09-16 12:24:00,Health & Beauty,288.17,False,Brand D,10,Central,Bangalore,482,147,23,4,88,0.221,308.28
+2024-04-20 12:13:00,Fashion,425.98,True,Brand C,30,South,Kolkata,175,81,40,3,84,0.574,89.44
+2024-05-14 16:40:00,Health & Beauty,164.96,True,Brand A,15,East,Bangalore,176,122,5,13,42,0.285,21.99
+2024-09-11 03:01:00,Fashion,179.0,False,Brand E,20,North,Bangalore,132,13,36,4,55,0.193,477.26
+2024-05-26 08:06:00,Health & Beauty,457.77,True,Brand A,10,North,Bangalore,399,53,24,11,89,0.714,199.53
+2024-01-11 05:13:00,Books,371.52,True,Brand B,0,South,Chennai,141,12,23,15,77,0.615,382.26
+2024-12-16 17:19:00,Home & Kitchen,364.96,False,Brand E,10,West,Kolkata,164,103,15,13,76,0.158,327.47
+2024-11-15 05:06:00,Electronics,455.75,True,Brand D,20,Central,Mumbai,429,198,12,17,41,0.13,248.85
+2024-06-23 02:16:00,Health & Beauty,219.71,False,Brand D,25,West,Bangalore,236,67,25,16,89,0.774,467.24
+2024-06-04 23:01:00,Electronics,139.36,False,Brand C,25,North,Delhi,114,84,11,3,19,0.82,136.09
+2024-10-21 07:46:00,Health & Beauty,403.26,True,Brand E,5,North,Bangalore,273,192,38,16,4,0.45,358.74
+2024-04-26 04:21:00,Electronics,257.79,False,Brand E,0,East,Chennai,264,164,18,12,63,0.364,454.59
+2024-04-06 05:09:00,Fashion,112.94,True,Brand E,10,East,Bangalore,68,139,18,18,92,0.623,357.49
+2024-11-25 21:43:00,Electronics,351.75,True,Brand E,10,West,Delhi,170,165,28,19,47,0.62,44.45
+2024-06-10 06:04:00,Electronics,465.4,False,Brand D,0,East,Delhi,486,169,46,4,87,0.719,449.71
+2024-07-27 20:31:00,Fashion,60.69,True,Brand D,0,South,Bangalore,392,150,18,19,16,0.285,149.07
+2024-07-13 22:52:00,Electronics,231.09,True,Brand A,20,Central,Chennai,467,113,18,7,16,0.267,454.39
+2024-06-18 22:47:00,Electronics,382.01,False,Brand C,15,Central,Kolkata,371,17,0,8,89,0.478,279.19
+2024-07-23 08:46:00,Home & Kitchen,465.56,False,Brand C,20,West,Chennai,175,73,49,13,91,0.14,106.79
+2024-12-15 09:02:00,Home & Kitchen,446.76,False,Brand C,0,East,Delhi,74,106,29,5,33,0.025,18.9
+2024-11-15 18:31:00,Fashion,333.39,False,Brand C,5,West,Bangalore,215,189,18,1,44,0.642,389.5

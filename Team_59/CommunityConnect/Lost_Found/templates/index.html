@@ -1,0 +1,41 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost & Found</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><a href="/">Lost & Found</a></div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="{% url 'upload' %}">Upload Item</a></li>
+            <li><a href="{% url 'found' %}">Found Items</a></li>
+            <!-- <li><a href="#">Sign In</a></li> -->
+        </ul>
+    </nav>
+
+    <!-- Landing Page -->
+    <div class="landing-container">
+        <h1>Welcome to Lost & Found</h1>
+        <div class="card-container">
+            <div class="card">
+                <h3>Upload Lost Item</h3>
+                <p>Found something? Help it find its owner!</p>
+                <a href="{% url 'upload' %}" class="btn">Upload Now</a>
+            </div>
+            <div class="card">
+                <h3>Found Items</h3>
+                <p>Lost something? Check if it's here!</p>
+                <a href="{% url 'found' %}" class="btn">Browse Items</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

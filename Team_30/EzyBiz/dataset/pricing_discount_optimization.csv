@@ -1,0 +1,501 @@
+Product ID,Category,Original Price,Discount Offered (%),Discounted Price,Sales Volume Before Discount,Sales Volume After Discount,Profit Margin Before Discount (%),Profit Margin After Discount (%),Competitor Prices,Customer Feedback on Discounts
+P1001,Home & Kitchen,431.7,27,315.14,169,210,67.29,44.21,453.93,Moderately Effective
+P1002,Home & Kitchen,189.53,34,125.09,32,34,23.42,13.91,189.64,Not Effective
+P1003,Apparel,812.39,41,479.31,435,604,23.24,12.34,833.59,Very Effective
+P1004,Home & Kitchen,607.73,9,553.03,145,153,38.86,31.83,637.65,Not Effective
+P1005,Electronics,191.45,14,164.65,426,468,49.8,38.55,205.19,Not Effective
+P1006,Groceries,193.17,34,127.49,129,162,20.11,11.95,191.83,Very Effective
+P1007,Beauty,803.21,21,634.54,45,46,31.33,22.28,821.98,Not Effective
+P1008,Beauty,32.14,34,21.21,241,319,32.93,19.56,31.77,Very Effective
+P1009,Home & Kitchen,232.85,8,214.22,321,342,20.4,16.89,255.91,Not Effective
+P1010,Apparel,376.6,38,233.49,353,440,63.66,35.52,367.51,Very Effective
+P1011,Apparel,293.37,45,161.35,351,454,47.94,23.73,301.0,Very Effective
+P1012,Home & Kitchen,545.49,50,272.75,368,433,62.67,28.2,507.81,Moderately Effective
+P1013,Home & Kitchen,26.3,38,16.31,259,326,65.51,36.56,24.64,Very Effective
+P1014,Home & Kitchen,513.19,30,359.23,93,108,51.45,32.41,494.55,Moderately Effective
+P1015,Apparel,885.18,23,681.59,461,565,54.71,37.91,848.97,Moderately Effective
+P1016,Apparel,978.33,4,939.2,56,56,66.23,57.22,1056.62,Not Effective
+P1017,Apparel,370.49,10,333.44,289,298,66.47,53.84,361.81,Not Effective
+P1018,Electronics,93.87,1,92.93,408,412,30.26,26.96,89.7,Not Effective
+P1019,Groceries,354.82,48,184.51,302,422,43.25,20.24,376.81,Very Effective
+P1020,Groceries,52.17,29,37.04,299,321,63.84,40.79,49.88,Not Effective
+P1021,Beauty,810.54,11,721.38,186,204,39.26,31.45,784.51,Not Effective
+P1022,Beauty,725.76,41,428.2,288,290,49.55,26.31,706.25,Not Effective
+P1023,Home & Kitchen,811.64,7,754.83,468,499,61.08,51.12,812.72,Not Effective
+P1024,Apparel,914.5,21,722.46,327,358,48.28,34.33,987.8,Not Effective
+P1025,Apparel,490.38,6,460.96,473,474,59.87,50.65,520.12,Not Effective
+P1026,Electronics,509.67,2,499.48,259,259,26.89,23.72,536.54,Not Effective
+P1027,Home & Kitchen,305.84,36,195.74,428,512,36.96,21.29,298.97,Moderately Effective
+P1028,Apparel,816.67,19,661.5,209,212,39.95,29.12,843.6,Not Effective
+P1029,Groceries,612.77,46,330.9,74,103,26.42,12.84,647.22,Very Effective
+P1030,Home & Kitchen,704.3,27,514.14,70,88,46.1,30.29,661.96,Moderately Effective
+P1031,Apparel,255.52,3,247.85,87,89,69.7,60.85,269.53,Not Effective
+P1032,Groceries,780.39,29,554.08,288,308,65.75,42.01,793.27,Not Effective
+P1033,Electronics,65.9,49,33.61,333,422,31.87,14.63,63.67,Very Effective
+P1034,Electronics,840.61,7,781.77,447,451,39.57,33.12,842.16,Not Effective
+P1035,Home & Kitchen,889.87,19,720.79,162,167,62.05,45.23,828.0,Not Effective
+P1036,Apparel,338.07,37,212.98,380,405,41.67,23.63,349.64,Not Effective
+P1037,Apparel,348.46,16,292.71,195,197,47.25,35.72,354.2,Not Effective
+P1038,Electronics,655.66,16,550.75,190,216,47.52,35.92,685.92,Moderately Effective
+P1039,Apparel,169.75,31,117.13,301,317,47.12,29.26,155.59,Not Effective
+P1040,Beauty,181.58,28,130.74,381,423,55.6,36.03,169.41,Moderately Effective
+P1041,Electronics,519.82,49,265.11,112,159,20.3,9.32,519.8,Very Effective
+P1042,Beauty,747.0,2,732.06,357,363,63.29,55.82,792.02,Not Effective
+P1043,Apparel,764.98,44,428.39,293,413,24.51,12.35,725.84,Very Effective
+P1044,Electronics,633.41,48,329.37,27,31,33.84,15.84,614.51,Moderately Effective
+P1045,Groceries,590.44,49,301.12,235,318,54.59,25.06,582.95,Very Effective
+P1046,Apparel,57.68,11,51.34,422,447,56.66,45.39,60.11,Not Effective
+P1047,Apparel,854.23,7,794.43,41,43,32.63,27.31,903.46,Not Effective
+P1048,Home & Kitchen,593.76,22,463.13,176,180,31.5,22.11,538.58,Not Effective
+P1049,Electronics,618.59,20,494.87,328,368,42.76,30.79,610.79,Moderately Effective
+P1050,Electronics,740.61,25,555.46,210,220,50.81,34.3,705.64,Not Effective
+P1051,Apparel,704.02,11,626.58,178,193,54.25,43.45,682.35,Not Effective
+P1052,Home & Kitchen,948.47,36,607.02,213,220,26.04,15.0,1013.98,Not Effective
+P1053,Home & Kitchen,445.0,6,418.3,425,436,57.13,48.33,435.66,Not Effective
+P1054,Home & Kitchen,967.56,40,580.54,472,563,37.7,20.36,986.84,Moderately Effective
+P1055,Home & Kitchen,754.7,8,694.32,418,424,67.96,56.27,808.75,Not Effective
+P1056,Beauty,318.66,49,162.52,89,116,26.89,12.34,344.48,Very Effective
+P1057,Electronics,61.72,46,33.33,159,228,33.71,16.38,57.51,Very Effective
+P1058,Apparel,654.08,18,536.35,375,387,69.57,51.34,625.52,Not Effective
+P1059,Home & Kitchen,667.9,14,574.39,112,124,54.14,41.9,714.97,Moderately Effective
+P1060,Apparel,107.92,27,78.78,172,176,46.95,30.85,116.77,Not Effective
+P1061,Apparel,960.73,41,566.83,295,388,22.07,11.72,906.1,Very Effective
+P1062,Beauty,459.66,39,280.39,427,525,33.91,18.62,477.66,Very Effective
+P1063,Groceries,339.31,9,308.77,397,412,65.54,53.68,306.45,Not Effective
+P1064,Beauty,413.14,3,400.75,408,420,56.07,48.95,433.44,Not Effective
+P1065,Groceries,957.2,32,650.9,87,112,22.44,13.73,990.02,Very Effective
+P1066,Beauty,785.33,21,620.41,69,75,30.22,21.49,710.56,Not Effective
+P1067,Groceries,387.71,13,337.31,142,152,24.9,19.5,374.51,Not Effective
+P1068,Beauty,428.7,3,415.84,70,71,54.28,47.39,411.29,Not Effective
+P1069,Electronics,308.21,18,252.73,189,206,67.79,50.03,300.16,Not Effective
+P1070,Apparel,665.33,28,479.04,405,477,32.16,20.84,680.41,Moderately Effective
+P1071,Home & Kitchen,189.75,28,136.62,387,411,37.88,24.55,201.79,Not Effective
+P1072,Home & Kitchen,952.19,19,771.27,395,430,56.89,41.47,950.32,Not Effective
+P1073,Home & Kitchen,98.75,2,96.77,22,22,21.55,19.01,91.37,Not Effective
+P1074,Electronics,385.23,42,223.43,336,361,41.12,21.46,355.31,Not Effective
+P1075,Beauty,71.33,33,47.79,189,242,67.69,40.82,73.87,Very Effective
+P1076,Beauty,400.66,49,204.34,402,471,60.16,27.61,438.01,Moderately Effective
+P1077,Apparel,769.07,47,407.61,218,302,47.6,22.71,820.05,Very Effective
+P1078,Electronics,699.54,47,370.76,63,92,45.28,21.6,702.07,Very Effective
+P1079,Electronics,197.45,17,163.88,43,45,27.76,20.74,186.99,Not Effective
+P1080,Groceries,131.52,40,78.91,271,364,41.42,22.37,142.34,Very Effective
+P1081,Groceries,334.09,4,320.73,244,247,55.84,48.25,321.28,Not Effective
+P1082,Beauty,598.63,3,580.67,135,135,21.44,18.72,556.62,Not Effective
+P1083,Beauty,733.99,46,396.35,260,313,68.5,33.29,676.69,Very Effective
+P1084,Home & Kitchen,234.23,27,170.99,173,188,20.68,13.59,224.44,Not Effective
+P1085,Electronics,958.44,16,805.09,410,464,31.05,23.47,979.32,Moderately Effective
+P1086,Apparel,992.56,45,545.91,496,532,51.08,25.28,1039.93,Not Effective
+P1087,Electronics,711.21,44,398.28,165,196,55.93,28.19,677.18,Moderately Effective
+P1088,Electronics,452.61,10,407.35,72,76,35.93,29.1,457.65,Not Effective
+P1089,Groceries,526.74,29,373.99,335,386,43.32,27.68,494.93,Moderately Effective
+P1090,Beauty,771.52,32,524.63,479,599,31.69,19.39,714.78,Very Effective
+P1091,Groceries,405.39,6,381.07,348,355,31.61,26.74,441.19,Not Effective
+P1092,Beauty,39.48,1,39.09,261,262,56.51,50.36,40.55,Not Effective
+P1093,Beauty,377.52,42,218.96,479,563,25.62,13.37,413.52,Moderately Effective
+P1094,Groceries,123.26,34,81.35,161,205,63.53,37.74,121.65,Very Effective
+P1095,Beauty,753.92,34,497.59,406,443,67.66,40.19,765.89,Not Effective
+P1096,Beauty,819.45,19,663.75,487,545,58.48,42.63,900.82,Moderately Effective
+P1097,Electronics,491.43,23,378.4,83,93,38.36,26.58,530.77,Moderately Effective
+P1098,Electronics,417.85,17,346.82,42,47,55.79,41.68,380.74,Moderately Effective
+P1099,Beauty,555.31,27,405.38,327,382,54.16,35.58,552.98,Moderately Effective
+P1100,Apparel,895.38,48,465.6,296,371,25.02,11.71,975.98,Very Effective
+P1101,Home & Kitchen,299.79,23,230.84,33,38,42.24,29.27,307.86,Moderately Effective
+P1102,Apparel,388.45,15,330.18,268,282,34.44,26.35,396.64,Not Effective
+P1103,Electronics,42.29,42,24.53,227,303,27.77,14.5,38.23,Very Effective
+P1104,Beauty,284.35,10,255.92,199,205,28.07,22.74,306.65,Not Effective
+P1105,Home & Kitchen,999.42,28,719.58,408,506,47.81,30.98,1057.71,Moderately Effective
+P1106,Home & Kitchen,679.49,3,659.11,403,409,69.17,60.39,622.41,Not Effective
+P1107,Beauty,183.66,24,139.58,489,582,35.8,24.49,182.57,Moderately Effective
+P1108,Apparel,796.54,21,629.27,380,382,35.75,25.42,832.43,Not Effective
+P1109,Home & Kitchen,142.5,4,136.8,191,195,67.97,58.73,144.07,Not Effective
+P1110,Groceries,500.05,23,385.04,81,90,41.73,28.92,526.19,Moderately Effective
+P1111,Beauty,139.85,9,127.26,121,123,55.4,45.37,125.93,Not Effective
+P1112,Electronics,754.66,3,732.02,141,144,68.06,59.42,818.28,Not Effective
+P1113,Beauty,536.98,35,349.04,79,87,69.44,40.62,585.11,Moderately Effective
+P1114,Groceries,793.31,1,785.38,287,289,29.16,25.98,846.0,Not Effective
+P1115,Groceries,302.74,26,224.03,28,30,57.26,38.14,332.63,Not Effective
+P1116,Electronics,153.61,16,129.03,75,78,44.61,33.72,160.51,Not Effective
+P1117,Home & Kitchen,300.59,6,282.55,461,462,56.6,47.88,298.83,Not Effective
+P1118,Electronics,18.42,4,17.68,470,472,45.7,39.48,18.41,Not Effective
+P1119,Electronics,110.68,28,79.69,112,117,24.83,16.09,121.4,Not Effective
+P1120,Beauty,276.13,37,173.96,404,477,36.67,20.79,268.41,Moderately Effective
+P1121,Beauty,641.83,0,641.83,347,347,50.82,45.74,592.12,Not Effective
+P1122,Electronics,636.19,15,540.76,391,428,66.4,50.8,607.89,Not Effective
+P1123,Apparel,88.07,30,61.65,292,301,25.42,16.01,95.26,Not Effective
+P1124,Beauty,204.07,11,181.62,437,460,69.92,56.01,198.86,Not Effective
+P1125,Beauty,959.03,42,556.24,265,339,44.22,23.08,890.69,Very Effective
+P1126,Home & Kitchen,345.52,49,176.22,311,365,50.13,23.01,367.35,Moderately Effective
+P1127,Home & Kitchen,579.44,26,428.79,382,445,45.82,30.52,630.04,Moderately Effective
+P1128,Apparel,788.79,34,520.6,154,196,55.46,32.94,736.7,Very Effective
+P1129,Electronics,221.23,7,205.74,84,86,50.39,42.18,242.82,Not Effective
+P1130,Home & Kitchen,801.68,25,601.26,103,107,20.16,13.61,841.19,Not Effective
+P1131,Groceries,47.35,11,42.14,266,283,37.6,30.12,45.62,Not Effective
+P1132,Electronics,734.87,16,617.29,354,406,32.21,24.35,692.38,Moderately Effective
+P1133,Electronics,555.34,43,316.54,325,450,56.21,28.84,600.38,Very Effective
+P1134,Home & Kitchen,703.9,1,696.86,415,417,45.65,40.67,699.12,Not Effective
+P1135,Beauty,676.62,23,521.0,249,267,66.75,46.26,623.63,Not Effective
+P1136,Groceries,612.18,45,336.7,495,533,44.23,21.89,620.46,Not Effective
+P1137,Groceries,589.5,14,506.97,206,234,23.54,18.22,626.45,Moderately Effective
+P1138,Apparel,225.65,4,216.62,97,98,30.51,26.36,241.16,Not Effective
+P1139,Groceries,718.09,33,481.12,113,126,57.61,34.74,738.04,Moderately Effective
+P1140,Home & Kitchen,820.23,5,779.22,361,370,21.15,18.08,813.47,Not Effective
+P1141,Groceries,980.58,27,715.82,124,147,30.05,19.74,1017.15,Moderately Effective
+P1142,Groceries,422.27,33,282.92,444,502,40.22,24.25,414.71,Moderately Effective
+P1143,Electronics,548.46,39,334.56,345,423,21.06,11.56,570.7,Very Effective
+P1144,Apparel,977.31,10,879.58,473,480,62.7,50.79,891.2,Not Effective
+P1145,Beauty,400.47,15,340.4,202,214,22.93,17.54,389.18,Not Effective
+P1146,Groceries,188.51,14,162.12,47,53,49.14,38.03,186.21,Moderately Effective
+P1147,Home & Kitchen,239.09,31,164.97,269,281,44.51,27.64,254.59,Not Effective
+P1148,Groceries,66.54,14,57.22,56,57,36.11,27.95,60.21,Not Effective
+P1149,Beauty,565.29,33,378.74,35,42,64.98,39.18,579.2,Moderately Effective
+P1150,Home & Kitchen,137.21,13,119.37,461,510,52.47,41.08,136.41,Moderately Effective
+P1151,Home & Kitchen,781.41,1,773.6,274,276,24.45,21.79,756.19,Not Effective
+P1152,Electronics,244.2,16,205.13,402,428,55.01,41.59,242.35,Not Effective
+P1153,Beauty,605.73,23,466.41,191,228,32.6,22.59,566.54,Moderately Effective
+P1154,Electronics,921.37,18,755.52,246,287,20.24,14.94,919.32,Moderately Effective
+P1155,Beauty,157.05,39,95.8,142,184,46.03,25.27,163.64,Very Effective
+P1156,Groceries,178.6,30,125.02,159,203,46.09,29.04,177.99,Moderately Effective
+P1157,Apparel,603.61,29,428.56,86,109,34.94,22.33,653.7,Moderately Effective
+P1158,Groceries,42.42,30,29.69,106,129,25.65,16.16,38.34,Moderately Effective
+P1159,Electronics,867.75,4,833.04,207,212,23.96,20.7,843.7,Not Effective
+P1160,Apparel,40.39,16,33.93,260,299,51.64,39.04,36.58,Moderately Effective
+P1161,Home & Kitchen,130.34,23,100.36,327,373,27.84,19.29,124.95,Moderately Effective
+P1162,Apparel,416.52,38,258.24,51,56,30.64,17.1,380.42,Not Effective
+P1163,Electronics,958.39,30,670.87,123,150,64.62,40.71,949.92,Moderately Effective
+P1164,Electronics,983.34,27,717.84,69,74,32.2,21.16,905.26,Not Effective
+P1165,Electronics,896.26,41,528.79,100,111,63.88,33.92,931.38,Moderately Effective
+P1166,Home & Kitchen,784.0,14,674.24,138,156,22.13,17.13,781.41,Moderately Effective
+P1167,Beauty,990.07,20,792.06,381,393,47.83,34.44,1016.9,Not Effective
+P1168,Apparel,396.18,36,253.56,17,17,53.68,30.92,361.82,Not Effective
+P1169,Beauty,17.0,47,9.01,309,360,42.38,20.22,18.13,Moderately Effective
+P1170,Groceries,767.78,23,591.19,487,586,39.15,27.13,789.25,Moderately Effective
+P1171,Groceries,786.1,1,778.24,463,463,52.59,46.86,837.19,Not Effective
+P1172,Apparel,162.2,8,149.22,389,394,31.27,25.89,151.36,Not Effective
+P1173,Electronics,249.46,40,149.68,371,437,61.76,33.35,248.22,Moderately Effective
+P1174,Home & Kitchen,548.49,16,460.73,11,12,60.63,45.84,523.64,Not Effective
+P1175,Groceries,214.67,36,137.39,64,71,65.2,37.56,201.25,Moderately Effective
+P1176,Home & Kitchen,574.55,12,505.6,244,268,36.28,28.73,525.45,Not Effective
+P1177,Apparel,999.63,1,989.63,322,323,61.5,54.8,1078.18,Not Effective
+P1178,Beauty,187.71,8,172.69,231,246,59.66,49.4,186.79,Not Effective
+P1179,Home & Kitchen,660.44,32,449.1,300,317,23.72,14.52,694.87,Not Effective
+P1180,Beauty,552.58,28,397.86,72,78,57.72,37.4,584.94,Not Effective
+P1181,Home & Kitchen,107.86,45,59.32,455,508,65.35,32.35,111.68,Moderately Effective
+P1182,Home & Kitchen,546.77,6,513.96,273,285,36.55,30.92,529.88,Not Effective
+P1183,Electronics,472.43,48,245.66,163,193,41.65,19.49,431.77,Moderately Effective
+P1184,Electronics,699.38,28,503.55,303,354,24.84,16.1,637.21,Moderately Effective
+P1185,Electronics,105.65,11,94.03,222,226,47.08,37.71,100.11,Not Effective
+P1186,Electronics,558.52,14,480.33,205,218,54.68,42.32,530.26,Not Effective
+P1187,Electronics,642.76,0,642.76,116,116,50.01,45.01,686.35,Not Effective
+P1188,Apparel,65.93,44,36.92,143,156,60.35,30.42,70.69,Not Effective
+P1189,Apparel,831.27,49,423.95,371,435,68.35,31.37,774.12,Moderately Effective
+P1190,Electronics,433.36,13,377.02,256,267,37.54,29.39,412.78,Not Effective
+P1191,Apparel,308.71,5,293.27,164,172,69.48,59.4,309.92,Not Effective
+P1192,Groceries,424.89,10,382.4,325,339,49.96,40.47,458.34,Not Effective
+P1193,Beauty,51.45,40,30.87,60,82,60.14,32.48,56.0,Very Effective
+P1194,Electronics,36.07,33,24.17,344,347,26.0,15.68,38.88,Not Effective
+P1195,Apparel,562.21,50,281.11,307,391,33.32,14.99,594.63,Very Effective
+P1196,Beauty,562.77,48,292.64,209,226,64.9,30.37,528.56,Not Effective
+P1197,Beauty,604.71,7,562.38,39,41,50.75,42.48,600.05,Not Effective
+P1198,Electronics,693.62,44,388.43,500,599,63.96,32.24,697.08,Moderately Effective
+P1199,Apparel,610.91,21,482.62,50,50,45.04,32.02,562.03,Not Effective
+P1200,Apparel,128.51,4,123.37,384,386,50.64,43.75,119.71,Not Effective
+P1201,Apparel,159.32,35,103.56,35,42,69.84,40.86,162.14,Moderately Effective
+P1202,Apparel,27.9,30,19.53,269,342,62.65,39.47,28.19,Moderately Effective
+P1203,Beauty,594.09,11,528.74,410,428,41.12,32.94,541.96,Not Effective
+P1204,Apparel,491.94,14,423.07,61,61,24.5,18.96,450.2,Not Effective
+P1205,Electronics,172.82,28,124.43,345,361,44.32,28.72,178.53,Not Effective
+P1206,Home & Kitchen,741.52,34,489.4,126,134,38.77,23.03,804.01,Not Effective
+P1207,Electronics,299.55,11,266.6,24,26,39.72,31.82,278.84,Not Effective
+P1208,Apparel,292.15,48,151.92,480,681,64.14,30.02,308.53,Very Effective
+P1209,Groceries,240.07,23,184.85,96,118,23.59,16.35,217.89,Moderately Effective
+P1210,Groceries,931.32,44,521.54,271,314,57.35,28.9,981.37,Moderately Effective
+P1211,Home & Kitchen,10.96,20,8.77,266,302,69.25,49.87,10.06,Moderately Effective
+P1212,Electronics,703.88,27,513.83,168,184,25.11,16.5,676.9,Not Effective
+P1213,Groceries,539.58,12,474.83,440,442,30.95,24.51,573.92,Not Effective
+P1214,Electronics,330.25,39,201.45,272,331,23.03,12.64,300.79,Very Effective
+P1215,Home & Kitchen,625.79,15,531.92,372,400,27.72,21.21,674.41,Not Effective
+P1216,Groceries,918.1,33,615.13,239,304,65.26,39.35,906.59,Very Effective
+P1217,Beauty,701.67,30,491.17,340,355,33.02,20.8,737.43,Not Effective
+P1218,Beauty,306.16,27,223.5,114,129,69.71,45.8,329.45,Moderately Effective
+P1219,Beauty,509.07,43,290.17,100,108,49.21,25.24,533.76,Not Effective
+P1220,Home & Kitchen,638.71,7,594.0,202,211,57.32,47.98,623.24,Not Effective
+P1221,Electronics,213.86,11,190.34,92,95,58.42,46.8,195.34,Not Effective
+P1222,Home & Kitchen,340.31,8,313.09,458,492,54.85,45.42,308.91,Not Effective
+P1223,Apparel,277.64,4,266.53,238,243,45.89,39.65,302.25,Not Effective
+P1224,Apparel,473.45,22,369.29,43,44,58.08,40.77,505.55,Not Effective
+P1225,Electronics,83.21,44,46.6,138,155,60.61,30.55,84.38,Moderately Effective
+P1226,Beauty,319.15,5,303.19,149,150,24.42,20.88,306.86,Not Effective
+P1227,Apparel,694.77,23,534.97,283,337,42.4,29.38,646.17,Moderately Effective
+P1228,Electronics,478.69,19,387.74,76,78,36.02,26.26,483.06,Not Effective
+P1229,Electronics,832.9,28,599.69,15,19,62.69,40.62,903.26,Moderately Effective
+P1230,Groceries,437.02,28,314.65,110,127,39.02,25.28,477.38,Moderately Effective
+P1231,Electronics,472.12,38,292.71,36,43,35.94,20.05,442.94,Moderately Effective
+P1232,Home & Kitchen,856.22,18,702.1,232,266,59.06,43.59,823.98,Moderately Effective
+P1233,Electronics,169.33,6,159.17,340,348,67.51,57.11,182.47,Not Effective
+P1234,Electronics,268.11,16,225.21,286,323,65.73,49.69,274.83,Moderately Effective
+P1235,Groceries,666.38,2,653.05,109,109,49.64,43.78,600.28,Not Effective
+P1236,Apparel,303.69,7,282.43,228,240,35.79,29.96,284.84,Not Effective
+P1237,Groceries,936.03,45,514.82,237,253,61.85,30.62,946.7,Not Effective
+P1238,Home & Kitchen,138.1,15,117.38,395,448,65.13,49.82,127.24,Moderately Effective
+P1239,Beauty,211.4,37,133.18,230,241,54.75,31.04,230.66,Not Effective
+P1240,Home & Kitchen,375.59,19,304.23,210,217,30.08,21.93,409.53,Not Effective
+P1241,Apparel,731.29,17,606.97,181,205,27.37,20.45,674.93,Moderately Effective
+P1242,Home & Kitchen,113.91,46,61.51,87,89,37.45,18.2,112.31,Not Effective
+P1243,Beauty,144.71,21,114.32,123,125,69.1,49.13,137.3,Not Effective
+P1244,Home & Kitchen,226.24,13,196.83,373,389,65.25,51.09,242.35,Not Effective
+P1245,Home & Kitchen,278.84,44,156.15,444,522,50.49,25.45,301.66,Moderately Effective
+P1246,Apparel,160.5,34,105.93,457,493,67.15,39.89,173.25,Not Effective
+P1247,Groceries,21.09,24,16.03,342,353,58.36,39.92,19.25,Not Effective
+P1248,Apparel,178.25,39,108.73,109,124,57.0,31.29,169.77,Moderately Effective
+P1249,Beauty,952.95,30,667.06,343,434,28.96,18.24,994.04,Moderately Effective
+P1250,Beauty,336.75,8,309.81,177,179,58.81,48.69,333.82,Not Effective
+P1251,Electronics,379.75,14,326.58,478,496,35.21,27.25,413.45,Not Effective
+P1252,Apparel,518.83,20,415.06,387,391,28.49,20.51,526.22,Not Effective
+P1253,Apparel,880.9,44,493.3,165,171,56.16,28.3,949.11,Not Effective
+P1254,Beauty,823.94,50,411.97,400,581,24.09,10.84,847.49,Very Effective
+P1255,Home & Kitchen,448.43,25,336.32,26,27,29.19,19.7,430.39,Not Effective
+P1256,Beauty,859.58,37,541.54,39,53,59.29,33.62,932.55,Very Effective
+P1257,Electronics,225.91,38,140.06,155,174,56.3,31.41,242.67,Moderately Effective
+P1258,Apparel,767.15,25,575.36,206,246,32.28,21.79,728.86,Moderately Effective
+P1259,Beauty,993.88,44,556.57,64,79,47.7,24.04,1042.42,Very Effective
+P1260,Groceries,593.45,7,551.91,353,358,40.81,34.16,637.57,Not Effective
+P1261,Apparel,635.79,26,470.48,377,468,24.95,16.62,642.34,Moderately Effective
+P1262,Groceries,171.9,23,132.36,72,78,49.83,34.53,165.72,Not Effective
+P1263,Beauty,160.84,2,157.62,255,259,57.79,50.97,173.8,Not Effective
+P1264,Beauty,587.18,23,452.13,466,467,40.42,28.01,616.5,Not Effective
+P1265,Electronics,995.38,24,756.49,121,133,65.69,44.93,949.91,Not Effective
+P1266,Apparel,298.76,42,173.28,117,138,49.6,25.89,298.08,Moderately Effective
+P1267,Electronics,949.7,24,721.77,388,446,61.11,41.8,955.92,Moderately Effective
+P1268,Apparel,551.86,7,513.23,483,515,35.54,29.75,530.83,Not Effective
+P1269,Beauty,72.26,50,36.13,441,585,21.27,9.57,71.38,Very Effective
+P1270,Apparel,211.72,13,184.2,258,263,54.61,42.76,191.17,Not Effective
+P1271,Groceries,553.9,7,515.13,246,261,25.29,21.17,511.79,Not Effective
+P1272,Groceries,217.23,42,125.99,194,205,53.7,28.03,200.97,Not Effective
+P1273,Beauty,354.2,2,347.12,463,472,26.27,23.17,376.6,Not Effective
+P1274,Electronics,63.61,33,42.62,340,381,67.14,40.49,69.25,Moderately Effective
+P1275,Groceries,996.7,38,617.95,187,206,21.19,11.82,1011.16,Moderately Effective
+P1276,Electronics,972.01,26,719.29,125,145,41.01,27.31,887.29,Moderately Effective
+P1277,Electronics,380.92,19,308.55,110,128,21.46,15.64,343.85,Moderately Effective
+P1278,Electronics,404.65,33,271.12,20,20,38.07,22.96,399.98,Not Effective
+P1279,Home & Kitchen,780.8,4,749.57,488,489,30.09,26.0,778.11,Not Effective
+P1280,Beauty,569.63,12,501.27,171,182,59.56,47.17,556.15,Not Effective
+P1281,Beauty,144.78,7,134.65,28,28,67.92,56.85,130.65,Not Effective
+P1282,Apparel,308.24,12,271.25,131,142,56.4,44.67,323.18,Not Effective
+P1283,Electronics,922.6,1,913.37,46,46,35.67,31.78,842.29,Not Effective
+P1284,Beauty,106.55,39,65.0,255,318,28.41,15.6,102.23,Very Effective
+P1285,Apparel,870.85,48,452.84,215,281,67.23,31.46,909.56,Very Effective
+P1286,Electronics,817.41,13,711.15,288,307,61.13,47.87,829.79,Not Effective
+P1287,Beauty,161.48,7,150.18,11,11,33.08,27.69,175.37,Not Effective
+P1288,Home & Kitchen,590.63,6,555.19,395,411,40.12,33.94,597.39,Not Effective
+P1289,Electronics,509.93,2,499.73,370,377,65.21,57.52,463.51,Not Effective
+P1290,Beauty,900.74,43,513.42,32,32,47.75,24.5,936.56,Not Effective
+P1291,Groceries,563.82,40,338.29,79,86,28.68,15.49,542.78,Not Effective
+P1292,Electronics,182.81,4,175.5,34,34,60.1,51.93,187.09,Not Effective
+P1293,Home & Kitchen,989.42,42,573.86,167,191,58.13,30.34,999.8,Moderately Effective
+P1294,Groceries,208.95,29,148.35,294,302,24.49,15.65,201.21,Not Effective
+P1295,Apparel,562.94,49,287.1,313,433,33.79,15.51,560.66,Very Effective
+P1296,Home & Kitchen,976.73,5,927.89,259,268,20.72,17.72,965.9,Not Effective
+P1297,Home & Kitchen,368.16,39,224.58,275,325,69.9,38.38,331.95,Moderately Effective
+P1298,Home & Kitchen,602.26,40,361.36,215,223,30.61,16.53,598.5,Not Effective
+P1299,Home & Kitchen,738.81,44,413.73,329,399,56.79,28.62,777.71,Very Effective
+P1300,Home & Kitchen,763.43,19,618.38,193,206,21.21,15.46,698.76,Not Effective
+P1301,Home & Kitchen,40.9,10,36.81,431,441,33.56,27.18,44.47,Not Effective
+P1302,Beauty,168.4,46,90.94,273,398,40.8,19.83,171.38,Very Effective
+P1303,Home & Kitchen,127.92,29,90.82,198,242,32.46,20.74,124.49,Moderately Effective
+P1304,Groceries,651.59,30,456.11,353,426,56.01,35.29,659.14,Moderately Effective
+P1305,Home & Kitchen,697.86,4,669.95,203,207,54.2,46.83,667.31,Not Effective
+P1306,Apparel,286.25,50,143.12,347,421,26.72,12.02,290.62,Very Effective
+P1307,Groceries,601.7,43,342.97,320,383,33.78,17.33,636.7,Moderately Effective
+P1308,Apparel,634.08,49,323.38,237,308,30.14,13.83,638.83,Very Effective
+P1309,Groceries,356.14,12,313.4,354,357,61.19,48.46,354.57,Not Effective
+P1310,Apparel,883.19,19,715.38,413,414,46.46,33.87,949.51,Not Effective
+P1311,Home & Kitchen,730.81,3,708.89,56,57,62.74,54.77,684.91,Not Effective
+P1312,Apparel,402.11,37,253.33,20,22,28.16,15.97,421.27,Not Effective
+P1313,Groceries,369.03,11,328.44,444,484,62.45,50.02,372.98,Not Effective
+P1314,Beauty,997.49,27,728.17,52,57,31.52,20.71,1040.99,Not Effective
+P1315,Groceries,91.45,21,72.25,120,120,50.18,35.68,89.1,Not Effective
+P1316,Groceries,799.78,18,655.82,19,19,23.97,17.69,763.4,Not Effective
+P1317,Home & Kitchen,496.45,7,461.7,140,144,37.63,31.5,506.74,Not Effective
+P1318,Beauty,879.73,21,694.99,124,150,47.99,34.12,953.43,Moderately Effective
+P1319,Home & Kitchen,276.14,18,226.43,231,255,33.74,24.9,287.13,Moderately Effective
+P1320,Home & Kitchen,536.0,14,460.96,422,464,35.74,27.66,534.86,Not Effective
+P1321,Electronics,270.46,9,246.12,271,280,53.33,43.68,261.99,Not Effective
+P1322,Home & Kitchen,771.42,50,385.71,160,180,65.23,29.35,717.77,Moderately Effective
+P1323,Beauty,343.05,39,209.26,485,584,66.1,36.29,309.68,Very Effective
+P1324,Beauty,876.63,12,771.43,48,53,61.32,48.57,911.91,Moderately Effective
+P1325,Electronics,248.03,48,128.98,31,43,63.45,29.7,252.06,Very Effective
+P1326,Groceries,645.74,24,490.76,357,419,52.08,35.62,584.87,Moderately Effective
+P1327,Home & Kitchen,455.61,0,455.61,500,500,69.97,62.97,487.27,Not Effective
+P1328,Groceries,555.77,9,505.75,61,62,31.5,25.8,593.46,Not Effective
+P1329,Groceries,488.99,2,479.21,101,102,56.77,50.07,458.23,Not Effective
+P1330,Groceries,20.54,31,14.17,10,11,28.58,17.74,19.68,Not Effective
+P1331,Home & Kitchen,216.56,42,125.6,84,107,29.26,15.27,219.63,Very Effective
+P1332,Apparel,585.6,44,327.94,60,71,43.89,22.12,553.86,Moderately Effective
+P1333,Beauty,393.21,18,322.43,214,216,47.42,35.0,424.27,Not Effective
+P1334,Home & Kitchen,62.51,2,61.26,149,151,21.51,18.97,67.02,Not Effective
+P1335,Groceries,161.9,18,132.76,166,179,46.62,34.41,172.43,Not Effective
+P1336,Beauty,419.26,42,243.17,254,305,25.22,13.16,409.52,Very Effective
+P1337,Beauty,602.56,8,554.36,464,495,67.61,55.98,555.71,Not Effective
+P1338,Home & Kitchen,150.08,49,76.54,268,356,39.5,18.13,150.45,Very Effective
+P1339,Groceries,918.27,26,679.52,395,426,50.51,33.64,831.13,Not Effective
+P1340,Groceries,970.76,9,883.39,252,257,31.78,26.03,889.31,Not Effective
+P1341,Groceries,154.68,29,109.82,247,249,27.26,17.42,169.77,Not Effective
+P1342,Electronics,785.34,9,714.66,142,148,51.59,42.25,732.89,Not Effective
+P1343,Home & Kitchen,413.73,29,293.75,189,197,50.28,32.13,407.83,Not Effective
+P1344,Electronics,559.67,1,554.07,42,42,27.98,24.93,554.94,Not Effective
+P1345,Apparel,816.7,14,702.36,309,333,28.93,22.39,853.7,Not Effective
+P1346,Electronics,153.98,38,95.47,427,439,33.85,18.89,153.78,Not Effective
+P1347,Beauty,684.59,4,657.21,184,191,69.07,59.68,721.22,Not Effective
+P1348,Groceries,748.65,47,396.78,215,304,57.65,27.5,727.14,Very Effective
+P1349,Groceries,25.6,36,16.38,404,486,23.69,13.64,23.19,Very Effective
+P1350,Apparel,380.39,20,304.31,415,489,43.2,31.1,411.15,Moderately Effective
+P1351,Beauty,841.6,20,673.28,240,265,69.8,50.26,806.47,Moderately Effective
+P1352,Apparel,572.68,44,320.7,127,181,40.15,20.24,515.96,Very Effective
+P1353,Home & Kitchen,318.91,41,188.16,321,380,45.81,24.33,299.05,Moderately Effective
+P1354,Beauty,246.41,20,197.13,45,45,23.38,16.83,263.78,Not Effective
+P1355,Apparel,152.54,12,134.24,405,418,51.71,40.96,150.26,Not Effective
+P1356,Beauty,490.24,16,411.8,121,131,53.13,40.17,516.3,Not Effective
+P1357,Beauty,243.44,4,233.7,324,332,49.29,42.59,248.37,Not Effective
+P1358,Apparel,614.38,44,344.05,450,586,61.53,31.01,620.23,Very Effective
+P1359,Beauty,500.36,22,390.28,430,461,32.5,22.81,522.62,Not Effective
+P1360,Home & Kitchen,546.24,20,436.99,82,98,49.41,35.58,565.69,Moderately Effective
+P1361,Home & Kitchen,786.9,33,527.22,73,74,30.96,18.67,823.47,Not Effective
+P1362,Groceries,568.23,11,505.72,469,517,49.14,39.36,575.57,Moderately Effective
+P1363,Beauty,729.52,40,437.71,442,481,35.6,19.22,661.36,Not Effective
+P1364,Beauty,155.06,17,128.7,346,379,23.75,17.74,145.91,Not Effective
+P1365,Home & Kitchen,928.39,7,863.4,318,337,61.66,51.61,851.87,Not Effective
+P1366,Electronics,65.56,13,57.04,61,63,37.07,29.03,70.87,Not Effective
+P1367,Groceries,342.43,18,280.79,262,279,48.74,35.97,344.85,Not Effective
+P1368,Beauty,617.29,10,555.56,347,373,51.1,41.39,572.02,Not Effective
+P1369,Groceries,48.74,12,42.89,251,264,34.22,27.1,44.28,Not Effective
+P1370,Groceries,941.98,2,923.14,123,125,33.2,29.28,1022.63,Not Effective
+P1371,Apparel,247.15,10,222.44,178,181,29.93,24.24,226.17,Not Effective
+P1372,Beauty,977.1,9,889.16,59,62,36.54,29.93,1050.36,Not Effective
+P1373,Home & Kitchen,30.58,5,29.05,136,140,21.48,18.36,31.99,Not Effective
+P1374,Apparel,478.93,2,469.35,99,100,59.43,52.42,508.2,Not Effective
+P1375,Beauty,607.38,48,315.84,313,459,62.11,29.07,590.05,Very Effective
+P1376,Electronics,534.29,8,491.55,137,144,41.53,34.39,487.38,Not Effective
+P1377,Home & Kitchen,484.3,9,440.71,262,263,54.39,44.55,482.25,Not Effective
+P1378,Groceries,295.64,5,280.86,429,430,23.77,20.32,278.76,Not Effective
+P1379,Groceries,144.21,44,80.76,462,550,45.32,22.84,130.17,Moderately Effective
+P1380,Groceries,644.11,26,476.64,152,158,52.55,35.0,654.72,Not Effective
+P1381,Home & Kitchen,386.65,48,201.06,57,67,55.37,25.91,373.9,Moderately Effective
+P1382,Apparel,348.12,50,174.06,156,234,31.43,14.14,349.18,Very Effective
+P1383,Electronics,141.64,33,94.9,84,99,65.47,39.48,154.03,Moderately Effective
+P1384,Beauty,790.25,44,442.54,292,324,55.93,28.19,857.27,Moderately Effective
+P1385,Electronics,213.98,26,158.35,241,302,66.33,44.18,214.28,Moderately Effective
+P1386,Electronics,763.93,39,466.0,490,617,23.44,12.87,767.62,Very Effective
+P1387,Groceries,861.09,32,585.54,163,190,44.88,27.47,934.97,Moderately Effective
+P1388,Beauty,259.93,43,148.16,369,481,50.81,26.07,258.5,Very Effective
+P1389,Apparel,439.87,45,241.93,462,645,24.03,11.89,402.1,Very Effective
+P1390,Home & Kitchen,61.3,48,31.88,46,55,49.64,23.23,57.75,Moderately Effective
+P1391,Home & Kitchen,687.39,43,391.81,233,279,57.75,29.63,739.17,Moderately Effective
+P1392,Electronics,476.74,45,262.21,267,386,45.55,22.55,500.88,Very Effective
+P1393,Apparel,331.55,22,258.61,155,169,33.48,23.5,330.54,Not Effective
+P1394,Home & Kitchen,426.03,9,387.69,87,89,38.82,31.79,416.13,Not Effective
+P1395,Apparel,824.37,22,643.01,304,309,53.58,37.61,875.54,Not Effective
+P1396,Groceries,656.31,24,498.8,342,347,49.87,34.11,656.56,Not Effective
+P1397,Electronics,833.35,18,683.35,463,498,61.15,45.13,877.42,Not Effective
+P1398,Apparel,145.18,38,90.01,466,499,52.29,29.18,135.62,Not Effective
+P1399,Electronics,401.58,48,208.82,146,177,33.41,15.64,388.68,Very Effective
+P1400,Home & Kitchen,313.13,12,275.55,463,474,60.26,47.73,344.31,Not Effective
+P1401,Apparel,218.42,10,196.58,494,509,24.59,19.92,237.13,Not Effective
+P1402,Home & Kitchen,579.9,25,434.92,136,142,68.26,46.07,605.19,Not Effective
+P1403,Apparel,456.01,20,364.81,109,120,38.83,27.96,425.52,Moderately Effective
+P1404,Electronics,210.88,46,113.88,472,674,20.16,9.8,205.17,Very Effective
+P1405,Apparel,30.93,41,18.25,304,359,45.11,23.96,33.8,Moderately Effective
+P1406,Home & Kitchen,998.83,10,898.95,63,65,24.04,19.47,1069.1,Not Effective
+P1407,Apparel,139.74,24,106.2,35,39,47.57,32.54,126.36,Moderately Effective
+P1408,Home & Kitchen,690.44,39,421.17,12,15,35.42,19.45,685.84,Very Effective
+P1409,Apparel,557.14,44,312.0,436,457,20.84,10.5,591.32,Not Effective
+P1410,Groceries,18.54,31,12.79,286,374,51.04,31.69,19.27,Very Effective
+P1411,Home & Kitchen,449.32,48,233.65,101,103,55.78,26.11,433.17,Not Effective
+P1412,Beauty,657.37,43,374.7,294,336,49.08,25.18,680.99,Moderately Effective
+P1413,Apparel,875.03,24,665.02,134,164,27.34,18.7,853.12,Moderately Effective
+P1414,Apparel,451.84,16,379.55,341,376,42.64,32.24,435.19,Moderately Effective
+P1415,Home & Kitchen,767.6,24,583.38,385,402,26.23,17.94,712.18,Not Effective
+P1416,Home & Kitchen,480.82,23,370.23,202,247,30.21,20.94,464.7,Moderately Effective
+P1417,Groceries,322.91,19,261.56,26,29,66.49,48.47,349.08,Moderately Effective
+P1418,Home & Kitchen,639.52,34,422.08,165,221,27.95,16.6,639.83,Very Effective
+P1419,Electronics,220.91,30,154.64,71,80,29.85,18.81,224.5,Moderately Effective
+P1420,Home & Kitchen,344.63,46,186.1,131,137,42.75,20.78,341.69,Not Effective
+P1421,Groceries,108.92,10,98.03,64,64,25.04,20.28,113.7,Not Effective
+P1422,Apparel,446.93,1,442.46,193,194,44.56,39.7,458.08,Not Effective
+P1423,Beauty,135.27,41,79.81,430,478,41.99,22.3,134.25,Moderately Effective
+P1424,Home & Kitchen,510.52,1,505.41,460,463,38.06,33.91,511.34,Not Effective
+P1425,Home & Kitchen,429.46,20,343.57,132,139,31.72,22.84,435.73,Not Effective
+P1426,Home & Kitchen,429.13,49,218.86,228,321,61.41,28.19,469.55,Very Effective
+P1427,Apparel,190.79,3,185.07,135,137,22.5,19.64,186.01,Not Effective
+P1428,Home & Kitchen,21.82,21,17.24,94,103,66.5,47.29,23.12,Not Effective
+P1429,Apparel,224.06,41,132.2,272,375,29.24,15.53,224.27,Very Effective
+P1430,Beauty,810.13,5,769.62,123,128,36.82,31.48,842.15,Not Effective
+P1431,Home & Kitchen,715.29,24,543.62,259,266,27.71,18.95,655.37,Not Effective
+P1432,Electronics,628.23,49,320.4,224,253,59.71,27.41,615.97,Moderately Effective
+P1433,Beauty,37.92,32,25.79,418,539,69.58,42.59,34.6,Very Effective
+P1434,Electronics,924.94,16,776.95,69,70,35.29,26.68,913.53,Not Effective
+P1435,Groceries,56.56,22,44.12,62,66,21.34,14.98,52.99,Not Effective
+P1436,Beauty,565.79,38,350.79,113,126,38.38,21.42,514.47,Moderately Effective
+P1437,Apparel,392.75,38,243.5,208,228,21.07,11.76,431.26,Not Effective
+P1438,Electronics,209.74,27,153.11,48,58,23.68,15.56,192.2,Moderately Effective
+P1439,Electronics,954.71,26,706.49,306,312,24.63,16.4,981.08,Not Effective
+P1440,Home & Kitchen,26.36,20,21.09,438,492,40.66,29.28,27.93,Moderately Effective
+P1441,Electronics,268.17,5,254.76,40,40,34.2,29.24,280.9,Not Effective
+P1442,Home & Kitchen,126.99,36,81.27,493,620,35.57,20.49,119.08,Very Effective
+P1443,Apparel,512.58,50,256.29,472,655,42.83,19.27,512.52,Very Effective
+P1444,Home & Kitchen,608.32,9,553.57,241,243,56.47,46.25,664.21,Not Effective
+P1445,Home & Kitchen,800.6,26,592.44,263,271,33.77,22.49,797.18,Not Effective
+P1446,Apparel,306.33,47,162.35,194,200,57.05,27.21,291.25,Not Effective
+P1447,Electronics,263.33,4,252.8,338,348,65.78,56.83,239.46,Not Effective
+P1448,Beauty,269.03,17,223.29,205,239,34.44,25.73,246.03,Moderately Effective
+P1449,Electronics,246.15,45,135.38,28,32,66.48,32.91,222.05,Moderately Effective
+P1450,Groceries,782.53,23,602.55,123,133,32.27,22.36,778.44,Not Effective
+P1451,Beauty,405.18,49,206.64,463,679,26.41,12.12,427.57,Very Effective
+P1452,Beauty,437.96,38,271.54,405,407,57.85,32.28,402.29,Not Effective
+P1453,Beauty,23.08,0,23.08,318,318,21.87,19.68,22.87,Not Effective
+P1454,Beauty,190.7,12,167.82,406,449,27.59,21.85,201.46,Moderately Effective
+P1455,Groceries,100.75,7,93.7,271,282,63.67,53.29,98.24,Not Effective
+P1456,Beauty,392.99,12,345.83,85,91,64.46,51.05,386.19,Not Effective
+P1457,Electronics,964.43,46,520.79,477,507,62.16,30.21,878.59,Not Effective
+P1458,Apparel,971.54,22,757.8,33,39,33.92,23.81,906.37,Moderately Effective
+P1459,Apparel,709.02,35,460.86,81,101,23.44,13.71,688.58,Very Effective
+P1460,Groceries,799.71,1,791.71,75,75,23.15,20.63,810.21,Not Effective
+P1461,Home & Kitchen,853.56,22,665.78,174,194,55.29,38.81,894.89,Moderately Effective
+P1462,Electronics,395.72,19,320.53,325,380,46.95,34.23,406.54,Moderately Effective
+P1463,Electronics,570.38,36,365.04,303,374,50.22,28.93,594.7,Very Effective
+P1464,Electronics,659.37,37,415.4,444,450,37.46,21.24,718.44,Not Effective
+P1465,Electronics,652.58,26,482.91,99,103,23.17,15.43,593.04,Not Effective
+P1466,Electronics,353.66,4,339.51,73,73,27.67,23.91,383.11,Not Effective
+P1467,Electronics,374.09,26,276.83,470,496,61.31,40.83,380.29,Not Effective
+P1468,Apparel,312.87,6,294.1,77,78,67.94,57.48,316.05,Not Effective
+P1469,Apparel,616.17,10,554.55,430,447,21.0,17.01,622.56,Not Effective
+P1470,Groceries,386.32,1,382.46,477,481,44.68,39.81,358.2,Not Effective
+P1471,Groceries,228.52,19,185.1,440,450,41.82,30.49,242.08,Not Effective
+P1472,Groceries,420.98,12,370.46,377,412,46.18,36.57,392.71,Not Effective
+P1473,Apparel,192.96,38,119.64,272,367,69.25,38.64,207.08,Very Effective
+P1474,Apparel,313.99,17,260.61,204,238,58.98,44.06,325.48,Moderately Effective
+P1475,Apparel,227.25,10,204.53,61,66,56.39,45.68,212.07,Not Effective
+P1476,Electronics,857.77,16,720.53,253,285,48.42,36.61,857.4,Moderately Effective
+P1477,Groceries,412.41,47,218.58,43,60,34.26,16.34,409.21,Very Effective
+P1478,Home & Kitchen,777.05,9,707.12,251,273,37.71,30.88,711.78,Not Effective
+P1479,Home & Kitchen,936.74,45,515.21,450,490,43.98,21.77,860.14,Not Effective
+P1480,Home & Kitchen,753.84,23,580.46,195,226,63.44,43.96,722.77,Moderately Effective
+P1481,Electronics,753.59,16,633.02,190,213,44.0,33.26,778.9,Moderately Effective
+P1482,Beauty,479.4,0,479.4,307,307,46.81,42.13,525.96,Not Effective
+P1483,Groceries,979.64,46,529.01,328,382,59.36,28.85,975.11,Moderately Effective
+P1484,Electronics,547.42,50,273.71,381,425,47.54,21.39,495.08,Moderately Effective
+P1485,Apparel,605.63,5,575.35,101,102,69.15,59.12,582.0,Not Effective
+P1486,Electronics,351.78,16,295.5,148,150,40.57,30.67,362.5,Not Effective
+P1487,Electronics,38.83,39,23.69,263,326,49.01,26.91,39.1,Very Effective
+P1488,Home & Kitchen,831.59,35,540.53,109,131,31.97,18.7,804.03,Very Effective
+P1489,Apparel,510.38,4,489.96,453,457,50.15,43.33,475.81,Not Effective
+P1490,Electronics,740.35,38,459.02,476,477,61.82,34.5,707.81,Not Effective
+P1491,Groceries,587.0,39,358.07,237,264,40.31,22.13,614.34,Moderately Effective
+P1492,Electronics,538.57,40,323.14,189,256,23.23,12.54,497.1,Very Effective
+P1493,Home & Kitchen,949.24,16,797.36,237,265,66.47,50.25,878.36,Moderately Effective
+P1494,Groceries,689.37,29,489.45,87,98,69.3,44.28,713.2,Moderately Effective
+P1495,Electronics,630.99,40,378.59,156,207,49.4,26.68,587.45,Very Effective
+P1496,Beauty,11.94,27,8.72,76,86,30.39,19.97,11.44,Moderately Effective
+P1497,Electronics,55.44,34,36.59,157,162,32.93,19.56,57.47,Not Effective
+P1498,Beauty,714.06,22,556.97,284,299,52.62,36.94,717.42,Not Effective
+P1499,Electronics,571.3,40,342.78,112,138,67.06,36.21,623.11,Very Effective
+P1500,Beauty,221.13,28,159.21,160,162,59.05,38.26,230.69,Not Effective

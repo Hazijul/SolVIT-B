@@ -1,0 +1,169 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Found Items</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><a href="/">Lost & Found</a></div>
+        <ul class="nav-links">
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'upload' %}">Upload Item</a></li>
+            <li><a href="{% url 'found' %}">Found Items</a></li>
+            <!-- <li><a href="#">Sign In</a></li> -->
+        </ul>
+    </nav>
+
+    <!-- Found Items Section -->
+    <div class="container">
+        <section class="found-section">
+            <h2>Found Items</h2>
+            <div class="found-items">
+                {% for item in items %}
+                    <div class="item-card">
+                        <div class="item-images">
+                            {% with images=item.images.all %}
+                                {% if images %}
+                                    <!-- First image -->
+                                    <img src="{{ images.0.image.url }}" alt="{{ item.object_name }}" class="clickable-image">
+                                    <!-- Second image with count overlay if more than 1 image -->
+                                    {% if images|length > 1 %}
+                                        <div class="image-wrapper">
+                                            <img src="{{ images.1.image.url }}" alt="{{ item.object_name }}" class="clickable-image expandable-image">
+                                            {% if images|length > 2 %}
+                                                <span class="image-count">+{{ images|length|add:-2 }}</span>
+                                            {% endif %}
+                                        </div>
+                                    {% endif %}
+                                {% else %}
+                                    <p>No images available</p>
+                                {% endif %}
+                                <!-- Hidden remaining images (excluding the first two) -->
+                                {% if images|length > 2 %}
+                                    <div class="remaining-images" style="display: none;">
+                                        {% for image in images|slice:"2:" %}
+                                            <img src="{{ image.image.url }}" alt="{{ item.object_name }}" class="clickable-image">
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                            {% endwith %}
+                        </div>
+                        <div class="item-details">
+                            <h3>{{ item.object_name }}</h3>
+                            <p>Founder: {{ item.founder_name }}</p>
+                            <button class="expand-btn">Show Details</button>
+                            <div class="item-specs" style="display: none;">
+                                <p>Mobile: {{ item.mobile_number }}</p>
+                                <p>Description: {{ item.description }}</p>
+                                <p>Colors: {{ item.colors|default:"Not specified" }}</p>
+                                <p>Brand: {{ item.brand_name|default:"Not specified" }}</p>
+                                <p>Where Found: {{ item.where_found }}</p>
+                                <p>Date Found: {{ item.date_found }}</p>
+                                <p>Time Found: {{ item.time_found }}</p>
+                                <p>Place of Collection: {{ item.place_of_collection }}</p>
+                                <p>Uploaded: {{ item.uploaded_at }}</p>
+                            </div>
+                            <div class="item-actions">
+                                <button class="btn collect-btn" data-item-id="{{ item.id }}">Collect</button>
+                                <form method="post" action="{% url 'delete_item' item.id %}" class="delete-form" onsubmit="return confirm('Are you sure you want to delete this item?');">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn delete-btn">Delete</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                {% empty %}
+                    <p>No items found yet. Please check back later!</p>
+                {% endfor %}
+            </div>
+
+            <!-- Modal for enlarging images -->
+            <div class="image-modal" id="imageModal">
+                <span class="close-modal">&times;</span>
+                <img id="enlargedImage" src="" alt="Enlarged Image">
+            </div>
+
+            {% if form %}
+                <div class="modal" id="collect-modal" style="display: flex;">
+                    <div class="modal-content">
+                        <h3>Claim Item: {{ item.object_name }}</h3>
+                        <form method="post" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            {{ form.as_p }}
+                            <button type="submit" class="btn">Submit Claim</button>
+                            <a href="{% url 'found' %}" class="btn close-btn">Close</a>
+                        </form>
+                    </div>
+                </div>
+            {% else %}
+                <div class="modal" id="collect-modal">
+                    <div class="modal-content">
+                        <!-- Form will be injected here via JavaScript -->
+                    </div>
+                </div>
+            {% endif %}
+        </section>
+    </div>
+
+    <script src="{% static 'js/script.js' %}"></script>
+    <script>
+        // Expand/collapse item details
+        document.querySelectorAll('.expand-btn').forEach(button => {
+            button.addEventListener('click', () => {
+                const specs = button.nextElementSibling;
+                if (specs.style.display === 'none' || specs.style.display === '') {
+                    specs.style.display = 'block';
+                    button.textContent = 'Hide Details';
+                } else {
+                    specs.style.display = 'none';
+                    button.textContent = 'Show Details';
+                }
+            });
+        });
+
+        // Expand/collapse remaining images
+        document.querySelectorAll('.expandable-image').forEach(image => {
+            image.addEventListener('click', (e) => {
+                const remainingImages = image.parentElement.parentElement.querySelector('.remaining-images');
+                if (remainingImages) {
+                    if (remainingImages.style.display === 'none' || remainingImages.style.display === '') {
+                        remainingImages.style.display = 'flex';
+                    } else {
+                        remainingImages.style.display = 'none';
+                    }
+                }
+            });
+        });
+
+        // Enlarge image on click
+        const imageModal = document.getElementById('imageModal');
+        const enlargedImage = document.getElementById('enlargedImage');
+        const closeModal = document.querySelector('.close-modal');
+
+        document.querySelectorAll('.clickable-image').forEach(image => {
+            image.addEventListener('click', (e) => {
+                e.stopPropagation(); // Prevent triggering the expand/collapse if it's the expandable image
+                enlargedImage.src = image.src;
+                imageModal.style.display = 'flex';
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            imageModal.style.display = 'none';
+        });
+
+        // Close modal when clicking outside the image
+        imageModal.addEventListener('click', (e) => {
+            if (e.target === imageModal) {
+                imageModal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

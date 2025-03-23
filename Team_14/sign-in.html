@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - BUZZBOOST</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sign-in.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="sign-in-page">
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">BUZZBOOST</a>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="features.html">Features</a>
+                <a href="ai-tools.html">AI Tools</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-buttons">
+                <a href="sign-in.html" class="btn btn-secondary active">Sign In</a>
+                <a href="sign-up.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sign In Section -->
+    <main class="sign-in-container">
+        <div class="sign-in-wrapper">
+            <!-- Left Side - Welcome Content -->
+            <div class="welcome-section">
+                <div class="animated-background">
+                    <div class="shape shape1"></div>
+                    <div class="shape shape2"></div>
+                    <div class="shape shape3"></div>
+                </div>
+                <div class="welcome-content">
+                    <h1>Welcome to BUZZBOOST</h1>
+                    <p>Transform your social media presence with AI-powered insights</p>
+                    <div class="feature-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h3>AI-Powered Analytics</h3>
+                                <p>Get smart insights for better decisions</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h3>Performance Tracking</h3>
+                                <p>Monitor your growth in real-time</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h3>Smart Targeting</h3>
+                                <p>Reach the right audience effectively</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side - Sign In Form -->
+            <div class="sign-in-form-section">
+                <div class="form-container">
+                    <div class="form-header">
+                        <h2>Welcome Back!</h2>
+                        <p>Sign in to continue your journey</p>
+                    </div>
+                    
+                    <form class="sign-in-form" id="signInForm">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <div class="input-group">
+                                <i class="fas fa-envelope"></i>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                <span class="input-focus-border"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <div class="input-group">
+                                <i class="fas fa-lock"></i>
+                                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                                <button type="button" class="toggle-password" aria-label="Toggle password visibility">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                                <span class="input-focus-border"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-options">
+                            <label class="remember-me">
+                                <input type="checkbox" name="remember">
+                                <span class="checkmark"></span>
+                                <span class="label-text">Remember me</span>
+                            </label>
+                            <a href="#" class="forgot-password">Forgot Password?</a>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                            <span>Sign In</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+
+                        <div class="divider">
+                            <span>or continue with</span>
+                        </div>
+
+                        <div class="social-sign-in">
+                            <button type="button" class="social-btn google" data-provider="Google">
+                                <i class="fab fa-google"></i>
+                                <span>Google</span>
+                            </button>
+                            <button type="button" class="social-btn facebook" data-provider="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
+                            </button>
+                            <button type="button" class="social-btn linkedin" data-provider="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </button>
+                        </div>
+
+                        <div class="sign-up-prompt">
+                            <p>Don't have an account? <a href="sign-up.html" class="sign-up-link">Sign up</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const signInForm = document.getElementById('signInForm');
+            const emailInput = document.getElementById('email');
+            const passwordInput = document.getElementById('password');
+            const rememberCheckbox = document.querySelector('input[name="remember"]');
+            const togglePasswordBtn = document.querySelector('.toggle-password');
+            const submitBtn = document.getElementById('submitBtn');
+
+            // Toggle password visibility
+            togglePasswordBtn.addEventListener('click', function() {
+                const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+                passwordInput.setAttribute('type', type);
+                this.querySelector('i').classList.toggle('fa-eye');
+                this.querySelector('i').classList.toggle('fa-eye-slash');
+            });
+
+            // Handle form submission
+            signInForm.addEventListener('submit', async function(e) {
+                e.preventDefault();
+                
+                // Validate inputs
+                if (!emailInput.value || !passwordInput.value) {
+                    showNotification('error', 'Please fill in all fields');
+                    return;
+                }
+
+                // Disable submit button and show loading state
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Signing in...';
+
+                try {
+                    const response = await fetch('auth/login.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            email: emailInput.value,
+                            password: passwordInput.value,
+                            remember: rememberCheckbox.checked
+                        })
+                    });
+
+                    const data = await response.json();
+
+                    if (data.success) {
+                        showNotification('success', 'Successfully signed in!');
+                        // Store user data in session storage
+                        sessionStorage.setItem('user', JSON.stringify(data.user));
+                        // Redirect to dashboard
+                        setTimeout(() => {
+                            window.location.href = 'dashboard.html';
+                        }, 1500);
+                    } else {
+                        showNotification('error', data.error || 'Failed to sign in');
+                    }
+                } catch (error) {
+                    console.error('Login error:', error);
+                    showNotification('error', 'An error occurred. Please try again.');
+                } finally {
+                    // Reset submit button
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = '<span>Sign In</span><i class="fas fa-arrow-right"></i>';
+                }
+            });
+
+            // Handle social sign-in
+            document.querySelectorAll('.social-btn').forEach(btn => {
+                btn.addEventListener('click', async function(e) {
+                    e.preventDefault();
+                    const provider = this.dataset.provider.toLowerCase();
+                    
+                    // Disable button and show loading state
+                    this.disabled = true;
+                    const originalContent = this.innerHTML;
+                    this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Connecting...';
+
+                    try {
+                        // Here you would implement the OAuth flow for each provider
+                        // For now, we'll just simulate it
+                        await new Promise(resolve => setTimeout(resolve, 1500));
+                        showNotification('success', `Connected with ${provider}`);
+                    } catch (error) {
+                        showNotification('error', `Failed to connect with ${provider}`);
+                    } finally {
+                        // Reset button
+                        this.disabled = false;
+                        this.innerHTML = originalContent;
+                    }
+                });
+            });
+
+            // Notification system
+            function showNotification(type, message) {
+                const notification = document.createElement('div');
+                notification.className = `notification ${type}`;
+                notification.innerHTML = `
+                    <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i>
+                    <span>${message}</span>
+                `;
+
+                document.body.appendChild(notification);
+
+                // Remove notification after 3 seconds
+                setTimeout(() => {
+                    notification.classList.add('fade-out');
+                    setTimeout(() => {
+                        notification.remove();
+                    }, 300);
+                }, 3000);
+            }
+
+            // Add floating animation to shapes
+            const shapes = document.querySelectorAll('.shape');
+            shapes.forEach((shape, index) => {
+                shape.style.animationDelay = `${index * 0.2}s`;
+            });
+
+            // Add focus effects to inputs
+            [emailInput, passwordInput].forEach(input => {
+                input.addEventListener('focus', function() {
+                    this.parentElement.classList.add('focused');
+                });
+
+                input.addEventListener('blur', function() {
+                    this.parentElement.classList.remove('focused');
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

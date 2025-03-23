@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Dashboard Container */
+  .cd-dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .cd-sidebar {
+    width: 250px;
+    background-color: #3a69bb;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .cd-welcome-banner {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cd-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cd-nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  .cd-nav ul li button {
+    width: 100%;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .cd-nav ul li button:hover {
+    background-color: #EB5B00;
+  }
+  
+  .cd-sidebar-sections {
+    margin-top: 20px;
+  }
+  
+  .cd-section {
+    margin-bottom: 15px;
+  }
+  
+  .cd-section button {
+    width: 100%;
+    background-color: #cce5ff;
+    color: black;
+    border: none;
+    padding: 12px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cd-section button:hover {
+    background-color: #EB5B00;
+    color: white;
+  }
+  
+  /* Main Content */
+  .cd-main-content {
+    flex: 1;
+    padding: 30px;
+    background-color: white;
+    overflow-y: auto;
+  }
+  
+  .cd-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Sections */
+  .cd-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Table */
+  .cd-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cd-table th, .cd-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .cd-table th {
+    background-color: #f8f8f8;
+  }
+  
+  /* Buttons */
+  .cd-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .cd-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Civic Issues */
+  .cd-dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .cd-issue-form {
+    margin-top: 15px;
+  }
+  
+  .cd-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .cd-file-input,
+  .cd-text-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Issue Tracking */
+  .cd-status {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .cd-resolved {
+    color: white;
+    background-color: green;
+  }
+  
+  .cd-in-progress {
+    color: white;
+    background-color: orange;
+  }
+  
+  /* Footer */
+  .cd-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .cd-footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .cd-footer a:hover {
+    text-decoration: underline;
+  }
+  
