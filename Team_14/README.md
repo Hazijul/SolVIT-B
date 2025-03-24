@@ -1,3 +1,7 @@
+Deployment link: https://payal-beura.github.io/Buzzboost/
+
+
+
 # Social Media & Ad Optimization Platform
 
 A modern web application for automating social media management and optimizing ad campaigns using AI.
